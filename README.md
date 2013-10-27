@@ -17,9 +17,9 @@
 
 Dracula theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
-#### Using Sublime Package Control
+<!--#### Using Sublime Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Dracula Theme via the `Package Control: Install Package` menu item. The Dracula Theme package is listed as `Theme - Dracula` in the packages list.
+If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Dracula Theme via the `Package Control: Install Package` menu item. The Dracula Theme package is listed as `Theme - Dracula` in the packages list.-->
 
 #### Using Git
 
@@ -42,11 +42,11 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 Go to `Preferences -> Color Scheme -> User` and select the Dracula Theme.
 
-### Textmate
+### 2. Textmate
 
 *TODO - Add instructions*
 
-### ZSH
+### 3. ZSH
 
 1. Install [@olivierverdier's zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
 2. Clone or [download](https://github.com/zenorocha/galleta-theme/archive/master.zip) this repository.
@@ -54,7 +54,7 @@ Go to `Preferences -> Color Scheme -> User` and select the Dracula Theme.
 4. Set `ZSH_THEME` to theme path
 5. Reload ZSH
 
-### iTerm2
+### 4. iTerm2
 
 1. *iTerm2 > Preferences > Profiles > Colors Tab*
 2. Click *Load Presets...*
@@ -62,7 +62,7 @@ Go to `Preferences -> Color Scheme -> User` and select the Dracula Theme.
 4. Select the `iterm/galleta.itermcolors` file
 5. Select the *Galleta* from *Load Presets...*
 
-### Terminal
+### 5. Terminal
 
 1. *Terminal > Settings Tab*
 2. Click *"Gear" icon*
