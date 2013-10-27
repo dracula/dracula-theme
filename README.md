@@ -1,14 +1,14 @@
 # Dracula Theme
 
-![Dracula](http://f.cl.ly/items/423k0M3s033h2W3J0w2L/dracula.gif)
+![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
 > A dark theme for [Sublime Text](http://www.sublimetext.com/3), [Textmate](http://macromates.com/) and [ZSH](http://www.zsh.org/).
 
 ## Preview
 
-![Sublime - JS](http://f.cl.ly/items/3k3e1k2h3n2A3u333R0c/dracula-js.png)
-![Sublime - HTML](http://f.cl.ly/items/3K1h2e0V0O0b0l1a0J0N/dracula-html.png)
-![Sublime - CSS](http://f.cl.ly/items/2K3V3Z0N0C3r2J1G2D14/dracula-css.png)
+![Sublime - JS](http://f.cl.ly/items/1K1D3T3L3D392n370j0y/dracula-js.png)
+![Sublime - HTML](http://f.cl.ly/items/280e1H2S3Q212U3E2b3d/dracula-html.png)
+![Sublime - CSS](http://f.cl.ly/items/2w3A421T3A0C2Q0r0C27/dracula-css.png)
 
 ## Install
 
@@ -70,6 +70,8 @@ Go to `Preferences -> Color Scheme -> User` and select the Dracula Theme.
 5. Click *Default*
 
 ## ZSH Symbols
+
+![ZSH + iTerm](http://f.cl.ly/items/3Y373G29193O1A1T0e1z/dracula-iterm.png)
 
 By default, the general appearance of the prompt is:
 
