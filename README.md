@@ -1,6 +1,6 @@
 # Galleta Theme
 
-A dark theme for [ZSH](http://www.zsh.org/) and [iTerm2](http://www.iterm2.com/).
+A dark theme for [ZSH](http://www.zsh.org/), supported on [iTerm2](http://www.iterm2.com/) and Terminal app.
 
 ![Theme Preview](http://f.cl.ly/items/3V003A0q1v3o2t1i2D3f/galleta.png)
 
@@ -12,7 +12,7 @@ First clone or [download](https://github.com/zenorocha/galleta-theme/archive/mas
 
 1. Open the `~/.zshrc` file
 2. Set `ZSH_THEME="themes/galleta"`
-3. Reload your terminal
+3. Reload ZSH
 
 ### iTerm2
 
@@ -21,6 +21,14 @@ First clone or [download](https://github.com/zenorocha/galleta-theme/archive/mas
 3. Click *Import...*
 4. Select the `iterm/galleta.itermcolors` file
 5. Select the *Galleta* from *Load Presets...*
+
+### Terminal
+
+1. *Terminal > Settings Tab*
+2. Click *"Gear" icon*
+3. Click *Import...*
+4. Select the `terminal/Galleta.terminal` file
+5. Click *Default*
 
 ## Contributing
 
