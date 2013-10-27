@@ -112,6 +112,7 @@ For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-them
 ## Credits
 
 * Color pallete inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
+* Sublime Text theme made using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
 * ZSH theme inspired by [@eduardolundgren's theme](https://github.com/eduardolundgren/dotfiles/blob/master/themes/eduardolundgren.zsh-theme)
 
 ## License
