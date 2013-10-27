@@ -6,4 +6,4 @@
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-Only english is accepted. Please don't create or comment on issues using another language.
+English is the universal language nowadays, so please don't create or comment on issues using another language.
