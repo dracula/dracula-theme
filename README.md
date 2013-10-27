@@ -40,9 +40,10 @@ When the branch name starts with a colon ``:``, it means it's actually a hash, n
 
 ## Install
 
-First install [@olivierverdier's zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
+1. Install [@olivierverdier's zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
+2. Clone or [download](https://github.com/zenorocha/galleta-theme/archive/master.zip) this repository.
 
-Then clone or [download](https://github.com/zenorocha/galleta-theme/archive/master.zip) this repository.
+## Setup
 
 ### ZSH
 
