@@ -2,7 +2,11 @@
 
 A dark theme for [ZSH](http://www.zsh.org/), supported on [iTerm2](http://www.iterm2.com/) and Terminal app.
 
-![Theme Preview](http://f.cl.ly/items/3V003A0q1v3o2t1i2D3f/galleta.png)
+![Galleta](http://f.cl.ly/items/0o2y163w2n260g2A062m/galleta.jpg)
+
+## Preview
+
+![Preview](http://f.cl.ly/items/3V003A0q1v3o2t1i2D3f/galleta.png)
 
 ## Install
 
