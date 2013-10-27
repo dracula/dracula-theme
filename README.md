@@ -48,7 +48,7 @@ When the branch name starts with a colon ``:``, it means it's actually a hash, n
 ### ZSH
 
 1. Open the `~/.zshrc` file
-2. Set `ZSH_THEME="themes/galleta"`
+2. Set `ZSH_THEME` to theme path
 3. Reload ZSH
 
 ### iTerm2
