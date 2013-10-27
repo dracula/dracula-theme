@@ -8,9 +8,41 @@ A dark theme for [ZSH](http://www.zsh.org/), supported on [iTerm2](http://www.it
 
 ![Preview](http://f.cl.ly/items/3V003A0q1v3o2t1i2D3f/galleta.png)
 
+## Symbols
+
+By default, the general appearance of the prompt is:
+
+```
+(<branch><branch tracking>|<local status>)
+```
+
+### Local Status Symbols
+
+Symbols | Description
+---		| ---
+✔		| repository clean
+●n		| there are `n` staged files
+○n		| there are `n` changed but **unstaged** files
+✖n		| there are `n` unmerged files
+?		| there are some untracked files
+
+### Branch Tracking Symbols
+
+Symbols | Description
+---		| ---
+↑n		| ahead of remote by `n` commits
+↓n		| behind remote by `n` commits
+↓m↑n	| branches diverged, other by ``m`` commits, yours by `n` commits
+
+### Branch Tracking Symbols
+
+When the branch name starts with a colon ``:``, it means it's actually a hash, not a branch (although it should be pretty clear, unless you name your branches like hashes :-)
+
 ## Install
 
-First clone or [download](https://github.com/zenorocha/galleta-theme/archive/master.zip) this repository.
+First install [@olivierverdier's zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
+
+Then clone or [download](https://github.com/zenorocha/galleta-theme/archive/master.zip) this repository.
 
 ### ZSH
 
