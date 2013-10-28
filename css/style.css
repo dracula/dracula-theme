@@ -10,14 +10,15 @@ body {
 	padding-bottom: 3em;
 }
 
-p {
-	font-size: 1.2em;
-	font-weight: 300;
-}
-
 a {
 	-webkit-transition: all .3s linear;
 	transition: all .3s linear;
+}
+
+p {
+	font-size: 1.1em;
+	font-weight: 300;
+	margin: 0 0 1em;
 }
 
 .wrapper {
@@ -25,7 +26,18 @@ a {
 	margin: 0 auto;
 }
 
-.title {
+.github-ribbon {
+	position: fixed;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+h1.title {
 	margin: .5em auto 0;
 	font-size: 5em;
 	color: #50fa7b;
@@ -33,53 +45,39 @@ a {
 	font-family: "abril-text";
 }
 
-.subtitle {
+h2.subtitle {
 	font-size: 1.3em;
 	margin: .5em auto 0;
 	text-align: center;
 	font-weight: 300;
 }
 
-h3 {
-	font-family: "abril-text";
-	text-align: left;
-	color: #ff79c6;
-	font-size: 3em;
-	margin: 1em 0 0;
-}
-
-h4 {
-	font-size: 2em;
-	font-weight: 300;
-	margin: 1em 0 .3em;
-}
-
-.preview {
+img.preview {
 	margin: 0 auto;
 	display: block;
 	height: auto;
 	max-width: 100%;
 }
 
-.credits {
-	/*padding: 50px 0;*/
-	/*border-top: 1px solid #e7e7e7;
-	background-color: #fff;*/
+/* Credits
+   ========================================================================== */
+
+p.credits {
 	text-align: center;
 	font-size: 1.3em;
 	font-weight: 300;
 	margin: 0 0 2em;
 }
 
-.credits a {
+p.credits a {
 	text-decoration: none;
 	color: rgba(139, 233, 253, 1);
 }
-.credits a:hover {
+p.credits a:hover {
 	color: rgba(139, 233, 253, .7);
 }
 
-.credits .love {
+p.credits .love {
   display: inline-block;
   position: relative;
   top: .2em;
@@ -105,17 +103,58 @@ h4 {
   to { transform: scale(1.1); }
 }
 
-.github-ribbon {
-	position: fixed;
-	top: 0;
-	right: 0;
-	border: 0;
+/* ==========================================================================
+   Instructions
+   ========================================================================== */
+
+h3 {
+	font-family: "abril-text";
+	text-align: left;
+	color: #ff79c6;
+	font-size: 3em;
+	margin: 1em 0 0;
 }
 
+h4 {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 1em 0 .3em;
+}
 
-/*rosa #ff79c6*/
-/*roxo #bd93f9*/
-/*verde 50fa7b
-cyan 8be9fd
-yellow f1fa8c
-orange ffb86c*/
+code {
+	font-weight: 300;
+	font-family: "source-sans-pro";
+}
+
+pre {
+	background-color: #252525;
+	padding: 20px;
+	margin: 0 0 2em 0;
+	border-radius: 5px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+ol {
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-left: 25px;
+}
+
+/* Sublime
+   ========================================================================== */
+
+.sublime a,
+.sublime code,
+.sublime h3 {
+	color: rgba(255, 184, 108, 1);
+}
+
+.sublime a:hover {
+	color: rgba(255, 184, 108, .7);	
+}
+
+.sublime h3 {
+	margin-top: 0;
+}
