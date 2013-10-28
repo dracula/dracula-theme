@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/bg.png);
+	font-family: "source-sans-pro";
+	color: #f2f2f2;
+}
+
+a {
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.title {
+	margin: .5em auto 0;
+	font-size: 5em;
+	color: #50fa7b;
+	text-align: center;
+	font-family: "abril-text";
+}
+
+.subtitle {
+	font-size: 1.3em;
+	margin: .5em auto 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+.preview {
+	margin: 0 auto;
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.credits {
+	/*padding: 50px 0;*/
+	/*border-top: 1px solid #e7e7e7;
+	background-color: #fff;*/
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 300;
+	margin: 0 0 3em;
+}
+
+.credits a {
+	text-decoration: none;
+	color: rgba(139, 233, 253, 1);
+}
+.credits a:hover {
+	color: rgba(139, 233, 253, .7);
+}
+
+.credits .love {
+  display: inline-block;
+  position: relative;
+  top: .2em;
+  font-size: 1.4em;
+  color: #ff79c6;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to { -webkit-transform: scale(1.1); }
+}
+
+@-moz-keyframes love {
+  to { -moz-transform: scale(1.1); }
+}
+
+@keyframes love {
+  to { transform: scale(1.1); }
+}
+
+.github-ribbon {
+	position: fixed;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+
+/*rosa #ff79c6*/
+/*roxo #bd93f9*/
+/*verde 50fa7b
+cyan 8be9fd*/
