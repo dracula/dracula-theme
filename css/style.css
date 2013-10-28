@@ -7,11 +7,22 @@ body {
 	background-image: url(../img/bg.png);
 	font-family: "source-sans-pro";
 	color: #f2f2f2;
+	padding-bottom: 3em;
+}
+
+p {
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
 a {
 	-webkit-transition: all .3s linear;
 	transition: all .3s linear;
+}
+
+.wrapper {
+	width: 840px;
+	margin: 0 auto;
 }
 
 .title {
@@ -29,6 +40,20 @@ a {
 	font-weight: 300;
 }
 
+h3 {
+	font-family: "abril-text";
+	text-align: left;
+	color: #ff79c6;
+	font-size: 3em;
+	margin: 1em 0 0;
+}
+
+h4 {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 1em 0 .3em;
+}
+
 .preview {
 	margin: 0 auto;
 	display: block;
@@ -43,7 +68,7 @@ a {
 	text-align: center;
 	font-size: 1.3em;
 	font-weight: 300;
-	margin: 0 0 3em;
+	margin: 0 0 2em;
 }
 
 .credits a {
@@ -91,4 +116,6 @@ a {
 /*rosa #ff79c6*/
 /*roxo #bd93f9*/
 /*verde 50fa7b
-cyan 8be9fd*/
+cyan 8be9fd
+yellow f1fa8c
+orange ffb86c*/
