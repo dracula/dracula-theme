@@ -6,9 +6,9 @@
 
 ## Preview
 
-![Sublime - JS](http://f.cl.ly/items/1K1D3T3L3D392n370j0y/dracula-js.png)
-![Sublime - HTML](http://f.cl.ly/items/280e1H2S3Q212U3E2b3d/dracula-html.png)
-![Sublime - CSS](http://f.cl.ly/items/2w3A421T3A0C2Q0r0C27/dracula-css.png)
+![Sublime - JS](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
+![Sublime - HTML](http://f.cl.ly/items/292X1D2f0N1w0i0P2n3u/dracula-html.png)
+![Sublime - CSS](http://f.cl.ly/items/0P09431x012A0f3B3V1b/dracula-css.png)
 
 ## Install
 
