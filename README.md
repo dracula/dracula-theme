@@ -12,11 +12,13 @@
 
 ## Sublime Text
 
-<!--#### Using Sublime Package Control
+#### Install using Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Dracula Theme via the `Package Control: Install Package` menu item. The Dracula Theme package is listed as `Dracula Color Scheme` in the packages list.-->
+Comming soon.
 
-### Using Git
+<!--If you are using [Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Dracula Theme via the `Package Control: Install Package` menu item. The Dracula Theme package is listed as `Dracula Color Scheme` in the packages list.-->
+
+### Install using Git
 
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
 
@@ -24,7 +26,9 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
+```
+git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
+```
 
 ### Download Manually
 
@@ -35,7 +39,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 ### Activating the theme
 
-Go to `Preferences -> Color Scheme -> User` and select the Dracula Theme.
+Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme`.
 
 ## Textmate
 
