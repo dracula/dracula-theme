@@ -59,6 +59,11 @@ Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%`
 Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%` 
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%` 
 
+## Galleries
+
+* [DevThemez](http://devthemez.com/themes/dracula)
+* [Package Control](https://sublime.wbond.net/packages/Dracula%20Color%20Scheme)
+
 ## Roadmap
 
 ###### "Are you going to create a light color scheme?"
