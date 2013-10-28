@@ -396,6 +396,105 @@
 				<string>#F83333</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EEEEEE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Structure</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8be9fd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1fa8c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: 6 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#50fa7b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: 5 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb86c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: 4 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff79c6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: 3 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bd93f9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: 2 deep</string>
+			<key>scope</key>
+			<string>meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#50fa7b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON:  1 deep</string>
+			<key>scope</key>
+			<string>meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb86c</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
