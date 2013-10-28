@@ -13,6 +13,8 @@ body {
 a {
 	-webkit-transition: all .3s linear;
 	transition: all .3s linear;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 p {
