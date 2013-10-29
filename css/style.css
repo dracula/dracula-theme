@@ -71,9 +71,12 @@ p {
 
 .credits a {
 	text-decoration: none;
+	color: #8be9fd;
 	color: rgba(139, 233, 253, 1);
 }
+
 .credits a:hover {
+	color: #8be9fd;
 	color: rgba(139, 233, 253, .7);
 }
 
@@ -148,10 +151,12 @@ ol {
 .sublime a,
 .sublime code,
 .sublime h3 {
+	color: #ffb86c;
 	color: rgba(255, 184, 108, 1);
 }
 
 .sublime a:hover {
+	color: #ffb86c;
 	color: rgba(255, 184, 108, .7);	
 }
 
@@ -165,10 +170,12 @@ ol {
 .textmate a,
 .textmate code,
 .textmate h3 {
+	color: #ff79c6;
 	color: rgba(255, 121, 198, 1);
 }
 
 .textmate a:hover {
+	color: #ff79c6;
 	color: rgba(255, 121, 198, .7);	
 }
 
