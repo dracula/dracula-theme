@@ -38,7 +38,7 @@ p {
    Header
    ========================================================================== */
 
-h1.title {
+.title {
 	margin: .5em auto 0;
 	font-size: 5em;
 	color: #50fa7b;
@@ -46,14 +46,14 @@ h1.title {
 	font-family: "abril-text";
 }
 
-h2.subtitle {
+.subtitle {
 	font-size: 1.3em;
 	margin: .5em auto 0;
 	text-align: center;
 	font-weight: 300;
 }
 
-img.preview {
+.preview {
 	margin: 0 auto;
 	display: block;
 	height: auto;
@@ -63,22 +63,21 @@ img.preview {
 /* Credits
    ========================================================================== */
 
-p.credits {
+.credits {
 	text-align: center;
 	font-size: 1.3em;
-	font-weight: 300;
 	margin: 0 0 2em;
 }
 
-p.credits a {
+.credits a {
 	text-decoration: none;
 	color: rgba(139, 233, 253, 1);
 }
-p.credits a:hover {
+.credits a:hover {
 	color: rgba(139, 233, 253, .7);
 }
 
-p.credits .love {
+.credits .love {
   display: inline-block;
   position: relative;
   top: .2em;
@@ -175,4 +174,42 @@ ol {
 
 .textmate h3 {
 	margin-top: 0;
+}
+
+/* ==========================================================================
+   Small screens
+   ========================================================================== */
+
+@media (max-width: 840px) {
+	.wrapper {
+		width: auto;
+	}
+
+	.instructions {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+
+	.github-ribbon {
+		position: absolute;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 4em;
+	}
+
+	p, .subtitle, .credits {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 1.6em;
+	}
 }
