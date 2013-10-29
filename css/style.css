@@ -59,13 +59,40 @@ p {
 	max-width: 100%;
 }
 
+/* Social
+   ========================================================================== */
+
+.social-buttons{
+  list-style: none;
+  margin: 1em auto 2em;
+  text-align: center;
+}
+
+.social-buttons li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.gh-btn {
+	width: 80px;
+}
+
+.gh-btn iframe {
+	border: 0;
+	overflow: hidden;
+}
+
+.fb-btn {
+	width: 82px;
+}
+
 /* Credits
    ========================================================================== */
 
 .credits {
 	text-align: center;
 	font-size: 1.3em;
-	margin: 0 0 2em;
+	margin: -20px 0 2em;
 }
 
 .credits a {
@@ -223,13 +250,15 @@ ol {
 		font-size: 1.6em;
 	}
 
-	.github-ribbon {
+	.github-ribbon,
+	.social-buttons {
 		display: none;
 	}
 }
 
 @media only screen and (max-device-width: 480px) {
-	.github-ribbon {
+	.github-ribbon,
+	.social-buttons {
 		display: none;
 	}
 }
