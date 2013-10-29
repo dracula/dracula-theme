@@ -192,7 +192,7 @@ ol {
 		width: auto;
 	}
 
-	.instructions, .subtitle {
+	.instructions {
 		padding-left: 1.5em;
 		padding-right: 1.5em;
 	}
@@ -208,8 +208,8 @@ ol {
 		font-size: 4em;
 	}
 
-	p, .subtitle, .credits {
-		font-size: 1.1em;
+	ol, p, .subtitle, .credits {
+		font-size: 1.09em;
 	}
 
 	h3 {
@@ -220,6 +220,12 @@ ol {
 		font-size: 1.6em;
 	}
 
+	.github-ribbon {
+		display: none;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
 	.github-ribbon {
 		display: none;
 	}
