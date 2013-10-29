@@ -24,8 +24,8 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-```
-git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
 ```
 
 ### Download Manually
@@ -41,7 +41,21 @@ Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme
 
 ## Textmate
 
-*TODO - Add instructions*
+### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.</p>
+
+### Activating theme
+
+Just open the `Dracula.tmTheme` file using TextMate app.
 
 ## Color Palette
 
@@ -77,8 +91,9 @@ I hope so, but I need your help to accomplish that. Since you're using editor X 
 My priority list now is:
 
 1. Merge ZSH theme on branch `zsh` to `master`
-2. Create a Chrome DevTools theme [#1](https://github.com/zenorocha/dracula-theme/issues/1)
-3. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
+2. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
+3. Create a Chrome DevTools theme [#1](https://github.com/zenorocha/dracula-theme/issues/1)
+4. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
 
 ## Contributing
 
