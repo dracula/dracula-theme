@@ -121,6 +121,21 @@
 				<string></string>
 			</dict>
 		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Ruby's @variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#f1fa8c</string>
+			</dict>
+		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
