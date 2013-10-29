@@ -192,7 +192,7 @@ ol {
 		width: auto;
 	}
 
-	.instructions {
+	.instructions, .subtitle {
 		padding-left: 1.5em;
 		padding-right: 1.5em;
 	}
@@ -218,5 +218,9 @@ ol {
 
 	h4 {
 		font-size: 1.6em;
+	}
+
+	.github-ribbon {
+		display: none;
 	}
 }
