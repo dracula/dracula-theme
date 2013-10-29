@@ -8,7 +8,6 @@ body {
 	background-image: url(../img/bg.png);
 	font-family: "source-sans-pro";
 	color: #f2f2f2;
-	padding-bottom: 3em;
 }
 
 a {
@@ -143,6 +142,10 @@ ol {
 	font-size: 1.1em;
 	font-weight: 300;
 	margin-left: 25px;
+}
+
+.footer {
+	padding: 3em 0 0;
 }
 
 /* Sublime
