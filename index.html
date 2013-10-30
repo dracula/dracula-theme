@@ -13,7 +13,6 @@
 
 	<script type="text/javascript" src="//use.typekit.net/wjm5nzc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 </head>
 <body>
@@ -25,7 +24,7 @@
 				<a class="dracula-js" href="img/dracula-js.png"></a>
 				<a class="dracula-html" href="img/dracula-html.png"></a>
 				<a class="dracula-css" href="img/dracula-css.png"></a>
-				<img src="img/dracula-js.png" alt="Theme Preview JS File">
+				<img class="dracula-js" src="img/dracula-js.png" alt="Theme Preview JS File">
 		</div>
 
 		<p class="credits">Made with <span class="love">♥</span> by <a href="http://zenorocha.com">Zeno Rocha</a></p>
@@ -124,10 +123,50 @@
 
 	<a href="https://plus.google.com/107918079042344229942?rel=author" style="visibility: hidden;">Zeno Rocha</a>
 	<script>
-		$('.preview a').click(function(event){			
-			event.preventDefault();
-			$('.preview img').attr("src", $(this).attr("href"));
-		});
+		window.onload = function(){
+
+			var preview = document.querySelector('.preview');
+			var img = preview.querySelector('img');
+
+			var draculas = [
+				  {
+				  	source : "img/dracula-html.png",
+				  	alt : "Theme Preview HTML File",
+				  	class : "dracula-html"
+				  }
+				, {
+				  	source : "img/dracula-css.png",
+				  	alt : "Theme Preview CSS File",
+				  	class : "dracula-css"
+				  }
+			]
+			for (var x = 0; x < draculas.length; x++ ) {
+				var newImg = new Image();
+				newImg.className = draculas[x].class;
+				newImg.src = draculas[x].source;
+				newImg.alt = draculas[x].alt;				
+				newImg.style.display = "none";
+				preview.insertBefore(newImg, img);
+			}
+			var links = preview.querySelectorAll('a');
+
+			for (var x = 0; x < links.length; x++ ) {
+
+				links[x].onclick = function(event) {
+
+					event.preventDefault ? event.preventDefault() : event.preventDefault = false;
+					var _class = this.className;
+					var _imgs = preview.querySelectorAll('img');
+
+					for( var x = 0; x < _imgs.length; x++ ) {
+
+						_imgs[x].className !== _class ? _imgs[x].style.display = "none" : _imgs[x].style.display = "block";
+
+					}
+				}
+			}
+		}
+
 	</script>
 </body>
 </html>
