@@ -57,6 +57,27 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 Just open the `Dracula.tmTheme` file using TextMate app.
 
+## Vim
+
+### Installation
+
+if you [use vim + pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+
+    cd ~/.vim
+    git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme
+
+if you [use vim + vundle](https://github.com/gmarik/vundle)
+
+    " add to .vimrc
+    Bundle 'zenorocha/dracula-theme'
+    :BundleInstall
+
+if you aren't so clever just get all the files in `colors/*.vim` into
+  `~/.vim/colors`
+
+    # after downloading; unpacking; cd'ing
+    cp colors/* ~/.vim/colors
+
 ## Color Palette
 
 Palette      | Hex       | RGB           | HSL
