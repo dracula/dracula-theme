@@ -73,13 +73,13 @@ p {
 	top: 9.8%;
 	display: inline-block;
 }
-.preview a[href="#dracula-js"]{
+.dracula-js{
 	left:8.5136%;
 }
-.preview a[href="#dracula-html"]{
+.dracula-html{
 	left:28.2973%;
 }
-.preview a[href="#dracula-css"]{
+.dracula-css{
 	left:47.9616%;
 }
 
