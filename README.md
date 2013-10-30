@@ -66,42 +66,42 @@ Pick from the snippets below.
 ### Mac
 
 ```
-curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css
+curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/chrome-devtools/chrome-devtools/Custom.css
 ```
 
 ### PC (Windows Vista / 7 / 8)
 
 ```
-powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css""","""$env:APPDATA\..\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
+powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/chrome-devtools/chrome-devtools/Custom.css""","""$env:APPDATA\..\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
 ```
 
 ### PC (Windows XP)
 
 ```
-powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css""","""$env:APPDATA\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
+powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/chrome-devtools/chrome-devtools/Custom.css""","""$env:APPDATA\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
 ```
 
 ### Ubuntu: (Chromium)
 
 ```
-curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css
+curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/chrome-devtools/chrome-devtools/Custom.css
 ```
 
 ## Color Palette
 
 Palette      | Hex       | RGB           | HSL
 ---          | ---       | ---           | ---
-Background   | `#282a36` | `40 42 54`    | `231° 15% 18%` 
-Current Line | `#44475a` | `68 71 90`    | `232° 14% 31%` 
-Selection    | `#44475a` | `68 71 90`    | `232° 14% 31%` 
-Foreground   | `#f8f8f2` | `248 248 242` | `60° 30% 96%` 
-Comment      | `#6272a4` | `98 114 164`  | `225° 27% 51%` 
-Cyan         | `#8be9fd` | `139 233 253` | `191° 97% 77%` 
-Green        | `#50fa7b` | `80 250 123`  | `135° 94% 65%` 
-Orange       | `#ffb86c` | `255 184 108` | `31° 100% 71%` 
-Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%` 
-Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%` 
-Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%` 
+Background   | `#282a36` | `40 42 54`    | `231° 15% 18%`
+Current Line | `#44475a` | `68 71 90`    | `232° 14% 31%`
+Selection    | `#44475a` | `68 71 90`    | `232° 14% 31%`
+Foreground   | `#f8f8f2` | `248 248 242` | `60° 30% 96%`
+Comment      | `#6272a4` | `98 114 164`  | `225° 27% 51%`
+Cyan         | `#8be9fd` | `139 233 253` | `191° 97% 77%`
+Green        | `#50fa7b` | `80 250 123`  | `135° 94% 65%`
+Orange       | `#ffb86c` | `255 184 108` | `31° 100% 71%`
+Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%`
+Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`
+Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`
 
 ## Galleries
 
