@@ -9,6 +9,7 @@
 ![Sublime - JS](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
 ![Sublime - HTML](http://f.cl.ly/items/292X1D2f0N1w0i0P2n3u/dracula-html.png)
 ![Sublime - CSS](http://f.cl.ly/items/0P09431x012A0f3B3V1b/dracula-css.png)
+![Chrome DevTools](http://f.cl.ly/items/3T2R2M0q1l370l3l452w/chrome-devtools.png)
 
 ## Sublime Text
 
@@ -56,6 +57,35 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 ### Activating theme
 
 Just open the `Dracula.tmTheme` file using TextMate app.
+
+## Google Chrome DevTools
+
+### Install manually by copy/paste
+Pick from the snippets below.
+
+### Mac
+
+```
+curl -o ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css
+```
+
+### PC (Windows Vista / 7 / 8)
+
+```
+powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css""","""$env:APPDATA\..\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
+```
+
+### PC (Windows XP)
+
+```
+powershell -Command "& {(new-object System.Net.WebClient).DownloadFile(""https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css""","""$env:APPDATA\Google\Chrome\User Data\Default\User StyleSheets\Custom.css""")}"
+```
+
+### Ubuntu: (Chromium)
+
+```
+curl -o ~/.config/chromium/Default/User\ StyleSheets/Custom.css https://raw.github.com/vagnervjs/dracula-theme/master/chrome-devtools/Custom.css
+```
 
 ## Color Palette
 
@@ -108,6 +138,7 @@ For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-them
 
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
+* Google Chrome DevTools created by [Vagner Santana](http://github.com/vagnervjs) based on [ZeroDarkMatrix Theme for Chrome](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme) by [Maurice Cruz](https://github.com/mauricecruz)
 
 ## License
 
