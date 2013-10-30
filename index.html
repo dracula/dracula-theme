@@ -13,13 +13,20 @@
 
 	<script type="text/javascript" src="//use.typekit.net/wjm5nzc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 </head>
 <body>
 	<div class="wrapper">
 		<h1 class="title">Dracula</h1>
 		<h2 class="subtitle">A dark theme for Sublime Text and TextMate</h2>
-		
-		<img class="preview" src="img/screenshot.png" alt="Theme Preview">
+
+		<div class="preview">
+				<a href="#dracula-js"></a>
+				<a href="#dracula-html"></a>
+				<a href="#dracula-css"></a>
+				<img src="img/dracula-js.png" alt="Theme Preview JS File">
+		</div>
 
 		<p class="credits">Made with <span class="love">♥</span> by <a href="http://zenorocha.com">Zeno Rocha</a></p>
 
@@ -48,7 +55,7 @@
 		<!-- Sublime Text -->
 		<div class="instructions sublime">
 			<h3>Sublime Text</h3>
-			
+
 			<h4>Install using Package Control</h4>
 			<p>If you are using <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>, you can easily install Dracula Theme via the <code>Package Control: Install Package</code> menu item. The Dracula Theme package is listed as <code>Dracula Color Scheme</code> in the packages list.</p>
 
@@ -116,5 +123,12 @@
 	</a>
 
 	<a href="https://plus.google.com/107918079042344229942?rel=author" style="visibility: hidden;">Zeno Rocha</a>
+	<script>
+		$('.preview a').click(function(event){			
+			event.preventDefault ? event.preventDefault() : event.returnValue = false;
+			src = "img/" + $(this).attr("href").replace("#","") + ".png";
+			$('.preview img').attr("src", src);
+		});
+	</script>
 </body>
 </html>

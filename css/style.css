@@ -52,11 +52,35 @@ p {
 	font-weight: 300;
 }
 
-.preview {
+.preview{
+	position:relative;
+}
+
+.preview img{
 	margin: 0 auto;
 	display: block;
 	height: auto;
 	max-width: 100%;
+	z-index: 1;
+	left:0;
+	top:0;
+}
+.preview a{
+	position: absolute;
+	z-index: 2;
+	width: 19.3045%;
+	height: 4.98%;
+	top: 9.8%;
+	display: inline-block;
+}
+.preview a[href="#dracula-js"]{
+	left:8.5136%;
+}
+.preview a[href="#dracula-html"]{
+	left:28.2973%;
+}
+.preview a[href="#dracula-css"]{
+	left:47.9616%;
 }
 
 /* Social
