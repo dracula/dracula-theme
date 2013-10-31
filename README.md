@@ -57,6 +57,12 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 Just open the `Dracula.tmTheme` file using TextMate app.
 
+## Alfred
+
+![Alfred](http://f.cl.ly/items/3y1o2e2v0z1p231U3u0h/Screen%20Shot%202013-10-31%20at%2000.05.15.png)
+
+1. Double-click `alfred/Dracula.alfredappearance`
+
 ## Color Palette
 
 Palette      | Hex       | RGB           | HSL
@@ -108,6 +114,7 @@ For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-them
 
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
+* Alfred theme by [@oswaldoacauan](http://oswaldoacaun.com/)
 
 ## License
 
