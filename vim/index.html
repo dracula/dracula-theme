@@ -5,8 +5,8 @@ layout: default
 <div class="subtitle">
 	<h2>A dark theme for</h2>
 	<ul class="drop-wrapper">
-		<li class="drop sublime">
-			<a href="#">Sublime Text <div class="caret"></div></a>
+		<li class="drop vim">
+			<a href="#">Vim <div class="caret"></div></a>
 			<div class="dropdown-contain">
 				<div class="drop-out">
 					<div class="triangle"></div>
@@ -14,7 +14,7 @@ layout: default
 						<li><a href="{{ site.baseurl }}/alfred/">Alfred</a></li>
 						<li><a href="{{ site.baseurl }}/chrome/">Chrome</a></li>
 						<li><a href="{{ site.baseurl }}/textmate/">TextMate</a></li>
-						<li><a href="{{ site.baseurl }}/vim/">Vim</a></li>
+						<li><a href="{{ site.baseurl }}/">Sublime Text</a></li>
 					</ul>
 				</div>
 			</div>
@@ -22,7 +22,7 @@ layout: default
 	</ul>
 </div>
 
-<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-sublime.png" alt="Theme Preview">
+<img class="preview vim" src="{{ site.baseurl }}/assets/img/screenshot-vim.png" alt="Theme Preview">
 
 <p class="credits">Made with <span class="love">♥</span> by <a href="http://zenorocha.com">Zeno Rocha</a></p>
 
@@ -48,27 +48,17 @@ layout: default
 	</li>
 </ul>
 
-<!-- Sublime Text -->
-<div class="instructions sublime">
-	<h3>Sublime Text</h3>
-	
-	<h4>Install using Package Control</h4>
-	<p>If you are using <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>, you can easily install Dracula Theme via the <code>Package Control: Install Package</code> menu item. The Dracula Theme package is listed as <code>Dracula Color Scheme</code> in the packages list.</p>
+<div class="instructions vim">
+	<h3>Vim</h3>
 
 	<h4>Install using Git</h4>
-	<p>Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your <code>Packages</code> directory in the Sublime Text application settings area.</p>
-	<p>You can locate your Sublime Text <code>Packages</code> directory by using the menu item <code>Preferences -&gt; Browse Packages...</code>.</p>
-	<p>While inside the <code>Packages</code> directory, clone the theme repository using the command below:</p>
-	<pre><code>$ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"</code></pre>
+	<p>If you <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">use vim + pathogen</a>:</p>
+	<pre><code>cd ~/.vim
+git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme</code></pre>
 
-	<h4>Install manually</h4>
-	<ol>
-		<li>Download using the <a href="https://github.com/zenorocha/dracula-theme/archive/master.zip">GitHub .zip download</a> option</li>
-		<li>Unzip the files and rename the folder to <code>Dracula Color Scheme</code></li>
-		<li>Find your <code>Packages</code> directory using the menu item  <code>Preferences -&gt; Browse Packages...</code></li>
-		<li>Copy the folder into your Sublime Text <code>Packages</code> directory</li>
-	</ol>
+	<p>If you <a href="https://github.com/gmarik/vundle">use vim + vundle</a>:</p>
+	<pre><code>Bundle 'zenorocha/dracula-theme'
+:BundleInstall</code></pre>
 
-	<h4>Activating theme</h4>
-	<p>Go to <code>Preferences -&gt; Color Scheme -&gt; User</code> and select the <code>Dracula Color Scheme</code>.</p>
+	<p>If you aren't so clever just move the <code>vim/dracula.vim</code> file into <code>~/.vim/colors</code>.</p>
 </div>
