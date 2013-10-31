@@ -72,22 +72,29 @@ p {
 	text-decoration: none;
 }
 
-.subtitle .arrow-down {
+.subtitle .caret {
 	content: ' ';
 	width: 0; 
 	height: 3px; 
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-top: 5px solid #ffb86c;
 	display: inline-block;
 }
 
-.subtitle .dropWrapper {
+.subtitle .sublime .caret {
+	border-top: 5px solid #ffb86c;
+}
+
+.subtitle .textmate .caret {
+	border-top: 5px solid #ff79c6;
+}
+
+.subtitle .drop-wrapper {
 	text-align: center;
 	display: inline-block;
 }
 
-.subtitle .dropWrapper li {
+.subtitle .drop-wrapper li {
 	font-size: 1.3em;
 	font-weight: 300;
 	cursor: pointer;
@@ -98,15 +105,15 @@ p {
 	transition: padding .05s linear;
 }
 
-.subtitle .dropWrapper li.drop {
+.subtitle .drop-wrapper li.drop {
 	position: relative;
 }
 
-.subtitle .dropWrapper > li {
+.subtitle .drop-wrapper > li {
 	display: inline-block;
 }
 
-.subtitle .dropWrapper li a {
+.subtitle .drop-wrapper li a {
 	line-height: 80px;
 	-webkit-transition: all .1s ease-out;
 	-moz-transition: all .1s ease-out;
@@ -115,14 +122,14 @@ p {
 	transition: all .1s ease-out;
 }
 
-.subtitle .dropOut li a {
+.subtitle .drop-out li a {
 	color: #777;
 	line-height: 1em;
 	display: block;
 	width: 100%;
 }
 
-.subtitle .dropOut .triangle {
+.subtitle .drop-out .triangle {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -134,7 +141,7 @@ p {
 	margin-left: -8px;
 }
 
-.subtitle .dropdownContain {
+.subtitle .dropdown-contain {
 	width: 160px;
 	position: absolute;
 	z-index: 2;
@@ -143,7 +150,7 @@ p {
 	top: -400px;
 }
 
-.subtitle .dropOut {
+.subtitle .drop-out {
 	width: 160px;
 	background: white;
 	float: left;
@@ -163,12 +170,12 @@ p {
 	transition: all .1s ease-out;
 }
 
-.subtitle .dropOut ul {
+.subtitle .drop-out ul {
 	float: left;
 	padding: 10px 0;
 }
 
-.subtitle .dropOut ul li {
+.subtitle .drop-out ul li {
 	font-size: .9em;
 	text-align: left;
 	float: left;
@@ -186,13 +193,13 @@ p {
 	transition: background .1s ease-out;
 }
 
-.subtitle .dropOut ul li:hover {
+.subtitle .drop-out ul li:hover {
 	background: #f6f6f6;
 }
 
-.subtitle ul li:hover .dropdownContain { top: 65px; }
+.subtitle ul li:hover .dropdown-contain { top: 65px; }
 .subtitle ul li:hover .underline { border-bottom-color: #777; }
-.subtitle ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
+.subtitle ul li:hover .drop-out { opacity: 1; margin-top: 8px; }
 
 /* Social
    ========================================================================== */
