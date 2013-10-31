@@ -73,10 +73,10 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 #### Activating theme
 
-* **Mac OS X:** Move `chrome-devtools/Custom.css` file to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css`.
-* **PC (Windows Vista, 7, 8)**: Move `chrome-devtools/Custom.css` file to `C:\Users\yourUser\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
-* **PC (Windows XP):** Move `chrome-devtools/Custom.css` file to `C:\Users\yourUser\AppData\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
-* **Ubuntu (Chromium):** Move `chrome-devtools/Custom.css` file to `~/.config/chromium/Default/User\ StyleSheets/Custom.css`.
+* **Mac OS X:** Move `chrome/Custom.css` file to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css`.
+* **PC (Windows Vista, 7, 8)**: Move `chrome/Custom.css` file to `C:\Users\yourUser\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
+* **PC (Windows XP):** Move `chrome/Custom.css` file to `C:\Users\yourUser\AppData\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
+* **Ubuntu (Chromium):** Move `chrome/Custom.css` file to `~/.config/chromium/Default/User\ StyleSheets/Custom.css`.
 
 ## Alfred
 
