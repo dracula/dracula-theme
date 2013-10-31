@@ -382,6 +382,29 @@ ol {
 	margin: 0 auto 40px;
 }
 
+/* Chrome
+   ========================================================================== */
+
+.chrome a,
+.chrome code,
+.chrome h3 {
+	color: #8be9fd;
+	color: rgba(139, 233, 253, 1);
+}
+
+.chrome a:hover {
+	color: #8be9fd;
+	color: rgba(139, 233, 253, .7);	
+}
+
+.chrome h3 {
+	margin-top: 0;
+}
+
+.subtitle .chrome .caret {
+	border-top: 5px solid #8be9fd;
+}
+
 /* ==========================================================================
    Small screens
    ========================================================================== */

@@ -5,15 +5,15 @@ layout: default
 <div class="subtitle">
 	<h2>A dark theme for</h2>
 	<ul class="drop-wrapper">
-		<li class="drop sublime">
-			<a href="#">Sublime Text <div class="caret"></div></a>
+		<li class="drop chrome">
+			<a href="#">Chrome <div class="caret"></div></a>
 			<div class="dropdown-contain">
 				<div class="drop-out">
 					<div class="triangle"></div>
 					<ul>
 						<li><a href="{{ site.baseurl }}/alfred/">Alfred</a></li>
-						<li><a href="{{ site.baseurl }}/chrome/">Chrome</a></li>
 						<li><a href="{{ site.baseurl }}/textmate/">TextMate</a></li>
+						<li><a href="{{ site.baseurl }}/">Sublime Text</a></li>
 					</ul>
 				</div>
 			</div>
@@ -21,7 +21,7 @@ layout: default
 	</ul>
 </div>
 
-<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-sublime.png" alt="Theme Preview">
+<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-chrome.png" alt="Theme Preview">
 
 <p class="credits">Made with <span class="love">♥</span> by <a href="http://zenorocha.com">Zeno Rocha</a></p>
 
@@ -47,27 +47,21 @@ layout: default
 	</li>
 </ul>
 
-<!-- Sublime Text -->
-<div class="instructions sublime">
-	<h3>Sublime Text</h3>
-	
-	<h4>Install using Package Control</h4>
-	<p>If you are using <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>, you can easily install Dracula Theme via the <code>Package Control: Install Package</code> menu item. The Dracula Theme package is listed as <code>Dracula Color Scheme</code> in the packages list.</p>
+<div class="instructions chrome">
+	<h3>Chrome DevTools</h3>
 
 	<h4>Install using Git</h4>
-	<p>Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your <code>Packages</code> directory in the Sublime Text application settings area.</p>
-	<p>You can locate your Sublime Text <code>Packages</code> directory by using the menu item <code>Preferences -&gt; Browse Packages...</code>.</p>
-	<p>While inside the <code>Packages</code> directory, clone the theme repository using the command below:</p>
-	<pre><code>$ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"</code></pre>
+	<p>If you are a git user, you can install the theme and keep up to date by cloning the repo:</p>
+	<pre><code>$ git clone https://github.com/zenorocha/dracula-theme/</code></pre>
 
 	<h4>Install manually</h4>
-	<ol>
-		<li>Download using the <a href="https://github.com/zenorocha/dracula-theme/archive/master.zip">GitHub .zip download</a> option</li>
-		<li>Unzip the files and rename the folder to <code>Dracula Color Scheme</code></li>
-		<li>Find your <code>Packages</code> directory using the menu item  <code>Preferences -&gt; Browse Packages...</code></li>
-		<li>Copy the folder into your Sublime Text <code>Packages</code> directory</li>
-	</ol>
+	<p>Download using the <a href="https://github.com/zenorocha/dracula-theme/archive/master.zip">GitHub .zip download</a> option and unzip them.</p>
 
 	<h4>Activating theme</h4>
-	<p>Go to <code>Preferences -&gt; Color Scheme -&gt; User</code> and select the <code>Dracula Color Scheme</code>.</p>
+	<ul>
+		<li><strong>Mac OS X:</strong> Move <code>chrome/Custom.css</code> file to <code>~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css</code>.</li>
+		<li><strong>PC (Windows Vista, 7, 8)</strong>: Move <code>chrome/Custom.css</code> file to <code>C:\Users\yourUser\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css</code>.</li>
+		<li><strong>PC (Windows XP):</strong> Move <code>chrome/Custom.css</code> file to <code>C:\Users\yourUser\AppData\Google\Chrome\User Data\Default\User StyleSheets\Custom.css</code>.</li>
+		<li><strong>Ubuntu (Chromium):</strong> Move <code>chrome/Custom.css</code> file to <code>~/.config/chromium/Default/User\ StyleSheets/Custom.css</code>.</li>
+	</ul>
 </div>
