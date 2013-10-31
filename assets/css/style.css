@@ -81,14 +81,6 @@ p {
 	display: inline-block;
 }
 
-.subtitle .sublime .caret {
-	border-top: 5px solid #ffb86c;
-}
-
-.subtitle .textmate .caret {
-	border-top: 5px solid #ff79c6;
-}
-
 .subtitle .drop-wrapper {
 	text-align: center;
 	display: inline-block;
@@ -336,6 +328,10 @@ ol {
 	margin-top: 0;
 }
 
+.subtitle .sublime .caret {
+	border-top: 5px solid #ffb86c;
+}
+
 /* TextMate
    ========================================================================== */
 
@@ -355,6 +351,10 @@ ol {
 	margin-top: 0;
 }
 
+.subtitle .textmate .caret {
+	border-top: 5px solid #ff79c6;
+}
+
 /* Alfred
    ========================================================================== */
 
@@ -372,6 +372,14 @@ ol {
 
 .alfred h3 {
 	margin-top: 0;
+}
+
+.subtitle .alfred .caret {
+	border-top: 5px solid #bd93f9;
+}
+
+.alfred.preview {
+	margin: 0 auto 40px;
 }
 
 /* ==========================================================================
