@@ -21,7 +21,7 @@
 
 ## Sublime Text
 
-![Sublime Preview](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
+![Sublime Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-sublime.png)
 
 #### Install using Package Control
 
@@ -52,7 +52,7 @@ Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme
 
 ## TextMate
 
-![TextMate Preview](http://f.cl.ly/items/1B1F2d1Q30001o3c0H1k/dracula-textmate1-js.png)
+![TextMate Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-textmate.png)
 
 #### Install using Git
 
@@ -72,7 +72,7 @@ Just open the `Dracula.tmTheme` file using TextMate app.
 
 ## Vim
 
-![Vim Preview](http://f.cl.ly/items/0i2V3Y3N3p0u1S282K2k/dracula-vim.png)
+![Vim Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-vim.png)
 
 #### Install
 
@@ -94,7 +94,7 @@ If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors
 
 ## Chrome DevTools
 
-![Chrome DevTools](http://f.cl.ly/items/3T2R2M0q1l370l3l452w/chrome-devtools.png)
+![Chrome DevTools](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-chrome.png)
 
 #### Install using Git
 
@@ -117,7 +117,7 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 ## Alfred
 
-![Alfred Preview](http://f.cl.ly/items/3x2z1Q2e363C0T2Q0w3F/dracula-alfred.png)
+![Alfred Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-alfred.png)
 
 #### Install using Git
 
