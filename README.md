@@ -158,8 +158,7 @@ My priority list now is:
 
 1. Merge ZSH theme on branch `zsh` to `master`
 2. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
-3. Create a Chrome DevTools theme [#1](https://github.com/zenorocha/dracula-theme/issues/1)
-4. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
+3. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
 
 ## Color Palette
 
