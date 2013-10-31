@@ -2,12 +2,13 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
+> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
 
 ## Table of contents
 
 * [Sublime Text](#sublime-text)
 * [TextMate](#textmate)
+* [Vim](#vim)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
 * [Roadmap](#roadmap)
@@ -68,6 +69,29 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 #### Activating theme
 
 Just open the `Dracula.tmTheme` file using TextMate app.
+
+## Vim
+
+![Vim Preview](http://f.cl.ly/items/0i2V3Y3N3p0u1S282K2k/dracula-vim.png)
+
+#### Install
+
+If you [use vim + pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/):
+
+```sh
+cd ~/.vim
+git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme
+```
+
+If you [use vim + vundle](https://github.com/gmarik/vundle)
+
+```sh
+" add to .vimrc
+Bundle 'zenorocha/dracula-theme'
+:BundleInstall
+```
+
+If you aren't so clever just get the `vim/dracula.vim` file into `~/.vim/colors`.
 
 ## Chrome DevTools
 
