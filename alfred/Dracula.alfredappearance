@@ -1,3 +1,16 @@
+<!-- Dracula Theme v0.4.0
+#
+# https://github.com/zenorocha/dracula-theme
+#
+# Copyright 2013, All rights reserved
+#
+# Code licensed under the MIT license
+# http://zenorocha.mit-license.org
+#
+# @author Zeno Rocha <hi@zenorocha.com>
+# @author Oswaldo Acauan <oswaldoacauan@gmail.com>
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">

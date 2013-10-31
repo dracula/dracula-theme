@@ -1,4 +1,4 @@
-" Vim colorscheme
+" Dracula Theme v0.4.0
 "
 " https://github.com/zenorocha/dracula-theme
 "
@@ -7,9 +7,8 @@
 " Code licensed under the MIT license
 " http://zenorocha.mit-license.org
 "
-" Name:              dracula
-" Original Author:   Zeno Rocha <hi at zenorocha dot com>
-" Vim version:       Éverton Ribeiro <nuxlli at gmail dot com>
+" @author Zeno Rocha <hi@zenorocha.com>
+" @author Éverton Ribeiro <nuxlli@gmail.com>
 
 set background=dark
 highlight clear
