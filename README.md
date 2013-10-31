@@ -11,12 +11,12 @@
 * [Vim](#vim)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
+* [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
-* [Galleries](#galleries)
 * [Contributing](#contributing)
-* [History](#history)
 * [Credits](#credits)
+* [History](#history)
 * [License](#license)
 
 ## Sublime Text
@@ -135,6 +135,15 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 Double-click on `alfred/Dracula.alfredappearance`.
 
+## Team
+
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
+
+* [@nuxlli](https://github.com/nuxlli/) - Vim theme
+* [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
+* [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
+* [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate theme, Website
+
 ## Roadmap
 
 ###### "Are you going to create a light color scheme?"
@@ -168,26 +177,19 @@ Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%`
 Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`
 
-## Galleries
-
-* [Color Sublime](http://colorsublime.com/)
-* [DevThemez](http://devthemez.com/themes/dracula)
-* [Package Control](https://sublime.wbond.net/packages/Dracula%20Color%20Scheme)
-
 ## Contributing
 
 If you want to help, please read the [Contributing](https://github.com/zenorocha/dracula-theme/blob/master/CONTRIBUTING.md) guide.
 
-## History
-
-For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-theme/releases).
-
 ## Credits
 
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
+* Chrome DevTools theme built on top of [@mauricecruz's ZeroDarkMatrix theme](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
-* Google Chrome DevTools created by [Vagner Santana](http://github.com/vagnervjs) based on [ZeroDarkMatrix Theme for Chrome](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme) by [Maurice Cruz](https://github.com/mauricecruz)
-* Alfred theme by [@oswaldoacauan](http://oswaldoacaun.com/)
+
+## History
+
+For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-theme/releases).
 
 ## License
 
