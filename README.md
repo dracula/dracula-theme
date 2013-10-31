@@ -2,17 +2,17 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3) and [TextMate](http://macromates.com/).
+> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/) and [Alfred](http://www.alfredapp.com/).
 
 ## Sublime Text
 
 ![Sublime Preview](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
 
-### Install using Package Control
+#### Install using Package Control
 
 If you are using [Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Dracula Theme via the `Package Control: Install Package` menu item. The Dracula Theme package is listed as `Dracula Color Scheme` in the packages list.
 
-### Install using Git
+#### Install using Git
 
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
 
@@ -24,14 +24,14 @@ While inside the `Packages` directory, clone the theme repository using the comm
 $ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
 ```
 
-### Download Manually
+#### Download Manually
 
 1. Download the files using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option
 2. Unzip the files and rename the folder to `Dracula Color Scheme`
 3. Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 4. Copy the folder into your Sublime Text `Packages` directory
 
-### Activating the theme
+#### Activating the theme
 
 Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme`.
 
@@ -39,7 +39,7 @@ Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme
 
 ![TextMate Preview](http://f.cl.ly/items/1B1F2d1Q30001o3c0H1k/dracula-textmate1-js.png)
 
-### Install using Git
+#### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
@@ -47,11 +47,11 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 $ git clone https://github.com/zenorocha/dracula-theme/
 ```
 
-### Install manually
+#### Install manually
 
 Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.</p>
 
-### Activating theme
+#### Activating theme
 
 Just open the `Dracula.tmTheme` file using TextMate app.
 
@@ -59,7 +59,7 @@ Just open the `Dracula.tmTheme` file using TextMate app.
 
 ![Alfred Preview](http://f.cl.ly/items/3x2z1Q2e363C0T2Q0w3F/dracula-alfred.png)
 
-### Install using Git
+#### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
@@ -67,11 +67,11 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 $ git clone https://github.com/zenorocha/dracula-theme/
 ```
 
-### Install manually
+#### Install manually
 
 Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.</p>
 
-### Activating the theme
+#### Activating the theme
 
 Double-click on `alfred/Dracula.alfredappearance`.
 
