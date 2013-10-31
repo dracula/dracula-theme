@@ -4,13 +4,9 @@
 
 > A dark theme for [Sublime Text](http://www.sublimetext.com/3) and [TextMate](http://macromates.com/).
 
-## Preview
-
-![Sublime - JS](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
-![Sublime - HTML](http://f.cl.ly/items/292X1D2f0N1w0i0P2n3u/dracula-html.png)
-![Sublime - CSS](http://f.cl.ly/items/0P09431x012A0f3B3V1b/dracula-css.png)
-
 ## Sublime Text
+
+![Sublime Preview](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
 
 ### Install using Package Control
 
@@ -41,6 +37,8 @@ Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme
 
 ## Textmate
 
+![TextMate Preview](http://f.cl.ly/items/1B1F2d1Q30001o3c0H1k/dracula-textmate1-js.png)
+
 ### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
@@ -59,9 +57,40 @@ Just open the `Dracula.tmTheme` file using TextMate app.
 
 ## Alfred
 
-![Alfred](http://f.cl.ly/items/3y1o2e2v0z1p231U3u0h/Screen%20Shot%202013-10-31%20at%2000.05.15.png)
+![Alfred Preview](http://f.cl.ly/items/3x2z1Q2e363C0T2Q0w3F/dracula-alfred.png)
 
-1. Double-click `alfred/Dracula.alfredappearance`
+### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.</p>
+
+### Activating the theme
+
+Double-click on `alfred/Dracula.alfredappearance`.
+
+## Roadmap
+
+###### "Are you going to create a light color scheme?"
+
+Nope. Dracula can't stand the light.
+
+###### "Are you going to support editor X?"
+
+I hope so, but I need your help to accomplish that. Since you're using editor X you're probably much more expert on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
+
+My priority list now is:
+
+1. Merge ZSH theme on branch `zsh` to `master`
+2. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
+3. Create a Chrome DevTools theme [#1](https://github.com/zenorocha/dracula-theme/issues/1)
+4. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
 
 ## Color Palette
 
@@ -84,23 +113,6 @@ Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`
 * [Color Sublime](http://colorsublime.com/)
 * [DevThemez](http://devthemez.com/themes/dracula)
 * [Package Control](https://sublime.wbond.net/packages/Dracula%20Color%20Scheme)
-
-## Roadmap
-
-###### "Are you going to create a light color scheme?"
-
-Nope. Dracula can't stand the light.
-
-###### "Are you going to support editor X?"
-
-I hope so, but I need your help to accomplish that. Since you're using editor X you're probably much more expert on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) above.
-
-My priority list now is:
-
-1. Merge ZSH theme on branch `zsh` to `master`
-2. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
-3. Create a Chrome DevTools theme [#1](https://github.com/zenorocha/dracula-theme/issues/1)
-4. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
 
 ## Contributing
 
