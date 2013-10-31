@@ -118,6 +118,8 @@ p {
 .subtitle .dropOut li a {
 	color: #777;
 	line-height: 1em;
+	display: block;
+	width: 100%;
 }
 
 .subtitle .dropOut .triangle {
