@@ -83,15 +83,14 @@ cd ~/.vim
 git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme
 ```
 
-If you [use vim + vundle](https://github.com/gmarik/vundle)
+If you [use vim + vundle](https://github.com/gmarik/vundle):
 
 ```sh
-" add to .vimrc
 Bundle 'zenorocha/dracula-theme'
 :BundleInstall
 ```
 
-If you aren't so clever just get the `vim/dracula.vim` file into `~/.vim/colors`.
+If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors`.
 
 ## Chrome DevTools
 
