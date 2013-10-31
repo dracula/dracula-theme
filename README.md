@@ -4,6 +4,20 @@
 
 > A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
 
+## Table of contents
+
+* [Sublime Text](#sublime-text)
+* [TextMate](#textmate)
+* [Chrome DevTools](#chrome-devtools)
+* [Alfred](#alfred)
+* [Roadmap](#roadmap)
+* [Color Palette](#color-palette)
+* [Galleries](#galleries)
+* [Contributing](#contributing)
+* [History](#history)
+* [Credits](#credits)
+* [License](#license)
+
 ## Sublime Text
 
 ![Sublime Preview](http://f.cl.ly/items/0e1B473u0w341P2e3z3Z/dracula-js.png)
@@ -35,7 +49,7 @@ $ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
 
 Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme`.
 
-## Textmate
+## TextMate
 
 ![TextMate Preview](http://f.cl.ly/items/1B1F2d1Q30001o3c0H1k/dracula-textmate1-js.png)
 
