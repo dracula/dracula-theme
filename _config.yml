@@ -1,1 +1,11 @@
-baseurl:     /dracula-theme
+url: http://zenorocha.github.io
+baseurl: /dracula-theme
+
+name: Dracula
+description: 'A dark theme for Sublime Text, Textmate, Chrome DevTools and Alfred'
+
+author: Zeno Rocha
+author-url: 'http://zenorocha.com'
+
+github-user: 'zenorocha'
+github-repo: 'dracula-theme'
