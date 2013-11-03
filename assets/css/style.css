@@ -275,7 +275,6 @@ h3 {
 	text-align: left;
 	color: #ff79c6;
 	font-size: 3em;
-	margin: 1em 0 0;
 }
 
 h4 {
@@ -312,6 +311,10 @@ ol {
 /* Sublime
    ========================================================================== */
 
+.sublime .caret {
+	border-top: 5px solid #ffb86c;
+}
+
 .sublime a,
 .sublime code,
 .sublime h3 {
@@ -319,21 +322,17 @@ ol {
 	color: rgba(255, 184, 108, 1);
 }
 
-.sublime a:hover {
+.sublime  a:hover {
 	color: #ffb86c;
 	color: rgba(255, 184, 108, .7);	
 }
 
-.sublime h3 {
-	margin-top: 0;
-}
-
-.subtitle .sublime .caret {
-	border-top: 5px solid #ffb86c;
-}
-
 /* TextMate
    ========================================================================== */
+
+.textmate .caret {
+	border-top: 5px solid #ff79c6;
+}
 
 .textmate a,
 .textmate code,
@@ -347,16 +346,16 @@ ol {
 	color: rgba(255, 121, 198, .7);	
 }
 
-.textmate h3 {
-	margin-top: 0;
-}
-
-.subtitle .textmate .caret {
-	border-top: 5px solid #ff79c6;
-}
-
 /* Alfred
    ========================================================================== */
+
+.alfred .caret {
+	border-top: 5px solid #bd93f9;
+}
+
+.alfred .preview {
+	margin: 0 auto 40px;
+}
 
 .alfred a,
 .alfred code,
@@ -370,20 +369,12 @@ ol {
 	color: rgba(189, 147, 249, .7);	
 }
 
-.alfred h3 {
-	margin-top: 0;
-}
-
-.subtitle .alfred .caret {
-	border-top: 5px solid #bd93f9;
-}
-
-.alfred.preview {
-	margin: 0 auto 40px;
-}
-
 /* Chrome
    ========================================================================== */
+
+.chrome .caret {
+	border-top: 5px solid #8be9fd;
+}
 
 .chrome a,
 .chrome code,
@@ -397,16 +388,12 @@ ol {
 	color: rgba(139, 233, 253, .7);	
 }
 
-.chrome h3 {
-	margin-top: 0;
-}
-
-.subtitle .chrome .caret {
-	border-top: 5px solid #8be9fd;
-}
-
 /* Vim
    ========================================================================== */
+
+.vim .caret {
+	border-top: 5px solid #50fa7b;
+}
 
 .vim a,
 .vim code,
@@ -418,14 +405,6 @@ ol {
 .vim a:hover {
 	color: #50fa7b;
 	color: rgba(80, 250, 123, .7);	
-}
-
-.vim h3 {
-	margin-top: 0;
-}
-
-.subtitle .vim .caret {
-	border-top: 5px solid #50fa7b;
 }
 
 /* ==========================================================================
