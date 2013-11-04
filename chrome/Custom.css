@@ -134,7 +134,7 @@
 	to { background-color: #282a36; }
 }
 
-.CodeMirror .webkit-html-warning-message{
+#-webkit-web-inspector .CodeMirror .webkit-html-warning-message{
     color: #411f07 !important;
 }
 
@@ -944,7 +944,7 @@
 /* Element - Edit HTML
 /**********************************************/
 
-.CodeMirror-wrap{
+#-webkit-web-inspector .CodeMirror-wrap{
 	outline: none !important;
 	border: 1px solid #94a3dd;
 	border-radius: 5px;
