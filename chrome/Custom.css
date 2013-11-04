@@ -1605,7 +1605,7 @@
     color: #bdc3e3 !important;
 }
 
-#timeline-overview-sidebar, #timeline-overview-separator, .sidebar{
+#timeline-overview-sidebar, #timeline-overview-separator, .split-view-sidebar{
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1d1e27), to(#282a36)) !important;
     border-right: 1px solid #303549 !important;
     color: #b2b2b2 !important;
