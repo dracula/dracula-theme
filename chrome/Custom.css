@@ -1,16 +1,15 @@
 /* Dracula Theme v0.4.0
  *
-/* https://github.com/zenorocha/dracula-theme
-/*
-/* Copyright 2013, All rights reserved
-/*
-/* Code licensed under the MIT license
-/* http://zenorocha.mit-license.org
-/*
-/* @author Zeno Rocha <hi@zenorocha.com>
-/* @author Vagner Santana <vagnervjs@gmail.com>
-/*************************************************************************/
-
+ * https://github.com/zenorocha/dracula-theme
+ *
+ * Copyright 2013, All rights reserved
+ *
+ * Code licensed under the MIT license
+ * http://zenorocha.mit-license.org
+ *
+ * @author Zeno Rocha <hi@zenorocha.com>
+ * @author Vagner Santana <vagnervjs@gmail.com>
+ */
 
 /**********************************************
 /* Readability
@@ -103,10 +102,10 @@
 #-webkit-web-inspector .cm-error { background: #9D1E15 !important; border-radius: 2px !important; color: #eee !important;}
 #-webkit-web-inspector .CodeMirror-gutter-elt { color: #888 !important;}
 #-webkit-web-inspector .CodeMirror-gutters {background: #282828 !important; border-right: 2px solid #2b2b2b !important; }
-#-webkit-web-inspector .CodeMirror-selected { background: #383838 !important; color: #eee !important; }
+#-webkit-web-inspector .CodeMirror-selected { background: #3a3d4e !important; color: #eee !important; }
 #-webkit-web-inspector .CodeMirror-matchingbracket { border: 1px solid #15CA1A !important; border-radius: 4px; color: #ccc !important;}
 #-webkit-web-inspector .CodeMirror-nonmatchingbracket { border: 1px solid #db0404 !important; border-radius: 4px; color: #ccc !important;}
-#-webkit-web-inspector span.CodeMirror-selectedtext { background-color: #383838 !important;}
+#-webkit-web-inspector span.CodeMirror-selectedtext { background-color: #3a3d4e !important;}
 #-webkit-web-inspector .cm-search-highlight-start:before { border-color: #94a3dd !important;}
 #-webkit-web-inspector .cm-search-highlight-end:before { border-color: #94a3dd !important;}
 #-webkit-web-inspector .cm-search-highlight:before { border-color: #94a3dd !important; padding: 2px !important;}
@@ -131,6 +130,10 @@
 	to { background-color: #282a36; }
 }
 
+#-webkit-web-inspector .CodeMirror .webkit-html-warning-message{
+    color: #411f07 !important;
+}
+
 /**********************************************
 /* Code Highlighting [WEBKIT]
 /**********************************************/
@@ -151,11 +154,11 @@
 #-webkit-web-inspector .selector-matches {color:#50fa7b!important;}
 #-webkit-web-inspector .webkit-css-selector {color:#50fa7b!important;}
 #-webkit-web-inspector .webkit-css-at-rule {color:#b094bb!important;}
-#-webkit-web-inspector .webkit-css-color {color:#FFCF67!important;}
+#-webkit-web-inspector .webkit-css-color {color:#bd93f9!important;}
 #-webkit-web-inspector .webkit-css-comment {color:#6272a4!important;}
 #-webkit-web-inspector .webkit-css-important {color:#b094bb!important;}
 #-webkit-web-inspector .webkit-css-keyword {color:#bd93f9!important;}
-#-webkit-web-inspector .webkit-css-number {color:#ffcf67!important;}
+#-webkit-web-inspector .webkit-css-number {color:#bd93f9!important;}
 #-webkit-web-inspector .webkit-css-property,
 #-webkit-web-inspector .styles-section .properties > li .webkit-css-property {color:#6aedff!important;font-weight:400;}
 #-webkit-web-inspector .webkit-css-string {color:#fd963f!important;}
@@ -311,9 +314,9 @@
 }
 
 @-webkit-keyframes pulsate {
-	0% { background-color: #333;}
-	50% { background-color: #444;}
-	100% { background-color: #333;}
+	0% { background-color: #333544;}
+	50% { background-color: #404255;}
+	100% { background-color: #333544;}
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -690,7 +693,7 @@
 }
 
 #-webkit-web-inspector .split-view-sidebar-right {
-	border-left: 1px solid #3A3A3A !important;
+	border-left: 1px solid #333544 !important;
 	-webkit-box-shadow: none !important;
 }
 
@@ -716,7 +719,7 @@
 #-webkit-web-inspector button.clear-status-bar-item:active .glyph,
 #-webkit-web-inspector button.garbage-collect-status-bar-item:active .glyph,
 #-webkit-web-inspector button.glue-async-status-bar-item:active .glyph {
-	background-color: rgba(137,245,162,.6) !important;
+	background-color: #9198c3 !important;
 }
 
 #-webkit-web-inspector #scripts-debugger-status {
@@ -736,8 +739,8 @@
 #-webkit-web-inspector #console-prompt {
 	color: #f1f1f1 !important;
 	border-top: none !important;
-	border-top: 1px solid #333 !important;
-	border-bottom: 1px solid #444 !important;
+	border-top: 1px solid #393f58 !important;
+	border-bottom: 1px solid #393f58 !important;
 }
 
 #-webkit-web-inspector #console-messages .console-message,
@@ -747,9 +750,9 @@
 }
 
 #-webkit-web-inspector #console-messages .console-user-command {
-	background-color: #252525 !important;
-	border-top: 1px solid #2a2a2a !important;
-	border-bottom: 1px solid #1e1e1e !important;
+	background-color: #262a3b !important;
+	border-top: 1px solid #363b53 !important;
+	border-bottom: 1px solid #363b53 !important;
 }
 
 #-webkit-web-inspector .console-message .children li,
@@ -937,7 +940,7 @@
 /* Element - Edit HTML
 /**********************************************/
 
-.CodeMirror-wrap{
+#-webkit-web-inspector .CodeMirror-wrap{
 	outline: none !important;
 	border: 1px solid #94a3dd;
 	border-radius: 5px;
@@ -953,7 +956,7 @@
 #-webkit-web-inspector .styles-section {
 	padding: 4px 0 !important;
 	margin-left: 5px;
-	border-top: 1px solid #444 !important;
+	border-top: 1px solid #7f8cbe !important;
 	border-bottom: none !important;
 }
 
@@ -990,7 +993,7 @@
 	color: #d3d3d3 !important;
 	text-shadow: none !important;
 	border-top: 1px solid #282a36 !important;
-	border-bottom: 1px solid #333 !important;
+	border-bottom: 1px solid #94a3dd !important;
 }
 
 #-webkit-web-inspector .pane > .title {
@@ -1007,9 +1010,9 @@
 
 /*-- STATE DISPLAY --*/
 #-webkit-web-inspector .styles-element-state-pane {
-	background: #333 !important;
+	background: #21242f !important;
 	padding: 4px 0 !important;
-	border-bottom: 1px solid #666 !important;
+	border-bottom: 1px solid #474f6b !important;
 }
 
 #-webkit-web-inspector .styles-element-state-pane.expanded {
@@ -1442,15 +1445,15 @@
 /* Tabbed Panes
 /*****************************************/
 #-webkit-web-inspector .status-bar, #-webkit-web-inspector .tabbed-pane:not(.help-window-main) .tabbed-pane-header {
-	background: -webkit-linear-gradient(#505050,#383838) !important;
-	border-top: 1px solid #282a36 !important;
-	border-bottom: 1px solid #282a36 !important;
-	border-color: #282a36 !important;
-	box-shadow: inset 0 1px 0 #6E6E6E, 0 2px 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4) !important;
+	background: -webkit-linear-gradient(#2c2d3c,#3b3d4f) !important;
+	border-top: 1px solid #2c2d3c !important;
+	border-bottom: 1px solid #2c2d3c !important;
+	border-color: #363749 !important;
+	box-shadow: inset 0 1px 0 #363749, 0 2px 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4) !important;
 }
 
 #-webkit-web-inspector .tabbed-pane-header-contents {
-	color: #bbb !important;
+	color: #a1a9da !important;
 }
 
 #-webkit-web-inspector .tabbed-pane:not(.help-window-main) .tabbed-pane-header-tab.selected,
@@ -1584,9 +1587,40 @@
 	text-decoration: none !important;
 }
 
+.resource-view .script-view, .panel-enabler-view{
+    background: #282a36 !important;
+    color: #b2b2b2 !important;
+}
+
+.timeline .resources-dividers-label-bar{
+    background-image: -webkit-linear-gradient(top, #1d1e27, #282a36) !important;
+    color: #b2b2b2 !important;
+}
+
+.timeline-tree-item .data.dimmed{
+    color: #bdc3e3 !important;
+}
+
+#timeline-overview-sidebar, #timeline-overview-separator, .split-view-sidebar{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1d1e27), to(#282a36)) !important;
+    border-right: 1px solid #303549 !important;
+    color: #b2b2b2 !important;
+}
+
+.overview-grid-window-resizer{
+    background-color: #1d1e27 !important;
+    box-shadow: #696b8f 1px 0 0, #696b8f -1px 0 0, #696b8f 0 1px 0, #696b8f 0 -1px 0 !important;
+}
+
+body.inactive .sidebar-tree-item.selected{
+    border-top: 1px solid  #6c78a5 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5b648f), to(#303549))  !important;
+}
+
 #-webkit-web-inspector .network-summary-bar {
 	background-image: -webkit-linear-gradient(top, #505050, #383838) !important;
-	border-top: 1px solid #646464 !important;
+	border-top: 1px solid #505050 !important;
+    border-bottom: 1px solid #505050 !important;
 	color: #ddd !important;
 }
 
@@ -1677,7 +1711,7 @@
 
 /* Network Timing Pane */
 #-webkit-web-inspector .resource-timing-view .network-timing-bar-title {
-	color: #888!important;
+	color: #c4c4c4!important;
 }
 
 #-webkit-web-inspector .resource-timing-view table {
@@ -1741,6 +1775,9 @@
 /**********************************************
 /* Timeline Tab
 /**********************************************/
+#-webkit-web-inspector .panel{
+    background-color: #282a36 !important;
+}
 #-webkit-web-inspector .timeline-category-statusbar-item,
 #-webkit-web-inspector .timeline-records-stats {
 	text-shadow: none !important;
@@ -1750,6 +1787,7 @@
 /* Timeline */
 #-webkit-web-inspector .sidebar-tree-section {
 	text-shadow: none !important;
+    background-color: #282a36 !important;
 }
 
 /**********************************************
@@ -1768,11 +1806,11 @@
 }
 
 #-webkit-web-inspector .split-view-vertical > .split-view-sidebar.split-view-contents-second:not(.maximized){
-	border-left: 2px solid #2b2b2b !important;
+	border-left: 2px solid #1c1d27 !important;
 }
 
 #-webkit-web-inspector .split-view-vertical > .split-view-sidebar.split-view-contents-first:not(.maximized){
-	border-right: 2px solid #2b2b2b !important;
+	border-right: 2px solid #1c1d27 !important;
 }
 
 #-webkit-web-inspector body.drawer-visible #drawer {
@@ -1886,9 +1924,9 @@
 #-webkit-web-inspector .pane-title-button.add,
 #-webkit-web-inspector .sidebar-pane-toolbar > .pane-title-button.refresh,
 #-webkit-web-inspector .pane-title-button.element-state {
-	/*background-image: none !important;*/
+	background-image: none !important;
 	-webkit-background-position: -24px 0 !important;
-	background-color: rgba(0,0,0,.8) !important;
+	background-color: #fff !important;
 	-webkit-mask-repeat: no-repeat !important;
 }
 
@@ -1901,9 +1939,9 @@
 }
 
 #-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select.select-settings {
-	/*background-image: none !important; */
+	background-image: none !important;
 	-webkit-background-position: -24px 0 !important;
-	background-color: rgba(0,0,0,.8) !important;
+	background-color: #fff !important;
 	-webkit-mask-repeat: no-repeat !important;
 	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneSettingsButtons.png) !important;
 }
@@ -2079,8 +2117,8 @@
 }
 
 #-webkit-web-inspector .data-grid .data-container tr.selected {
-	background-color: rgba(150,255,150,.2) !important;
-	outline: 1px solid rgba(150,255,150,.3);
+	background-color: #424a64 !important;
+	outline: 1px solid #8b9ad8;
 }
 
 #-webkit-web-inspector .data-grid tr td *{
