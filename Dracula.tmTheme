@@ -121,7 +121,6 @@
 				<string></string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Ruby's @variable</string>
@@ -135,7 +134,19 @@
 				<string>#f1fa8c</string>
 			</dict>
 		</dict>
-		
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff79c6</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
