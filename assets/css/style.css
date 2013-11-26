@@ -165,6 +165,7 @@ p {
 .subtitle .drop-out ul {
 	float: left;
 	padding: 10px 0;
+	list-style: none;
 }
 
 .subtitle .drop-out ul li {
@@ -405,6 +406,25 @@ ol {
 .vim a:hover {
 	color: #50fa7b;
 	color: rgba(80, 250, 123, .7);
+}
+
+/* ZSH
+   ========================================================================== */
+
+.zsh .caret {
+	border-top: 5px solid #ff5555;
+}
+
+.zsh a,
+.zsh code,
+.zsh h3 {
+	color: #50fa7b;
+	color: rgba(255, 85, 85, 1);
+}
+
+.zsh a:hover {
+	color: #50fa7b;
+	color: rgba(255, 85, 85, .7);
 }
 
 /* ==========================================================================
