@@ -6,14 +6,17 @@
 
 ## Table of contents
 
-* [Sublime Text](#sublime-text)
-* [TextMate](#textmate)
-* [Vim](#vim)
-* [Zsh](#zsh)
-* [iTerm](#iterm)
-* [Terminal.app](#terminalapp)
-* [Chrome DevTools](#chrome-devtools)
-* [Alfred](#alfred)
+* Code Editors
+  * [Sublime Text](#sublime-text)
+  * [TextMate](#textmate)
+  * [Vim](#vim)
+* Terminal
+  * [Zsh](#zsh)
+  * [iTerm](#iterm)
+  * [Terminal.app](#terminalapp)
+* Misc
+  * [Chrome DevTools](#chrome-devtools)
+  * [Alfred](#alfred)
 * [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
