@@ -142,7 +142,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
-* [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate theme, Website
+* [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate theme, ZSH theme, Website
 
 ## Roadmap
 
@@ -156,9 +156,8 @@ I hope so, but I need your help to accomplish that. Since you're using editor X 
 
 My priority list now is:
 
-1. Merge ZSH theme on branch `zsh` to `master`
-2. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
-3. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
+1. Add support for TextMate 2 [#5](https://github.com/zenorocha/dracula-theme/issues/5)
+2. Create a Brackets theme [#7](https://github.com/zenorocha/dracula-theme/issues/1)
 
 ## Color Palette
 
