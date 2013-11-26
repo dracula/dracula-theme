@@ -9,6 +9,7 @@
 * [Sublime Text](#sublime-text)
 * [TextMate](#textmate)
 * [Vim](#vim)
+* [ZSH](#zsh)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
 * [Team](#team)
@@ -91,6 +92,36 @@ Bundle 'zenorocha/dracula-theme'
 ```
 
 If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors`.
+
+## ZSH
+
+![ZSH Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-zsh.png)
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+And creating a symbolic link to [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)'s theme folder:
+
+```sh
+$ ln -s $DRACULA_THEME/zsh/dracula.zsh-theme $OH_MY_ZSH/themes/dracula.zsh-theme
+```
+
+> P.S.: Remember that you should replace `$DRACULA_THEME` and `$OH_MY_ZSH` to the
+actual directories for this command to work.
+
+#### Install manually
+
+1. Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
+2. Move `zsh/dracula.zsh-theme` file to [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)'s theme folder: `oh-my-zsh/themes/dracula.zsh-theme`.
+
+#### Activating theme
+
+Go to your `~/.zshrc` file and set `ZSH_THEME="dracula"`.
 
 ## Chrome DevTools
 
@@ -185,6 +216,7 @@ If you want to help, please read the [Contributing](https://github.com/zenorocha
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
 * Chrome DevTools theme built on top of [@mauricecruz's ZeroDarkMatrix theme](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
+* ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
 
 ## History
 
