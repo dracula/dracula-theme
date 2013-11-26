@@ -2,7 +2,7 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
+> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [iTerm](http://www.iterm2.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
 
 ## Table of contents
 
@@ -10,6 +10,7 @@
 * [TextMate](#textmate)
 * [Vim](#vim)
 * [Zsh](#zsh)
+* [iTerm](#iterm)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
 * [Team](#team)
@@ -80,8 +81,8 @@ Just open the `Dracula.tmTheme` file using TextMate app.
 If you [use vim + pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/):
 
 ```sh
-cd ~/.vim
-git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme
+$ cd ~/.vim
+$ git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme
 ```
 
 If you [use vim + vundle](https://github.com/gmarik/vundle):
@@ -121,7 +122,31 @@ actual directories for this command to work.
 
 #### Activating theme
 
-Go to your `~/.zshrc` file and set `ZSH_THEME="dracula"`.
+Go to your `~/.zshrc` file and set `ZSH_THEME="dracula"`. Finally, reload your terminal.
+
+## iTerm
+
+![iTerm Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-iterm.png)
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
+
+#### Activating theme
+
+1. *iTerm2 > Preferences > Profiles > Colors Tab*
+2. Click *Load Presets...*
+3. Click *Import...*
+4. Select the `iterm/Dracula.itermcolors` file
+5. Select the *Dracula* from *Load Presets...*
 
 ## Chrome DevTools
 
