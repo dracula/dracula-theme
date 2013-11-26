@@ -2,14 +2,14 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
+> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
 
 ## Table of contents
 
 * [Sublime Text](#sublime-text)
 * [TextMate](#textmate)
 * [Vim](#vim)
-* [ZSH](#zsh)
+* [Zsh](#zsh)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
 * [Team](#team)
@@ -93,9 +93,9 @@ Bundle 'zenorocha/dracula-theme'
 
 If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors`.
 
-## ZSH
+## Zsh
 
-![ZSH Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-zsh.png)
+![Zsh Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-zsh.png)
 
 #### Install using Git
 
