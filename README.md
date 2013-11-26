@@ -2,7 +2,7 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [iTerm](http://www.iterm2.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
+> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [iTerm](http://www.iterm2.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
 
 ## Table of contents
 
@@ -11,6 +11,7 @@
 * [Vim](#vim)
 * [Zsh](#zsh)
 * [iTerm](#iterm)
+* [Terminal.app](#terminalapp)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
 * [Team](#team)
@@ -147,6 +148,30 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 3. Click *Import...*
 4. Select the `iterm/Dracula.itermcolors` file
 5. Select the *Dracula* from *Load Presets...*
+
+## Terminal.app
+
+![Terminal.app Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-terminal.png)
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
+
+#### Activating theme
+
+1. *Terminal > Settings Tab*
+2. Click *"Gear" icon*
+3. Click *Import...*
+4. Select the `terminal/Dracula.terminal` file
+5. Click *Default*
 
 ## Chrome DevTools
 
