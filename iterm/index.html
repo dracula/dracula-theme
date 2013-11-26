@@ -1,5 +1,5 @@
 ---
-name: alfred
+name: iterm
 layout: default
 ---
 
@@ -7,13 +7,13 @@ layout: default
 	<h2>A dark theme for</h2>
 	<ul class="drop-wrapper">
 		<li class="drop">
-			<a href="#" onclick="event.preventDefault();">Alfred <div class="caret"></div></a>
+			<a href="#" onclick="event.preventDefault();">iTerm <div class="caret"></div></a>
 			<div class="dropdown-contain">
 				<div class="drop-out">
 					<div class="triangle"></div>
 					<ul>
+						<li><a href="{{ site.baseurl }}/alfred/">Alfred</a></li>
 						<li><a href="{{ site.baseurl }}/chrome/">Chrome</a></li>
-						<li><a href="{{ site.baseurl }}/iterm/">iTerm</a></li>
 						<li><a href="{{ site.baseurl }}/terminal/">Terminal.app</a></li>
 						<li><a href="{{ site.baseurl }}/textmate/">TextMate</a></li>
 						<li><a href="{{ site.baseurl }}/">Sublime Text</a></li>
@@ -26,20 +26,30 @@ layout: default
 	</ul>
 </div>
 
-<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-alfred.png" alt="Theme Preview" width="648" height="472">
+<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-iterm.png" alt="Theme Preview" width="830" height="683">
 
 {% include social.html %}
 
 <div class="instructions">
-	<h3>Alfred</h3>
+	<h3>iTerm 2</h3>
 
 	<h4>Install using Git</h4>
+
 	<p>If you are a git user, you can install the theme and keep up to date by cloning the repo:</p>
+
 	<pre><code>$ git clone https://github.com/zenorocha/dracula-theme/</code></pre>
 
 	<h4>Install manually</h4>
+
 	<p>Download using the <a href="https://github.com/zenorocha/dracula-theme/archive/master.zip">GitHub .zip download</a> option and unzip them.</p>
 
 	<h4>Activating theme</h4>
-	<p>Double-click on <code>alfred/Dracula.alfredappearance</code>.</p>
+
+	<ol>
+		<li><em>iTerm2 > Preferences > Profiles > Colors Tab</em></li>
+		<li>Click <em>Load Presets...</em></li>
+		<li>Click <em>Import...</em></li>
+		<li>Select the <code>iterm/Dracula.itermcolors</code> file</li>
+		<li>Select the <em>Dracula</em> from <em>Load Presets...</em></li>
+	</ol>
 </div>

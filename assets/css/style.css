@@ -316,9 +316,7 @@ ol {
 	border-top: 5px solid #ffb86c;
 }
 
-.sublime a,
-.sublime code,
-.sublime h3 {
+.sublime a, .sublime code, .sublime h3 {
 	color: #ffb86c;
 	color: rgba(255, 184, 108, 1);
 }
@@ -335,9 +333,7 @@ ol {
 	border-top: 5px solid #ff79c6;
 }
 
-.textmate a,
-.textmate code,
-.textmate h3 {
+.textmate a, .textmate code, .textmate h3 {
 	color: #ff79c6;
 	color: rgba(255, 121, 198, 1);
 }
@@ -347,84 +343,69 @@ ol {
 	color: rgba(255, 121, 198, .7);
 }
 
-/* Alfred
+/* Alfred / Terminal
    ========================================================================== */
 
-.alfred .caret {
+.alfred .caret,
+.terminal .caret {
 	border-top: 5px solid #bd93f9;
 }
 
-.alfred .preview {
+.alfred .preview,
+.terminal .preview {
 	margin: 0 auto 40px;
 }
 
-.alfred a,
-.alfred code,
-.alfred h3 {
+.alfred a, .alfred code, .alfred h3,
+.terminal a, .terminal code, .terminal h3 {
 	color: #bd93f9;
 	color: rgba(189, 147, 249, 1);
 }
 
-.alfred a:hover {
+.alfred a:hover,
+.terminal a:hover {
 	color: #bd93f9;
 	color: rgba(189, 147, 249, .7);
 }
 
-/* Chrome
+/* Chrome / Zsh
    ========================================================================== */
 
-.chrome .caret {
+.chrome .caret,
+.zsh .caret {
 	border-top: 5px solid #8be9fd;
 }
 
-.chrome a,
-.chrome code,
-.chrome h3 {
+.chrome a, .chrome code, .chrome h3,
+.zsh a, .zsh code, .zsh h3 {
 	color: #8be9fd;
 	color: rgba(139, 233, 253, 1);
 }
 
-.chrome a:hover {
+.chrome a:hover,
+.zsh a:hover {
 	color: #8be9fd;
 	color: rgba(139, 233, 253, .7);
 }
 
-/* Vim
+/* iTerm / Vim
    ========================================================================== */
 
+.iterm .caret,
 .vim .caret {
 	border-top: 5px solid #50fa7b;
 }
 
-.vim a,
-.vim code,
-.vim h3 {
+.iterm a, .iterm code, .iterm h3,
+.vim a, .vim code, .vim h3 {
 	color: #50fa7b;
 	color: rgba(80, 250, 123, 1);
 }
 
+.iterm a:hover,
 .vim a:hover {
 	color: #50fa7b;
 	color: rgba(80, 250, 123, .7);
-}
-
-/* ZSH
-   ========================================================================== */
-
-.zsh .caret {
-	border-top: 5px solid #ff5555;
-}
-
-.zsh a,
-.zsh code,
-.zsh h3 {
-	color: #50fa7b;
-	color: rgba(255, 85, 85, 1);
-}
-
-.zsh a:hover {
-	color: #50fa7b;
-	color: rgba(255, 85, 85, .7);
 }
 
 /* ==========================================================================
