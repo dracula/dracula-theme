@@ -74,8 +74,8 @@ p {
 
 .subtitle .caret {
 	content: ' ';
-	width: 0; 
-	height: 3px; 
+	width: 0;
+	height: 3px;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	display: inline-block;
@@ -324,7 +324,7 @@ ol {
 
 .sublime  a:hover {
 	color: #ffb86c;
-	color: rgba(255, 184, 108, .7);	
+	color: rgba(255, 184, 108, .7);
 }
 
 /* TextMate
@@ -343,7 +343,7 @@ ol {
 
 .textmate a:hover {
 	color: #ff79c6;
-	color: rgba(255, 121, 198, .7);	
+	color: rgba(255, 121, 198, .7);
 }
 
 /* Alfred
@@ -366,7 +366,7 @@ ol {
 
 .alfred a:hover {
 	color: #bd93f9;
-	color: rgba(189, 147, 249, .7);	
+	color: rgba(189, 147, 249, .7);
 }
 
 /* Chrome
@@ -385,7 +385,7 @@ ol {
 
 .chrome a:hover {
 	color: #8be9fd;
-	color: rgba(139, 233, 253, .7);	
+	color: rgba(139, 233, 253, .7);
 }
 
 /* Vim
@@ -404,7 +404,7 @@ ol {
 
 .vim a:hover {
 	color: #50fa7b;
-	color: rgba(80, 250, 123, .7);	
+	color: rgba(80, 250, 123, .7);
 }
 
 /* ==========================================================================
