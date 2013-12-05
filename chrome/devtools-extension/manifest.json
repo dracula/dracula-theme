@@ -1,0 +1,10 @@
+{
+  "name": "Dracula Theme for DevTools",
+  "version": "0.1.1",
+  "description": "A dark theme for Chrome DevTools",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+}
