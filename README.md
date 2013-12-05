@@ -94,7 +94,7 @@ If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors
 
 ## Chrome DevTools
 
-![Chrome DevTools](http://f.cl.ly/items/0T3d0q0W1A0T1q113R0o/screenshot-chrome.png)
+![Chrome DevTools](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-chrome.png)
 
 ### Chrome Canary (v33.0.x)
 
