@@ -96,6 +96,16 @@ If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors
 
 ![Chrome DevTools](http://f.cl.ly/items/0T3d0q0W1A0T1q113R0o/screenshot-chrome.png)
 
+### Chrome Canary (v33.0.x)
+
+Open chrome://flags and Enable Developer Tools experiments.
+
+Open developer tools settings, select Experiments tab, and check Allow custom UI themes.
+
+Install via [Chrome Web Store](https://chrome.google.com/webstore/detail/dracula-theme-for-devtool/gedipeckgflanbhlcglokjjacilfidda?hl=en-US)
+
+### Chrome Stable Version
+
 #### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
