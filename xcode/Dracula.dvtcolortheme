@@ -18,23 +18,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>0.972549 0.972549 0.94902 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>DroidSansMono - 12.0</string>
+	<string>Monaco - 12.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>0.972549 0.972549 0.94902 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>DroidSansMono - 11.0</string>
+	<string>Monaco - 12.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.313725 0.980392 0.482353 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>DroidSansMono - 12.0</string>
+	<string>Monaco - 12.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>0.972549 0.972549 0.94902 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>DroidSansMono - 11.0</string>
+	<string>Monaco - 12.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>0.972549 0.972549 0.94902 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>DroidSansMono - 12.0</string>
+	<string>Monaco - 12.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.156863 0.164706 0.211765 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -44,7 +44,7 @@
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.545098 0.913725 0.992157 1</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.156863 0.164706 0.211765 1</string>
+	<string>0.117658 0.122153 0.159778 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
@@ -56,7 +56,7 @@
 	<key>DVTSourceTextSyntaxColors</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>0.545098 0.913725 0.988235 1</string>
+		<string>0.545098 0.913725 0.992157 1</string>
 		<key>xcode.syntax.character</key>
 		<string>0.741176 0.576471 0.976471 1</string>
 		<key>xcode.syntax.comment</key>
@@ -98,7 +98,7 @@
 		<key>xcode.syntax.preprocessor</key>
 		<string>0.945098 0.980392 0.54902 1</string>
 		<key>xcode.syntax.string</key>
-		<string>1 0.333333 0.333333 1</string>
+		<string>0.818459 0.333333 0.333333 1</string>
 		<key>xcode.syntax.url</key>
 		<string>0.384314 0.447059 0.643137 1</string>
 	</dict>
