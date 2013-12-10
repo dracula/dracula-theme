@@ -130,7 +130,7 @@ $ ln -s $DRACULA_THEME/xcode/Dracula.dvtcolortheme ~/Library/Developer/Xcode/Use
 
 1. Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
 2. Create the custom themes folder: `~/Library/Developer/Xcode/UserData/FontAndColorThemes/`
-2. Move `xcode/Dracula.dvtcolortheme` file to this custom themes folder.
+3. Move `xcode/Dracula.dvtcolortheme` file to this custom themes folder.
 
 #### Activating theme
 
