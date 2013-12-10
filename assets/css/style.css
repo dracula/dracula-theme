@@ -326,19 +326,22 @@ ol {
 	color: rgba(255, 184, 108, .7);
 }
 
-/* TextMate
+/* TextMate / Xcode
    ========================================================================== */
 
-.textmate .caret {
+.textmate .caret,
+.xcode .caret {
 	border-top: 5px solid #ff79c6;
 }
 
-.textmate a, .textmate code, .textmate h3 {
+.textmate a, .textmate code, .textmate h3,
+.xcode a, .xcode code, .xcode h3 {
 	color: #ff79c6;
 	color: rgba(255, 121, 198, 1);
 }
 
-.textmate a:hover {
+.textmate a:hover,
+.xcode a:hover {
 	color: #ff79c6;
 	color: rgba(255, 121, 198, .7);
 }
