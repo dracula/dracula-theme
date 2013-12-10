@@ -2,7 +2,7 @@ url: http://zenorocha.github.io
 baseurl: /dracula-theme
 
 name: Dracula
-description: 'A dark theme for Sublime Text, Textmate, Vim, ZSH, Chrome DevTools and Alfred'
+description: 'A dark theme for Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh'
 
 author: Zeno Rocha
 author-url: 'http://zenorocha.com'
