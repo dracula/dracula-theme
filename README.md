@@ -2,7 +2,7 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Vim](http://www.vim.org/), [Zsh](http://www.zsh.org/), [iTerm](http://www.iterm2.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/) and [Alfred](http://www.alfredapp.com/).
+> A dark theme for [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
 ## Table of contents
 
@@ -12,12 +12,12 @@
   * [Vim](#vim)
   * [Xcode](#xcode)
 * Terminal
-  * [Zsh](#zsh)
   * [iTerm](#iterm)
   * [Terminal.app](#terminalapp)
+  * [Zsh](#zsh)
 * Misc
-  * [Chrome DevTools](#chrome-devtools)
   * [Alfred](#alfred)
+  * [Chrome DevTools](#chrome-devtools)
 * [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
