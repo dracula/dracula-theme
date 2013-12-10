@@ -7,7 +7,7 @@ layout: default
 	<h2>A dark theme for</h2>
 	<ul class="drop-wrapper">
 		<li class="drop">
-			<a href="#" onclick="event.preventDefault();">Zsh <div class="caret"></div></a>
+			<a href="#" onclick="event.preventDefault();">Xcode <div class="caret"></div></a>
 			<div class="dropdown-contain">
 				<div class="drop-out">
 					<div class="triangle"></div>
@@ -19,7 +19,6 @@ layout: default
 						<li><a href="{{ site.baseurl }}/textmate/">TextMate</a></li>
 						<li><a href="{{ site.baseurl }}/">Sublime Text</a></li>
 						<li><a href="{{ site.baseurl }}/vim/">Vim</a></li>
-						<li><a href="{{ site.baseurl }}/xcode/">Xcode</a></li>
 					</ul>
 				</div>
 			</div>
@@ -27,32 +26,40 @@ layout: default
 	</ul>
 </div>
 
-<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-zsh.png" alt="Theme Preview" width="830" height="666">
+<img class="preview" src="{{ site.baseurl }}/assets/img/screenshot-xcode.png" alt="Theme Preview" width="830" height="539">
 
 {% include social.html %}
 
 <div class="instructions">
-	<h3>Zsh</h3>
+	<h3>Xcode</h3>
 
 	<h4>Install using Git</h4>
 	<p>If you are a git user, you can install the theme and keep up to date by cloning the repo:</p>
 
 	<pre><code>$ git clone https://github.com/zenorocha/dracula-theme/</code></pre>
 
-	<p>And creating a symbolic link to <a href="https://github.com/robbyrussell/oh-my-zsh/">oh-my-zsh</a>'s theme folder:</p>
+	<p>Creating the custom themes folder:</p>
 
-	<pre><code>$ ln -s $DRACULA_THEME/zsh/dracula.zsh-theme $OH_MY_ZSH/themes/dracula.zsh-theme</code></pre>
+	<pre><code>$ mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/</code></pre>
 
-	<p><em>P.S.: Remember that you should replace <code>$DRACULA_THEME</code> and <code>$OH_MY_ZSH</code> to the
-	actual directories for this command to work.</em></p>
+	<p>And a symbolic link to this custom themes folder:</p>
+
+	<pre><code>$ ln -s $DRACULA_THEME/xcode/Dracula.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.dvtcolortheme</code></pre>
+
+	<p><em>P.S.: Remember that you should replace <code>$DRACULA_THEME</code> to the
+	actual directory for this command to work.</em></p>
 
 	<h4>Install manually</h4>
 	<ol>
 		<li>Download using the <a href="https://github.com/zenorocha/dracula-theme/archive/master.zip">GitHub .zip download</a> option and unzip them.</li>
-		<li>Move <code>zsh/dracula.zsh-theme</code> file to <a href="https://github.com/robbyrussell/oh-my-zsh/">oh-my-zsh</a>'s theme folder: <code>oh-my-zsh/themes/dracula.zsh-theme</code>.</li>
+		<li>Create the custom themes folder: <code>~/Library/Developer/Xcode/UserData/FontAndColorThemes/</code></li>
+		<li>Move <code>xcode/Dracula.dvtcolortheme</code> file to this custom themes folder.</li>
 	</ol>
 
 	<h4>Activating theme</h4>
 
-	<p>Go to your <code>~/.zshrc</code> file and set <code>ZSH_THEME="dracula"</code>.</p>
+	<ol>
+		<li><em>Xcode > Preferences > Fonts &amp; Colors</em></li>
+		<li>Select the Dracula theme</li>
+	</ol>
 </div>
