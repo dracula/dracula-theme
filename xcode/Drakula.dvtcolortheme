@@ -31,7 +31,7 @@
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.545098 0.913725 0.992157 1</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.156863 0.164706 0.211765 1</string>
+	<string>0.156817 0.161421 0.208411 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
@@ -43,7 +43,7 @@
 	<key>DVTSourceTextSyntaxColors</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>0.545098 0.913725 0.988235 1</string>
+		<string>0.545098 0.913725 0.992157 1</string>
 		<key>xcode.syntax.character</key>
 		<string>0.741176 0.576471 0.976471 1</string>
 		<key>xcode.syntax.comment</key>
@@ -85,58 +85,58 @@
 		<key>xcode.syntax.preprocessor</key>
 		<string>0.945098 0.980392 0.54902 1</string>
 		<key>xcode.syntax.string</key>
-		<string>1 0.333333 0.333333 1</string>
+		<string>0.818459 0.333333 0.333333 1</string>
 		<key>xcode.syntax.url</key>
 		<string>0.384314 0.447059 0.643137 1</string>
 	</dict>
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Monaco - 12.0</string>
+		<string>DroidSansMono - 12.0</string>
 	</dict>
 </dict>
 </plist>
