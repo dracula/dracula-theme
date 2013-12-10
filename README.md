@@ -263,6 +263,7 @@ Double-click on `alfred/Dracula.alfredappearance`.
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
 * [@felipekm](https://github.com/felipekm/) - Brackets theme
+* [@jordanbrown](https://github.com/jordanbrown/) - Xcode theme
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
