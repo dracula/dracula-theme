@@ -10,6 +10,7 @@
   * [Sublime Text](#sublime-text)
   * [TextMate](#textmate)
   * [Vim](#vim)
+  * [Xcode](#xcode)
 * Terminal
   * [Zsh](#zsh)
   * [iTerm](#iterm)
@@ -97,6 +98,44 @@ Bundle 'zenorocha/dracula-theme'
 ```
 
 If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors`.
+
+## Xcode
+
+![Xcode Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-xcode.png)
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+Creating the custom themes folder:
+
+```sh
+$ mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+```
+
+And a symbolic link to this custom themes folder:
+
+```sh
+$ ln -s $DRACULA_THEME/xcode/Dracula.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.dvtcolortheme
+```
+
+> P.S.: Remember that you should replace `$DRACULA_THEME` to the actual
+> directory for this command to work.
+
+#### Install manually
+
+1. Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
+2. Create the custom themes folder: `~/Library/Developer/Xcode/UserData/FontAndColorThemes/`
+2. Move `xcode/Dracula.dvtcolortheme` file to this custom themes folder.
+
+#### Activating theme
+
+1. *Xcode > Preferences > Fonts & Colors*
+2. Select the Dracula theme
 
 ## Zsh
 
