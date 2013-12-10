@@ -238,6 +238,11 @@
 	-webkit-animation: match-animation.5s ease-in-out;
 }
 
+/*-- MORE OPTIONS --*/
+#-webkit-web-inspector #toolbar-panels-menu {
+	color: #777;
+}
+
 /*-- INACTIVE SELECTORS --*/
 #-webkit-web-inspector .styles-section .properties .overloaded ,
 #-webkit-web-inspector .styles-section .properties .inactive ,
