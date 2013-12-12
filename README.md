@@ -14,6 +14,7 @@
 * [Terminal.app](#terminalapp)
 * [Chrome DevTools](#chrome-devtools)
 * [Alfred](#alfred)
+* [Brackets](#brackets)
 * [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
@@ -216,10 +217,29 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 Double-click on `alfred/Dracula.alfredappearance`.
 
+## Brackets
+![Brackets Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-brackets.png)
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them, copy dracula-theme.css inside the Brackets folder and paste it on your Local Brackets program folder right on: '\www\styles'. Open the file 'brackets_shared.less' (you will need adm privileges) on your favorite code editor and insert after the line 56 the following code:
+
+// Modified Theme
+@import url("dracula-theme.css");
+
 ## Team
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
+* [@felipekm](https://github.com/felipekm/) - Brackets theme
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
