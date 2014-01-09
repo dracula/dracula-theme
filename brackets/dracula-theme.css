@@ -1,110 +1,298 @@
-<!-- Dracula Theme v0.5.0
-#
-# https://github.com/zenorocha/dracula-theme
-#
-# Copyright 2013, All rights reserved
-#
-# Code licensed under the MIT license
-# http://zenorocha.mit-license.org
-#
-# @author Felipe Kautzmann <felipe.kautzmann@gmail.com>
-# @author Zeno Rocha <hi@zenorocha.com>
---> 
+/*
+    Original theme by: Zeno Rocha
+    Brackets theme adaptation by: Felipe KM
+    Statusbar, Toolbar, Sidebar css added by: Rafael Artoo Derolez
+*/
 
-.cm-s-dracula.CodeMirror { background: #282a36 !important; color: #EEE; }
-
-.CodeMirror div.CodeMirror-cursor { border-left: 1px solid #FFF !important; }
-.CodeMirror-selected { background: #3a3d4e !important; color: #eee !important; }
-.CodeMirror-lines { line-height: 14px !important; }
-
-.cm-s-dracula .cm-keyword { color: #8be9fd !important; font-style: italic; }
-
-.cm-s-dracula .cm-js-atom { color: #FFF5B4 !important; }
-.cm-s-dracula .cm-css-atom { color: #bd93f9 !important; }
-
-.cm-s-dracula .cm-js-number {color: #bd93f9 !important; }
-.cm-s-dracula .cm-css-number {color: #bd93f9 !important; }
-
-.cm-s-dracula .cm-js-def { color: #8be9fd !important; }
-.cm-s-dracula .cm-css-def { color: #bd93f9 !important; }
-
-.cm-s-dracula .cm-js-variable { color: #ccc !important; }
-.cm-s-dracula .cm-js-variable-2 { color: #ccc !important; }
-
-.cm-s-dracula .cm-css-variable { color: #50fa7b !important; }
-.cm-s-dracula .cm-css-variable-2 { color: #50fa7b !important; }
-
-.cm-s-dracula .cm-js-property { color: #50fa7b !important; }
-.cm-s-dracula .cm-css-property { color: #6AEDFF !important;}
-
-.cm-s-dracula .cm-js-operator { color: #bd93f9 !important;}
-.cm-s-dracula .cm-css-operator  { color: #ccc !important; }
-
-.cm-s-dracula .cm-js-comment { color: #6272a4 !important; font-style: normal; }
-.cm-s-dracula .cm-css-comment { color: #6272a4 !important; font-style: italic; }
-.cm-s-dracula .cm-xml-comment { color: #6272a4 !important; font-style: normal !important; }
-
-.cm-s-dracula .cm-js-string { color: #f1fa8c !important; }
-.cm-s-dracula .cm-js-string-2 { color: #f1fa8c !important; }
-.cm-s-dracula .cm-css-string { color: #f1fa8c !important;}
-.cm-s-dracula .cm-css-string-2 { color: #8be9fd !important; }
-
-.cm-s-dracula .cm-js-meta { color: #8be9fd !important; }
-.cm-s-dracula .cm-css-meta { color: #6AEDFF !important;}
-
-.cm-s-dracula .cm-qualifier { color: #50fa7b !important; }
-
-.cm-s-dracula .cm-js-tag { color: #8be9fd !important; }
-.cm-s-dracula .cm-css-tag { color: #ff79c6 !important; }
-.cm-s-dracula .cm-xml-tag { color: #ff79c6 !important; }
-
-.cm-s-dracula .cm-js-attribute { color: #50fa7b !important; }
-.cm-s-dracula .cm-xml-attribute { color: #ff79c6 !important; }
-
-div.CodeMirror span.CodeMirror-matchingbracket { border: 1px solid #15CA1A !important; border-radius: 4px; color: #ccc !important;}
-
-div.CodeMirror span.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext { background-color: #3a3d4e !important;}
-
-.cm-execution-line { background-color: rgba(137,245,162,.2) !important; outline: 1px solid #181818 !important;}
-.cm-js-hr { color: #AEAEAE !important; }
-.cm-js-link { color: #8be9fd !important; }
-.CodeMirror-linenumber { border-right: none !important;}
-.cm-xml-error { color: #bf4c4c  !important; }
-.cm-xml-string { color: #f1fa8c !important; }
-.cm-xml-link { color: #f1fa8c !important; }
-.cm-comment { color: #6272a4 !important; font-style: normal !important; }
-.cm-error { color: #bf4c4c  !important; }
-.cm-string { color: #f1fa8c !important; }
-.cm-tag { color: #ff79c6 !important; }
-.cm-attribute { color: #50fa7b !important; }
-.cm-link { color: #f1fa8c !important; }
-
-/*--GLOBAL EDITOR STYLES--*/
-.cm-breakpoint .CodeMirror-gutter-elt { color: #000 !important; font-weight: 700 !important;}
-.CodeMirror-cursor { border-left: 1px solid #FFF !important; }
-.cm-error { background: #9D1E15 !important; border-radius: 2px !important; color: #eee !important;}
-.CodeMirror-gutter-elt { color: #888 !important;}
-.CodeMirror-gutters {background: #282828 !important; border-right: 2px solid #2b2b2b !important; }
-.CodeMirror-selected { background: #3a3d4e !important; color: #eee !important; }
-.CodeMirror-nonmatchingbracket { border: 1px solid #db0404 !important; border-radius: 4px; color: #ccc !important;}
-.cm-search-highlight-start:before { border-color: #94a3dd !important;}
-.cm-search-highlight-end:before { border-color: #94a3dd !important;}
-.cm-search-highlight:before { border-color: #94a3dd !important; padding: 2px !important;}
-.cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before { background-color: #94a3dd !important; border-radius: 2px !important;}
-span.cm-token-highlight { background-color: transparent !important; padding: 0px !important;}
-span.cm-token-highlight:before { border-color: #94a3dd !important; }
-.cm-line-with-selection span.cm-column-with-selection { color: #000 !important; background-color: #94a3dd !important; }
-.cm-whitespace:before { color: #555 !important;}
-.cm-tab:before { border-bottom: 1px solid #555 !important;}
-
-.cm-highlight {
-    -webkit-animation: "fadeout-revised" 3s 0s !important;
+.cm-s-dracula .CodeMirror-scroll{
+	margin-right: 5px;
+	border-color: #202020;
+}
+.cm-s-dracula .CodeMirror-vscrollbar{
+	overflow-y: hidden;
+}
+.cm-s-dracula ::-webkit-scrollbar {
+    width: 10px;
+}
+.cm-s-dracula ::-webkit-scrollbar-track {
+    background: transparent;
+}
+.cm-s-dracula ::-webkit-scrollbar-thumb {
+    background: #383a48;
+    border-radius: 5px;
+}
+.cm-s-dracula ::-webkit-scrollbar-thumb:hover{
+	background: #444756;
+}
+.cm-s-dracula ::-webkit-scrollbar-thumb:active{
+	background: #5d6073;
 }
 
-.cm-highlight *:not(.CodeMirror-linenumber){
-    color: #000 !important;
+
+#status-bar{ /* Bottom status bar */
+    border-top:1px solid #484b4d;
+	background:#3C3F41;
+	color:#FFF;
+}
+#main-toolbar{ background:#3C3F41;}
+
+.inline-widget{ /* Quick-edit styles */
+	background:#585b6e;
 }
 
-.CodeMirror .webkit-html-warning-message{
-    color: #411f07 !important;
+.inlineEditorHolder > div > .CodeMirror-wrap{
+    background:rgb(51, 51, 51);
+}
+
+.inlineEditorHolder .CodeMirror-linenumber{
+    
+    background-color:rgb(51, 51, 51) !important;
+}
+
+.inline-widget .CodeMirror-gutter {
+    background-color: rgb(51, 51, 51) !important;
+}
+
+.divider-holder .divider {
+    margin-left: 12px;
+    width: 0px;
+    height: 100%;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(73, 73, 73);
+}
+
+/* changes to the related container */
+
+.related-container {
+    float: right;
+    position: relative;
+    min-height: 100%;
+    font-family: 'SourceSansPro', Helvetica, Arial, "Meiryo UI", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    width: 250px;
+    max-width: 50%;
+    overflow: hidden;
+    background: rgb(47, 47, 47);
+}
+
+.related-container .selection {
+    width: 100%;
+    background: rgb(111, 111, 111);
+    position: absolute;
+    -webkit-transition: height 0.1s ease-out;
+    -webkit-transition: top 0.1s ease-out;
+    border-top: 1px solid rgb(95, 95, 95);
+    border-bottom: 1px solid rgb(114, 114, 114);
+    top: 12px;
+}
+
+.related-container .related .selected {
+    color: rgb(236, 236, 236);
+    -webkit-transition: color 0.1s ease-out 0.15s;
+}
+.related-container .selection:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 9px solid rgba(255, 255, 255, 0);
+    border-bottom: 9px solid rgba(255, 255, 255, 0);
+    border-left: 9px solid rgb(51, 51, 51);
+    margin-top: -9px;
+    top: 50%;
+    -ms-transform: scaleX(0.9);
+    -moz-transform: scaleX(0.9);
+    -webkit-transform: scaleX(0.9);
+    -o-transform: scaleX(0.9);
+    transform: scaleX(0.9);
+    -ms-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -webkit-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+}
+
+
+/* End of related container changes */
+
+#not-editor:before {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background: rgba(51, 51, 51, 0) url('file://localhost/Applications/Brackets%20Sprint%2027.app/Contents/www/styles/images/no_content_bg.svg') no-repeat center 45%;
+    opacity: .07;
+}
+
+#editor-holder #not-editor {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    background: #282a36;
+  
+}
+
+/* code refs */
+.css-prop-defn code {
+    font-family: SourceCodePro;
+    font-size: 12px;
+    color: rgb(197, 197, 197);
+    background: none;
+    padding: 0;
+}
+code {
+    padding: 2px 4px;
+    color: #d14;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(122, 122, 122);
+    white-space: nowrap;
+}
+
+
+
+.css-prop-defn h1 {
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 15px 0 9px 0;
+}
+
+.css-prop-defn {
+    color: rgb(197, 197, 197);
+    cursor: auto;
+    font-family: SourceSansPro;
+    font-size: 14px;
+}
+
+.css-prop-values dl dt {
+    color: rgb(219, 219, 219);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+
+/** CodeMirror styles **/
+
+.cm-s-dracula.CodeMirror { background: #282a36; color: #EEE; letter-spacing:-1px;}
+
+.cm-s-dracula div.CodeMirror-cursor {
+  border-left: 1px solid #f8f8f0;
+  z-index: 3;
+}
+
+.CodeMirror-selected { 
+    background: #3d3d3d;
+    opacity: .23; 
+}
+
+.cm-s-dracula span.cm-keyword {color: #ff79c6;}
+.cm-s-dracula span.cm-atom {color: #bd93f9;}
+.cm-s-dracula span.cm-number {color: #bd93f9;}
+.cm-s-dracula span.cm-def {color: #ffb86c;}
+.cm-s-dracula span.cm-variable {color: #EEE;}
+.cm-s-dracula span.cm-variable-2 {color: #bd93f9;}
+.cm-s-dracula span.cm-property {color: #8be9fd;}
+.cm-s-dracula span.cm-operator {color: #ff79c6;}
+.cm-s-dracula span.cm-comment {color: #8c8c8c;}
+.cm-s-dracula span.cm-string {color: #f1fa8c;}
+.cm-s-dracula span.cm-string-2 {color: #f1fa8c;}
+.cm-s-dracula span.cm-meta {color: #50fa7b;}
+.cm-s-dracula span.cm-qualifier, .CodeMirror span.cm-builtin {color: #50fa7b;}
+.cm-s-dracula span.cm-bracket {color: #f9faf4;}
+.cm-s-dracula span.cm-tag {color: #ff79c6 !important;}
+.cm-s-dracula span.cm-attribute {color: #50fa7b;}
+.cm-s-dracula span.cm-matchhighlight {background-color: rgba(68,71,90.23);}
+
+.cm-s-dracula span.CodeMirror-matchingbracket {
+    color: #50fa7b;
+    font-weight: bold;
+}
+
+.cm-s-dracula span.CodeMirror-matchingtag {
+	color: #50fa7b !important;
+    text-decoration:underline;
+	background:none;
+}
+
+
+.cm-s-dracula span.CodeMirror-searching {
+  background-color: none;
+  background: none;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.cm-s-dracula .CodeMirror-linenumber,.cm-s-dracula .CodeMirror-gutters{
+	color: #585b6e;
+	background-color: #282a36;
+}
+
+
+.cm-s-dracula span.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
+    background-color: #ffe69d;
+    color: #1e202c;
+}
+.cm-s-dracula.CodeMirror-focused .CodeMirror-activeline-background, .cm-s-dracula.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: #383a48 ;
+    color: #f8f8f2;
+}
+
+/** SIDEBAR **/
+#sidebar{
+	background: rgb(35, 40, 48);
+	text-shadow:none;
+}
+#working-set-header, #open-files-container{ /* Working files */
+	background: rgb(35, 40, 48);
+}
+#project-files-header, #working-set-header{/* "working files" header and folder header*/
+	color:rgb(80,90,100)!important;
+    text-transform:uppercase;
+    
+}
+#project-files-header{ border-top: 1px solid rgba(0,0,0,0.2);} /* Delimiter between "working files" and project files */
+#project-dropdown-toggle:hover{ /* Open url when hover */
+    color:#EEE!important;
+    background:#383a48;
+	border:1px solid #c9c9c9;
+}
+.jstree-brackets li a, .jstree-brackets li .extension, .jstree-brackets li a.jstree-clicked, /* Files, folder and extensions */
+#open-files-container li a, #open-files-container li .extension, #open-files-container li a.jstree-clicked{ /* Files, folder and extensions in "working fields"*/
+	color:#EEE!important;
+}
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+	background:#585b6e;
+}
+.sidebar-selection-triangle.triangle-visible::before{
+	border-left:12px solid #585b6e;
+}
+
+
+/** TOOLBAR **/
+#main-toolbar{
+    background: rgb(35, 40, 48);
+}
+
+/** STATUSBAR **/
+#status-bar{
+    background: rgb(35, 40, 48);
+    border-top:1px solid #222;
+}
+#status-indicators, #status-info{ /* Status bar text */
+    background:transparent;
 }
