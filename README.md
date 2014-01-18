@@ -219,24 +219,17 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 ![Chrome DevTools](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-chrome.png)
 
-#### Install using Git
+**Attention:** DevTools themes are no longer supported officially (there is no
+stable API for them yet, nor backwards compatibility).
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+> More info at [Chromium Issue #318566](https://code.google.com/p/chromium/issues/detail?id=318566).
 
-```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
-```
+So instead of providing you a broken theme every time Chrome updates, we decided
+to drop this thing for a while.
 
-#### Install manually
-
-Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
-
-#### Activating theme
-
-* **Mac OS X:** Move `chrome/Custom.css` file to `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css`.
-* **PC (Windows Vista, 7, 8)**: Move `chrome/Custom.css` file to `C:\Users\yourUser\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
-* **PC (Windows XP):** Move `chrome/Custom.css` file to `C:\Users\yourUser\AppData\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`.
-* **Ubuntu (Chromium):** Move `chrome/Custom.css` file to `~/.config/chromium/Default/User\ StyleSheets/Custom.css`.
+But if you really want to use it, we're working on an experimental theme in the
+[chrome-canary](https://github.com/zenorocha/dracula-theme/tree/chrome-canary)
+branch :)
 
 ## Alfred
 
