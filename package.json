@@ -1,0 +1,11 @@
+{
+  "name": "dracula-theme",
+  "theme": "syntax",
+  "version": "0.6.0",
+  "description": "A dark theme for Atom",
+  "repository": "https://github.com/zenorocha/dracula-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
