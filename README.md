@@ -2,11 +2,12 @@
 
 ![Dracula](http://f.cl.ly/items/11430u1b270p0e181p2E/dracula.gif)
 
-> A dark theme for [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
 ## Table of contents
 
 * Code Editors
+  * [Atom](#atom)
   * [Sublime Text](#sublime-text)
   * [TextMate](#textmate)
   * [Vim](#vim)
@@ -25,6 +26,33 @@
 * [Credits](#credits)
 * [History](#history)
 * [License](#license)
+
+## Atom
+
+![Atom Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-atom.png)
+
+#### Install using Atom
+
+1. Go to `Atom -> Preferences...`
+2. Then select the `Themes` tab
+3. Enter `Dracula` in the search box
+
+#### Install using Git
+
+Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `~/.atom/packages` directory.
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/ ~/.atom/packages/dracula-theme
+```
+
+#### Download Manually
+
+1. Download the files using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them
+3. Move the `dracula-theme` folder to `~/.atom/packages`
+
+#### Activating the theme
+
+Go to `Atom -> Preferences...`, click in the `Themes` tab, and select `Dracula` in the `Syntax Theme` dropdown.
 
 ## Sublime Text
 
@@ -260,7 +288,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
-* [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate, Zsh, iTerm, Terminal.app, Website
+* [@zenorocha](https://github.com/zenorocha/) - Atom theme, Sublime Text theme, TextMate, Zsh, iTerm, Terminal.app, Website
 
 ## Roadmap
 
