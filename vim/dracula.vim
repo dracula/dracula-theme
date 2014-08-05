@@ -13,6 +13,8 @@
 set background=dark
 highlight clear
 
+set t_Co=256
+
 if exists("syntax_on")
   syntax reset
 endif
