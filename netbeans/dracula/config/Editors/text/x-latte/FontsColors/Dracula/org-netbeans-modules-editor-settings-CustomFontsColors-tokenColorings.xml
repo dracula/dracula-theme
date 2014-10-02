@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor default="whitespace" name="latte-markup-whitespace"/>
+    <fontcolor foreColor="ff9e8541" name="latte-delimiter">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor foreColor="ff6d3206" name="latte-markup-variable"/>
+    <fontcolor default="keyword" name="latte-markup-keyword"/>
+    <fontcolor default="identifier" foreColor="ff3484d2" name="latte-markup-macro">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="separator" foreColor="ff4757b7" name="latte-markup-char"/>
+    <fontcolor default="string" name="latte-markup-string"/>
+    <fontcolor default="error" name="latte-error"/>
+    <fontcolor default="number" foreColor="magenta" name="latte-markup-number"/>
+    <fontcolor default="identifier" name="latte-markup-symbol"/>
+    <fontcolor default="identifier" name="latte-markup-cast"/>
+    <fontcolor default="comment" name="latte-comment"/>
+</fontscolors>

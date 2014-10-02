@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor bgColor="ffe3f2e1" default="comment" name="RUBYCOMMENT"/>
+    <fontcolor default="keyword" name="mod-method">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ffe3f2e1" default="default" name="ruby"/>
+    <fontcolor default="whitespace" name="whitespace"/>
+    <fontcolor bgColor="ffe3f2e1" default="default" foreColor="black" name="ruby-delimiter">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="comment" name="comment"/>
+</fontscolors>

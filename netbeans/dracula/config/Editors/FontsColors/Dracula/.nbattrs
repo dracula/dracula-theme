@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="org-netbeans-modules-editor-settings-CustomFontsColors-annotations.xml">
+        <attr name="nbeditor-settings-ColoringType" stringvalue="annotation"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-editor-settings-CustomFontsColors-highlights.xml">
+        <attr name="nbeditor-settings-ColoringType" stringvalue="highlight"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml">
+        <attr name="nbeditor-settings-ColoringType" stringvalue="token"/>
+    </fileobject>
+</attributes>
