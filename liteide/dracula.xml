@@ -5,7 +5,7 @@
   Copyright (c) 2014 Sam Zaydel
   MIT License
   -->
-  <style name="Text" foreground="#f8f8f2" background="#282a36"/>
+  <style name="Text" foreground="#f1fa8c" background="#282a36"/>
   <style name="Extra" foreground="#50fa7b" background="#44475a"/>
   <style name="Selection" background="#44475a"/>
   <style name="CurrentLine" background="#44475a"/>
