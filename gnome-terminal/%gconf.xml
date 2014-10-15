@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bold_color_same_as_fg" mtime="1413353075" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1413353075" type="bool" value="false"/>
+	<entry name="font" mtime="1413353075" type="string">
+		<stringvalue>Inconsolata Medium 12</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1413353075" type="bool" value="false"/>
+	<entry name="background_type" mtime="1413353075" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1413353075" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1413353836" type="string">
+		<stringvalue>#F8F8F8F8F2F2</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1413353880" type="string">
+		<stringvalue>#1E1E1F1F2929</stringvalue>
+	</entry>
+	<entry name="silent_bell" mtime="1413353075" type="bool" value="true"/>
+	<entry name="default_show_menubar" mtime="1413353075" type="bool" value="false"/>
+	<entry name="bold_color" mtime="1413353892" type="string">
+		<stringvalue>#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1413353806" type="string">
+		<stringvalue>#000000000000:#FFFF55545554:#5050FAFA7B7A:#F1F1FAFA8C8C:#BDBD9393F9F9:#FFFF7979C6C6:#8B8BE9E9E9E9:#BBBBBBBBBBBB:#555555555555:#FFFF55545554:#5050FAFA7B7A:#F1F1FAFA8C8C:#BDBD9393F9F9:#FFFF7979C6C6:#8B8BE9E8FDFD:#EEEEEEEEECEC</stringvalue>
+	</entry>
+	<entry name="background_darkness" mtime="1413353075" type="float" value="0.94999998807907104"/>
+	<entry name="alternate_screen_scroll" mtime="1413353075" type="bool" value="true"/>
+</gconf>
