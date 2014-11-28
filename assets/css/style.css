@@ -197,6 +197,35 @@ p {
 /* Social
    ========================================================================== */
 
+.github-ribbon {
+	background-color: #121621;
+	top: 3.2em;
+	right: -3.7em;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-box-shadow: 0 0 0 1px #000 inset, 0 0 2px 1px #000 inset, 0 0 1em #000;
+	-moz-box-shadow: 0 0 0 1px #000 inset, 0 0 2px 1px #000 inset, 0 0 1em #000;
+	-ms-box-shadow: 0 0 0 1px #000 inset, 0 0 2px 1px #000 inset, 0 0 1em #000;
+	-o-box-shadow: 0 0 0 1px #000 inset, 0 0 2px 1px #000 inset, 0 0 1em #000;
+	box-shadow: 0 0 0 1px #000 inset, 0 0 2px 1px #000 inset, 0 0 1em #000;
+	color: rgba(255, 255, 255, 0.9);
+	display: block;
+	padding: .6em 3.5em;
+	position: fixed;
+	font: bold .82em sans-serif;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px -1px 8px rgba(0, 0, 0, 0.6);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none
+}
+
 .social-buttons{
   list-style: none;
   margin: 1em auto 2em;
