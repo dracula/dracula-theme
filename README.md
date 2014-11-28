@@ -42,7 +42,7 @@
 Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `~/.atom/packages` directory.
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/ ~/.atom/packages/dracula-theme
+$ git clone https://github.com/zenorocha/dracula-theme.git ~/.atom/packages/dracula-theme
 ```
 
 #### Download Manually
@@ -71,7 +71,7 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 While inside the `Packages` directory, clone the theme repository using the command below:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
+$ git clone https://github.com/zenorocha/dracula-theme.git "Dracula Color Scheme"
 ```
 
 #### Download Manually
@@ -94,7 +94,7 @@ Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 #### Install manually
@@ -140,7 +140,7 @@ If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 Creating the custom themes folder:
@@ -178,7 +178,7 @@ $ ln -s $DRACULA_THEME/xcode/Dracula.dvtcolortheme ~/Library/Developer/Xcode/Use
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 And creating a symbolic link to [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)'s theme folder:
@@ -208,7 +208,7 @@ Go to your `~/.zshrc` file and set `ZSH_THEME="dracula"`. Finally, reload your t
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 #### Install manually
@@ -232,7 +232,7 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 #### Install manually
@@ -272,7 +272,7 @@ branch :)
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/dracula-theme/
+$ git clone https://github.com/zenorocha/dracula-theme.git
 ```
 
 #### Install manually
