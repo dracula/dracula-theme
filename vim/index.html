@@ -40,8 +40,8 @@ layout: default
 git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-theme</code></pre>
 
 	<p>If you <a href="https://github.com/gmarik/vundle">use vim + vundle</a>:</p>
-	<pre><code>Bundle 'zenorocha/dracula-theme'
-:BundleInstall</code></pre>
+    <pre><code>Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+:PluginInstall</code></pre>
 
 	<p>If you aren't so clever just move the <code>vim/dracula.vim</code> file into <code>~/.vim/colors</code> and add the following lines into your vimrc file:</p>
 
