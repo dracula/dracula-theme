@@ -121,8 +121,8 @@ $ git submodule add git@github.com:zenorocha/dracula-theme.git bundle/dracula-th
 If you [use vim + vundle](https://github.com/gmarik/vundle):
 
 ```sh
-Bundle 'zenorocha/dracula-theme'
-:BundleInstall
+Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+:PluginInstall
 ```
 
 If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors` and add the following lines into your vimrc file:
