@@ -10,40 +10,40 @@
  * @author Zeno Rocha <hi@zenorocha.com>
  */
 
-.editor, .editor .gutter,
+.atom-text-editor, .atom-text-editor .gutter,
 :host, :host .gutter {
   background-color: #282a36;
   color: #f8f8f2;
 }
 
-.editor.is-focused .cursor,
+.atom-text-editor.is-focused .cursor,
 :host(.is-focused) .cursor {
   border-color: #f8f8f0;
 }
 
-.editor.is-focused .selection .region,
+.atom-text-editor.is-focused .selection .region,
 :host(.is-focused) .selection .region {
   background-color: #44475a;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line,
+.atom-text-editor.is-focused .line-number.cursor-line-no-selection, .atom-text-editor.is-focused .line.cursor-line,
 :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
   background-color: #44475a;
 }
 
-.editor .invisible-character,
+.atom-text-editor .invisible-character,
 :host .invisible-character {
   color: #666;
 }
 
-.editor .indent-guide,
+.atom-text-editor .indent-guide,
 :host .indent-guide {
   box-shadow: 1px 0 #444;
 }
 
-.editor .gutter .line-number.git-line-modified,
-.editor .gutter .line-number.git-line-removed,
-.editor .gutter .line-number.git-line-added,
+.atom-text-editor .gutter .line-number.git-line-modified,
+.atom-text-editor .gutter .line-number.git-line-removed,
+.atom-text-editor .gutter .line-number.git-line-added,
 :host .gutter .line-number.git-line-modified,
 :host .gutter .line-number.git-line-removed,
 :host .gutter .line-number.git-line-added {
