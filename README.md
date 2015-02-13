@@ -126,10 +126,10 @@ Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 ```
 
 If you aren't so clever just move the `vim/dracula.vim` file into `~/.vim/colors` and add the following lines into your vimrc file:
-    
+
     syntax on
     color Dracula
-    
+
 
 ## Xcode
 
