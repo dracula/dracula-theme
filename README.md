@@ -8,6 +8,7 @@
 
 * Code Editors
   * [Atom](#atom)
+  * [PyCharm](#pycharm)
   * [Sublime Text](#sublime-text)
   * [TextMate](#textmate)
   * [Vim](#vim)
@@ -53,6 +54,23 @@ $ git clone https://github.com/zenorocha/dracula-theme.git ~/.atom/packages/drac
 #### Activating the theme
 
 Go to `Atom -> Preferences...`, click in the `Themes` tab, and select `Dracula` in the `Syntax Theme` dropdown.
+
+## PyCharm
+
+![PyCharm Preview](https://camo.githubusercontent.com/ffcb165eec97f101795275363abdad3436ea2995/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d5033696b7a6c41383853672f557a5558345573617754492f41414141414141414446492f72324b444a3963346554552f773637392d683534302d6e6f2f436170747572612b64652b54656c612b323031342d30332d32382b6125323543432532353830732b30332e33332e31342e706e67)
+
+#### Installation using Git for Mac OS X
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+$ cd dracula-theme/pycharm
+$ cp *.icls ~/Library/Preferences/PyCharm30/colors
+```
+#### Installation using Git for Linux
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme/
+$ cd dracula-theme/pycharm
+$ cp *.icls ~/.PyCharm30/config/colors/
+```
 
 ## Sublime Text
 
@@ -288,6 +306,7 @@ Double-click on `alfred/Dracula.alfredappearance`.
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
 * [@felipekm](https://github.com/felipekm/) - Brackets theme
+* [@dennison_souza](https://github.com/dennisonsouza/) - PyCharm theme
 * [@jordanbrown](https://github.com/jordanbrown/) - Xcode theme
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
