@@ -1,8 +1,8 @@
-# Dracula Theme
+#Dracula Theme
 
 ![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
 ## Table of contents
 
@@ -19,6 +19,7 @@
 * Misc
   * [Alfred](#alfred)
   * [Chrome DevTools](#chrome-devtools)
+  * [Slack](#slack)
 * [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
@@ -283,6 +284,12 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 
 Double-click on `alfred/Dracula.alfredappearance`.
 
+## Slack
+![Slack](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-slack.png)
+
+Fast and Simple: `User Menu > Preferences > Sidebar Theme > bottom link to customize` and paste this:
+`#282A36,#44475A,#44475A,#8BE9FD,#6272A4,#FFFFFF,#50FA7B,#FF5555`
+
 ## Team
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
@@ -292,6 +299,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
+* [@quagliato](https://github.com/quagliato/) - Slack theme
 * [@zenorocha](https://github.com/zenorocha/) - Atom theme, Sublime Text theme, TextMate, Zsh, iTerm, Terminal.app, Website
 
 ## Roadmap
