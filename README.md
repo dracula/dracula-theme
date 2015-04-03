@@ -85,6 +85,34 @@ $ git clone https://github.com/zenorocha/dracula-theme.git "Dracula Color Scheme
 
 Go to `Preferences -> Color Scheme -> User` and select the `Dracula Color Scheme`.
 
+#### Activating the UI theme
+
+1. Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`.
+2. Add (or update) your theme entry to be `"theme": "Dracula.sublime-theme"`
+
+##### UI Customization Options
+
+The Sublime Text UI theme features green clickable buttons and pink selected text. These colors
+can be independently changed with the following steps:
+
+1. Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`.
+2. Add one of the following lines to your file to change the button color:
+    * `"dracula_cyan_buttons": true`
+    * `"dracula_green_buttons": true`
+    * `"dracula_pink_buttons": true`
+    * `"dracula_purple_buttons": true`
+    * `"dracula_red_buttons": true`
+    * `"dracula_yellow_buttons": true`
+
+3. Add one of the following lines to your file to change the selected text color:
+    * `"dracula_cyan_selected_text": true`
+    * `"dracula_green_selected_text": true`
+    * `"dracula_pink_selected_text": true`
+    * `"dracula_purple_selected_text": true`
+    * `"dracula_red_selected_text": true`
+    * `"dracula_yellow_selected_text": true`
+    * `"dracula_gray_selected_text": true`
+
 ## TextMate
 
 ![TextMate Preview](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-textmate.png)
@@ -335,6 +363,7 @@ If you want to help, please read the [Contributing](https://github.com/zenorocha
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
 * Chrome DevTools theme built on top of [@mauricecruz's ZeroDarkMatrix theme](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
+* Sublime Text UI theme built on top of [Spacegray](http://kkga.github.io/spacegray/) and uses icons from Daniel Bruce's [Entypo](http://www.entypo.com) icon set.
 * ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
 
 ## History
