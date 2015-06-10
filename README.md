@@ -15,6 +15,7 @@
 * Terminal
   * [iTerm](#iterm)
   * [Terminal.app](#terminalapp)
+  * [Mintty](#mintty)
   * [Zsh](#zsh)
 * Misc
   * [Alfred](#alfred)
@@ -246,6 +247,28 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 3. Click *Import...*
 4. Select the `terminal/Dracula.terminal` file
 5. Click *Default*
+
+## Mintty
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme.git
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-theme/archive/master.zip) option and unzip them.
+
+#### Activating theme
+
+If you're already running a color scheme under Mintty, be sure to clear the relevant lines in your `~/.minttyrc`.
+
+```sh
+$ cat dracula-theme/mintty/.minttyrc.dracula >> ~/.minttyrc
+```
 
 ## Chrome DevTools
 
