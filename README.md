@@ -2,7 +2,7 @@
 
 ![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Chrome DevTools](https://developers.google.com/chrome-developer-tools/), [iTerm](http://www.iterm2.com/), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/), [Emacs](http://www.gnu.org/software/emacs/).
 
 ## Table of contents
 
@@ -12,6 +12,7 @@
   * [TextMate](#textmate)
   * [Vim](#vim)
   * [Xcode](#xcode)
+  * [Emacs](#emacs)
 * Terminal
   * [iTerm](#iterm)
   * [Terminal.app](#terminalapp)
@@ -282,6 +283,29 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 #### Activating the theme
 
 Double-click on `alfred/Dracula.alfredappearance`.
+
+## Emacs
+
+![Emacs Preview](https://cloud.githubusercontent.com/assets/1043908/8666519/d4bc2d04-29af-11e5-9bb4-1c295c55728f.png)
+
+#### Activating the theme
+
+Install using MELPA
+
+```
+M-x package-install <RET> dracula-theme
+```
+
+#### Install manually
+
+Add the emacs theme files to `~/.emacs.d/themes`.
+
+To load a theme add the following to your init.el
+
+```elisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'dracula t)
+```
 
 ## Team
 
