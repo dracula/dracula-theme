@@ -12,6 +12,7 @@
   * [TextMate](#textmate)
   * [Vim](#vim)
   * [Xcode](#xcode)
+  * [Coda](#coda)
 * Terminal
   * [iTerm](#iterm)
   * [Terminal.app](#terminalapp)
@@ -168,6 +169,31 @@ $ ln -s $DRACULA_THEME/xcode/Dracula.dvtcolortheme ~/Library/Developer/Xcode/Use
 
 1. *Xcode > Preferences > Fonts & Colors*
 2. Select the Dracula theme
+
+## Coda
+
+![Coda Preview](http://zenorocha.github.io/assets/img/screenshot-coda.png)
+
+#### Install using Git
+
+If you are a git user, you can install and keep up to date by cloning the repo
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme
+```
+
+and then creating a symbolic link from the repo's theme file to your Coda themes folder:
+
+```sh
+$ ln -s $DRACULA_THEME/coda/Dracula.sss ~/Library/Application\ Support/Coda\ 2/Styles
+```
+
+#### Install manually
+
+Click the "Download ZIP" button to the right and unzip the file. Then copy to your Coda themes folder:
+```sh
+$ cp $DRACULA_THEME/coda/Dracula.sss ~/Library/Application\ Support/Coda\ 2/Styles
+```
 
 ## Zsh
 
