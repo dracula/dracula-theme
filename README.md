@@ -247,6 +247,16 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 4. Select the `terminal/Dracula.terminal` file
 5. Click *Default*
 
+## Gnome-Terminal
+
+![Gnome-Terminal Preview](https://github.com/zenorocha/dracula-theme/gnome-terminal/screenshot-gnome-terminal.png)
+
+#### Install manually
+
+1. Download the [gconf file](https://github.com/zenorocha/dracula-theme/gnome-terminal/%gconf.xml).
+2. Replace your %gconf.xml on ~/.gconf/apps/gnome-terminal
+
+
 ## Chrome DevTools
 
 ![Chrome DevTools](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-chrome.png)
