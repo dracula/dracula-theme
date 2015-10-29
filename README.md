@@ -20,6 +20,7 @@
 * Misc
   * [Alfred](#alfred)
   * [Chrome DevTools](#chrome-devtools)
+  * [Ulysses](#ulysses)
 * [Team](#team)
 * [Roadmap](#roadmap)
 * [Color Palette](#color-palette)
@@ -308,6 +309,33 @@ Download using the [GitHub .zip download](https://github.com/zenorocha/dracula-t
 #### Activating the theme
 
 Double-click on `alfred/Dracula.alfredappearance`.
+
+## Ulysses
+
+![Ulysses for Mac](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-ulysses-mac.png)
+![Ulysses for iPad](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-ulysses-ipad.png)
+
+#### Ulysses for Mac
+
+##### Ulysses Style Exchange
+
+Download Dracula from the [Ulysses Style Exchange](http://styles.ulyssesapp.com/bundle/Dracula/56319778b634a4410207d126).
+
+##### Install using Git
+
+Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```sh
+$ git clone https://github.com/zenorocha/dracula-theme.git
+```
+
+then open the `ulysses/Dracula.ultheme` file.
+
+#### Ulysses for iPad
+
+##### Ulysses Style Exchange
+
+Download Dracula from the [Ulysses Style Exchange](http://styles.ulyssesapp.com/bundle/Dracula/56319778b634a4410207d126).
 
 ## Team
 
