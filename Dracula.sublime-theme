@@ -1,0 +1,1761 @@
+/* Dracula Theme v0.7.6
+*
+* https://github.com/zenorocha/dracula-theme
+*
+* Copyright 2015, All rights reserved
+*
+* Code licensed under the MIT license
+* http://zenorocha.mit-license.org
+*
+* @author Cody Miller <nostracodus@gmail.com>
+*/
+
+/*
+ * This file defines the Dracula UI theme for Sublime Text, designed to fit into
+ * the Dracula theme family. More information can be found at:
+ * https://github.com/zenorocha/dracula-theme
+ *
+ * Icons are from Entypo+ by Daniel Bruce: http://entypo.com
+ */
+
+[
+    /* This file is pretty long and gross, so here's a quick table of contents
+     * to use to navigate through the file.
+     *
+     * Table of Contents
+     * ------------------------------------------------------------------------
+     * 1. Labels                         [#labels]
+     * 2. Tabs
+     *     a. Tab Backgrounds            [#tab.bg]
+     *     b. Tab Buttons                [#tab.btn]
+     *     c. Tab Labels                 [#tab.lbl]
+     * 3. Sidebar
+     *     a. Sidebar container          [#sidebar.cntr]
+     *     b. Sidebar container label    [#sidebar.lbl]
+     *     c. Sidebar folder icons       [#sidebar.icn]
+     *     d. Sidebar bug fix            [#sidebar.bug]
+     * 4. Scrollbars
+     *     a. Standard scrollbars        [#scrollbar.std]
+     * 5. Status Bar                     [#statusbar]
+     * 6. Empty window background        [#emptywindow]
+     * 7. Minimap                        [#minimap]
+     * 8. Tooltip                        [#tooltip]
+     * 9. Buttons                        [#buttons]
+     * 10. Input fields                  [#input]
+     * 11. Panels
+     *     a. Quick panel                [#panel.qck]
+     *     b. Mini quick panel           [#panel.mqck]
+     *     c. Code completion panel      [#panel.cmplt]
+     *     d. Bottom panel buttons       [#panel.btm]
+     * 12. Configuration
+     *     a. Clickable button color     [#config.clk]
+     *     b. Selected text color        [#config.stc]
+     */
+
+    /* ========================================================================
+     * Labels [#labels]
+     * ========================================================================
+     */
+        /* Labels -- general labels */
+        {
+            "class": "label_control",
+            "color": [208, 208, 202] // #fg.gray
+        },
+
+    /* ========================================================================
+     * Tabs [#tab]
+     * ========================================================================
+     */
+        /* Tabset -- the toolbar where tabs live */
+        {
+            "class": "tabset_control",
+            "layer0.texture": "",
+            "layer0.tint": [30, 32, 44], // #bg.dark
+            "layer0.inner_margin": 0,
+            "layer0.opacity": 1,
+            "content_margin": 0,
+            "tab_overlap": 0,
+            "tab_width": 128,
+            "tab_min_width": 48,
+            "tab_height": 32,
+            "mouse_wheel_switch": false
+        },
+
+        /* --------------------------------------------------------------------
+         * Tab backgrounds. [#tab.bg]
+         * --------------------------------------------------------------------
+         */
+            /* Tab -- the basic definition for a single tab */
+            {
+                "class": "tab_control",
+                "content_margin": [8,0],
+                "max_margin_trim": 0,
+                "hit_test_level": 0,
+                "layer0.texture": "",
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.inner_margin": [5,5],
+                "layer0.opacity": 1
+            },
+
+            /* Tab -- when the mouse cursor hovers over it */
+            {
+                "class": "tab_control",
+                "attributes": ["hover"]
+            },
+
+            /* Tab -- the selected tab */
+            {
+                "class": "tab_control",
+                "attributes": ["selected"],
+                "layer0.texture": "",
+                "layer0.tint": [40, 42, 54], // #bg.light
+            },
+
+
+        /* --------------------------------------------------------------------
+         * Tab buttons [#tab.btn]
+         * --------------------------------------------------------------------
+         */
+            /* Tab close button -- the button that closes a tab when clicked,
+             * used to reset the button to invisible when the mouse moves off
+             * the tab. */
+            {
+                "class": "tab_close_button",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/tab-close.png",
+                "layer0.opacity": 0,
+                "content_margin": [8,8],
+            },
+
+            /* Tab close button -- style when mouse cursor hovers over it */
+            {
+                "class": "tab_close_button",
+                "parents": [{"class": "tab_control","attributes": ["hover"]}],
+                "layer0.opacity": 1,
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Tab close button -- the button on the active tab */
+            {
+                "class": "tab_close_button",
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "layer0.opacity": 0.9,
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Tab close button -- the button on the active tab when hovered over */
+            {
+                "class": "tab_close_button",
+                "parents": [{"class": "tab_control","attributes": ["selected", "hover"]}],
+                "layer0.opacity": 1,
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Tab dirty button -- the button shown when there are unsaved changes */
+            {
+                "class": "tab_close_button",
+                "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/tab-dirty.png",
+                "layer0.tint": [241, 250, 140], // #fg.yellow
+                "layer0.opacity": 1
+            },
+
+            /* Tab dirty button -- the button shown when a tab with unsaved changes
+             * is hovered over */
+            {
+                "class": "tab_close_button",
+                "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/tab-close.png",
+                "attributes": ["hover"],
+                "layer0.opacity": 1,
+                "layer0.tint": [255, 85, 85] // #fg.red
+            },
+
+        /* --------------------------------------------------------------------
+         * Tab labels [#tab.lbl]
+         * --------------------------------------------------------------------
+         */
+            /* Tab label -- text of an unselected tab */
+            {
+                "class": "tab_label",
+                "fade": true,
+                "fg": [208, 208, 202] // #fg.gray
+            },
+
+            /* Tab label -- text of an unselected tab when the mouse hovers over
+             * it. */
+            {
+                "class": "tab_label",
+                "parents": [{"class": "tab_control","attributes": ["hover"]}],
+                "fg": [248, 248, 242] // #fg.white
+            },
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+    /* ========================================================================
+     * Sidebar [#sidebar]
+     * ========================================================================
+     */
+        /* --------------------------------------------------------------------
+         * Sidebar container [#sidebar.cntr]
+         * --------------------------------------------------------------------
+         */
+
+            /* General sidebar settings */
+            {
+                "class": "sidebar_container",
+                "layer0.opacity": 1,
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.inner_margin": [1,5,2,1],
+                "content_margin": [0,4,0,0]
+            },
+
+            /* Sidebar tree view settings */
+            {
+                "class": "sidebar_tree",
+                "row_padding": [8,4],
+                "indent": 12,
+                "indent_offset": 14,
+                "indent_top_level": false,
+                "dark_content": true
+            },
+
+            /* Sidebar tree view entry settings */
+            {
+                "class": "tree_row",
+                "layer0.tint": [40, 42, 54], // #bg.light
+                "layer0.opacity": 0,
+                "layer0.inner_margin": [1,1]
+            },
+
+            /* Selected sidebar tree view entry settings */
+            {
+                "class": "tree_row",
+                "attributes": ["selected"],
+                "layer0.opacity": 1
+            },
+
+            /* Sidebar heading label settings */
+            {
+                "class": "sidebar_heading",
+                "color": [248, 248, 252], // #fg.white
+                "font.bold": true
+            },
+
+        /* --------------------------------------------------------------------
+         * Sidebar label [#sidebar.lbl]
+         * --------------------------------------------------------------------
+         */
+            /* Sidebar label -- basic default text for file listings */
+            {
+                "class": "sidebar_label",
+                "color": [248, 248, 252], // #fg.white
+                "font.size": 11.0
+            },
+
+            /* Sidebar label -- basic default text for folder listings */
+            {
+                "class": "sidebar_label",
+                "parents": [{"class": "tree_row","attributes": ["expandable"]}],
+                "color": [208, 208, 202] // #fg.gray
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Sidebar folder icons [#sidebar.icn]
+         * --------------------------------------------------------------------
+         */
+            /* Sidebar tree button - unexpanded folder */
+            {
+                "class": "disclosure_button_control",
+                "content_margin": [8,8],
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/folder-closed.png",
+                "layer0.tint": [248, 248, 242], // #fg.white
+                "layer0.opacity": 0.1,          // very dim
+                "layer0.inner_margin": 0
+            },
+
+            /* Sidebar tree button -- hover over an unexpanded folder */
+            {
+                "class": "disclosure_button_control",
+                "parents": [{"class": "tree_row","attributes": ["hover"]}],
+                "layer0.tint": [248, 248, 242], // #fg.white
+                "layer0.opacity": 0.15          // slightly less dim
+            },
+
+            /* Sidebar tree button -- expanded folder */
+            {
+                "class": "disclosure_button_control",
+                "attributes": ["expanded"],
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/folder-opened.png",
+                "layer0.tint": [80, 250, 123], // #fg.green, #btncolor
+                "layer0.opacity": 0.9
+            },
+
+            /* Sidebar tree button -- hover over an expanded folder */
+            {
+                "class": "disclosure_button_control",
+                "attributes": ["expanded"],
+                "parents": [{"class": "tree_row","attributes": ["hover"]}],
+                "layer0.opacity": 1.0 // brighten just a little
+            },
+
+        /* --------------------------------------------------------------------
+         * Sidebar bug fix [#sidebar.bug]
+         * --------------------------------------------------------------------
+         */
+            /* Hide default Sublime folder icons so we don't have two sets of
+             * icons sitting around. */
+            {
+                "class": "icon_file_type",
+                "content_margin": [0,0],
+                "layer0.opacity": 0.0
+            },
+
+            {
+                "class": "icon_folder",
+                "layer0.texture": "",
+                "layer0.opacity": 0.0,
+                "content_margin": [0,0]
+            },
+
+            {
+                "class": "icon_folder_loading",
+                "content_margin": [0,0],
+                "layer0.opacity": 0.0
+            },
+
+    /* ========================================================================
+     * Scrollbars
+     * ========================================================================
+     */
+        /* --------------------------------------------------------------------
+         * Standard scrollbars [#scrollbar.std]
+         * --------------------------------------------------------------------
+         */
+            /* Vertical scrollbar -- the gutter */
+            {
+                "class": "scroll_bar_control",
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.opacity": 1,
+                "layer0.inner_margin": [0,0],
+                "blur": true
+            },
+
+            /* Horizontal scrollbar -- the gutter */
+            {
+                "class": "scroll_bar_control",
+                "attributes": ["horizontal"],
+                "layer0.opacity": 1,
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.inner_margin": [0,0],
+                "blur": true
+            },
+
+            /* Vertical scrollbar -- the puck */
+            {
+                "class": "puck_control",
+                "layer0.tint": [60, 62, 74], // #bg.puck
+                "layer0.opacity": 1,
+                "content_margin": [2,0],
+                "blur": false
+            },
+
+            /* Horizontal scrollbar -- the puck */
+            {
+                "class": "puck_control",
+                "attributes": ["horizontal"],
+                "layer0.tint": [60, 62, 74], // #bg.puck
+                "layer0.inner_margin": [0,0],
+                "content_margin": [12,2],
+                "blur": false
+            },
+
+    /* ========================================================================
+     * Statusbar [#statusbar]
+     * ========================================================================
+     */
+        /* Status bar -- container */
+        {
+            "class": "status_bar",
+            "layer0.tint": [30, 32, 44], // #bg.dark
+            "layer0.opacity": 1,
+            "content_margin": 4
+        },
+
+        /* Status bar button */
+        {
+            "class": "status_button",
+            "min_size": [92, 0]
+        },
+
+    /* ========================================================================
+     * Empty window background [#emptywindow]
+     * ========================================================================
+     */
+        {
+            "class": "sheet_container_control",
+            "layer0.tint": [30, 32, 44], // #bg.dark
+            "layer0.opacity": 1
+        },
+
+    /* ========================================================================
+     * Minimap [#minimap]
+     * ========================================================================
+     */
+        {
+            "class": "minimap_control",
+            "viewport_color": [255,255,255,10],
+        },
+
+    /* ========================================================================
+     * Tooltip [#tooltip]
+     * ========================================================================
+     */
+        /* We invert the typical color patterns here -- the background of the
+         * tooltip is the selected text color and the text is the color of the
+         * code background. The reason for this is that it gives us a better
+         * chance of producing a tooltip that is readable in all contexts.
+         */
+
+        /* Tooltip container */
+        {
+            "class": "tool_tip_control",
+            "layer0.tint": [255, 121, 198], // #fg.pink, #selcolor
+            "layer0.inner_margin": [1,1],
+            "layer0.opacity": 1,
+            "content_margin": [4,4]
+        },
+
+        /* Tooltip text */
+        {
+            "class": "tool_tip_label_control",
+            "color": [40, 42, 54], // #bg.light
+        },
+
+
+    /* ========================================================================
+     * Buttons [#buttons]
+     * ========================================================================
+     */
+        /* Default button state */
+        {
+            "class": "button_control",
+            "content_margin": [4,8,4,8],
+            "min_size": [64,0],
+            "layer0.texture": "",
+            "layer0.opacity": 1,
+            "layer0.tint": [30, 32, 44], // #bg.dark
+            "layer0.inner_margin": [8,8],
+        },
+
+        /* Button state when hovered over */
+        {
+            "class": "button_control",
+            "attributes": ["hover"],
+            "layer0.tint": [40, 42, 54] // #bg.light
+        },
+
+        /* Button state mid-click */
+        {
+            "class": "button_control",
+            "attributes": ["pressed"],
+            "layer0.tint": [60, 62, 74] // #bg.light (augmented)
+        },
+
+    /* ========================================================================
+     * Input fields [#input]
+     * ========================================================================
+     */
+        /* Text input field settings */
+        {
+            "class": "text_line_control",
+            "layer0.texture": "",
+            "layer0.tint": [40, 42, 54], // #bg.light
+            "layer0.opacity": 1,
+            "content_margin": 3
+        },
+
+    /* ========================================================================
+     * Panels
+     * ========================================================================
+     */
+        /* Background of the bottom panel (e.g., search) */
+        {
+            "class": "panel_control",
+            "layer0.inner_margin": [0,0],
+            "layer0.opacity": 1,
+            "layer0.tint": [30, 32, 44], // #bg.dark
+            "content_margin": 0
+        },
+
+        /* --------------------------------------------------------------------
+         * Quick panel [#panel.qck]
+         * --------------------------------------------------------------------
+         */
+            /* Background of the quick panel */
+            {
+                "class": "overlay_control",
+                "layer0.opacity": 1,
+                "layer1.texture": "",
+                "layer1.tint": [30, 32, 44], // #bg.dark
+                "layer1.inner_margin": [0,0,0,0],
+                "layer1.opacity": 1,
+                "content_margin": 0
+            },
+
+            /* General properties of the quick panel */
+            {
+                "class": "quick_panel",
+                "row_padding": 2,             // padding of individual rows
+                "layer1.tint": [30, 32, 44], // #bg.dark
+                "layer0.opacity": 1,
+                "dark_content": true
+            },
+
+            /* Each entry in the quick panel */
+            {
+                "class": "quick_panel_row",
+                "layer0.texture": "",
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.inner_margin": 8,
+                "layer0.opacity": 1
+            },
+
+            /* Selected entry in the quick panel */
+            {
+                "class": "quick_panel_row",
+                "attributes": ["selected"],
+                "layer0.tint": [40, 42, 54], // #bg.light
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 121, 198],      // #fg.pink, #selcolor
+                "selected_match_fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+            /* Text label of the path in the quick panel */
+            {
+                "class": "quick_panel_path_label",
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [248, 248, 242],      // #fg.white
+                "selected_match_fg": [248, 248, 242] // #fg.white
+            },
+
+            /* Text label of the match score in the quick panel */
+            {
+                "class": "quick_panel_score_label",
+                "fg": [248, 248, 242],              // #fg.white
+                "selected_fg": [248, 248, 242],     // #fg.white
+            },
+
+        /* --------------------------------------------------------------------
+         * Mini quick panel [#panel.mqck] (comes up with cmd + shift + p)
+         * --------------------------------------------------------------------
+         */
+            /* Entry in the mini quick panel */
+            {
+                "class": "mini_quick_panel_row",
+                "layer0.texture": "",
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.opacity": 1
+            },
+
+            /* Selected entry in the mini quick panel */
+            {
+                "class": "mini_quick_panel_row",
+                "attributes": ["selected"],
+                "layer0.texture": "",
+                "layer0.tint": [40, 42, 54], // #bg.light
+            },
+
+        /* --------------------------------------------------------------------
+         * Code completion panel [#panel.cmplt]
+         * --------------------------------------------------------------------
+         */
+            /* Background of the code completion panel */
+            {
+                "class": "popup_control",
+                "content_margin": [0,0],
+                "layer0.tint": [30, 32, 44], // #bg.dark
+                "layer0.opacity": 1
+            },
+
+            /* Padding on the rows in the code completion panel */
+            {
+                "class": "auto_complete",
+                "row_padding": [2, 3]
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 121, 198],      // #fg.pink, #selcolor
+                "selected_match_fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+            /* Settings for each entry */
+            {
+                "class": "table_row",
+                "layer0.texture": "",
+                "layer0.opacity": 0,   // used to reset visited entries
+                "layer0.inner_margin": [1,5]
+            },
+
+            /* Settings for the selected entries */
+            {
+                "class": "table_row",
+                "attributes": ["selected"],
+                "layer0.tint": [40, 42, 54], // #bg.light
+                "layer0.opacity": 1
+            },
+
+        /* --------------------------------------------------------------------
+         * Bottom panel buttons [#panel.btm]
+         * --------------------------------------------------------------------
+         */
+            /* Add spacing to the icons in the bottom panel */
+            {
+                "class": "icon_button_control",
+                "layer1.opacity": 0,
+                "content_margin": 7
+            },
+
+            /* Regex search button */
+            {
+                "class": "icon_regex",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-regex.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Case insensitive search button */
+            {
+                "class": "icon_case",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-insensitive.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Case insensitive search button when it is selected */
+            {
+                "class": "icon_case",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Match whole word search button */
+            {
+                "class": "icon_whole_word",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-quote.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Match whole word search button when it is selected */
+            {
+                "class": "icon_whole_word",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Show search context button */
+            {
+                "class": "icon_context",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-context.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Show search context button when it is selected */
+            {
+                "class": "icon_context",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Use search buffer button */
+            {
+                "class": "icon_use_buffer",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-buffer.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Use search buffer button when it is selected */
+            {
+                "class": "icon_use_buffer",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Wrap search button */
+            {
+                "class": "icon_wrap",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-loop.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Wrap search button when it is selected */
+            {
+                "class": "icon_wrap",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Search in selection button */
+            {
+                "class": "icon_in_selection",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-text.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Search in selection button when it is selected */
+            {
+                "class": "icon_in_selection",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+            /* Highlight search results butotn */
+            {
+                "class": "icon_highlight",
+                "layer0.texture": "Dracula Color Scheme/sublime-ui/assets/entypo/search-highlight.png",
+                "layer0.tint": [208, 208, 202], // #fg.gray
+                "layer0.opacity": 1,
+                "content_margin": 8
+            },
+
+            /* Highlight search results button when it is selected */
+            {
+                "class": "icon_highlight",
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [80, 250, 123] // #fg.green, #btncolor
+            },
+
+    /* ========================================================================
+     * Clickable button colors [#config.clk]
+     * ========================================================================
+     */
+        /* --------------------------------------------------------------------
+         * Cyan clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_cyan_buttons"],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_cyan_buttons"],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_cyan_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [139, 233, 253] // #fg.cyan, #btncolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Orange clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_orange_buttons"],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_orange_buttons"],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_orange_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 184, 108] // #fg.orange, #btncolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Pink clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_pink_buttons"],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_pink_buttons"],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_pink_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 121, 198] // #fg.pink, #btncolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Purple clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_purple_buttons"],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_purple_buttons"],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_purple_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [189, 147, 249] // #fg.purple, #btncolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Yellow clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_yellow_buttons"],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_yellow_buttons"],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_yellow_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [241, 250, 140] // #fg.yellow, #btncolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Red clickable buttons
+         * --------------------------------------------------------------------
+
+            /* Tab close buttons */
+            {
+                "class": "tab_close_button",
+                "settings": ["dracula_red_buttons"],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            /* Sidebar expander buttons */
+            {
+                "class": "disclosure_button_control",
+                "settings": ["dracula_red_buttons"],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            /* Regex search button when it is selected */
+            {
+                "class": "icon_regex",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_case",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_whole_word",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_context",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_use_buffer",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_reverse",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_wrap",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_in_selection",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_preserve_case",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+            {
+                "class": "icon_highlight",
+                "settings": ["dracula_red_buttons"],
+                "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+                "layer0.tint": [255, 85, 85] // #fg.red, #btncolor
+            },
+
+    /* ========================================================================
+     * Selected text color [#config.stc]
+     * ========================================================================
+     */
+        /* --------------------------------------------------------------------
+         * Cyan selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_cyan_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [139, 233, 253] // #fg.cyan, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_cyan_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [139, 233, 253] // #fg.cyan, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_cyan_selected_text"],
+                "layer0.tint": [139, 233, 253], // #fg.cyan, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_cyan_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [139, 233, 253],      // #fg.cyan, #selcolor
+                "selected_match_fg": [139, 233, 253] // #fg.cyan, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_cyan_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [139, 233, 253],      // #fg.cyan, #selcolor
+                "selected_match_fg": [139, 233, 253] // #fg.cyan, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Green selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_green_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [80, 250, 123] // #fg.green. #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_green_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [80, 250, 123] // #fg.green, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_green_selected_text"],
+                "layer0.tint": [80, 250, 123], // #fg.green, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_green_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [80, 250, 123],      // #fg.green, #selcolor
+                "selected_match_fg": [80, 250, 123] // #fg.green, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_green_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [80, 250, 123],      // #fg.green, #selcolor
+                "selected_match_fg": [80, 250, 123] // #fg.green, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Orange selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_orange_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [255, 184, 108] // #fg.orange, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_orange_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [255, 184, 108] // #fg.orange, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_orange_selected_text"],
+                "layer0.tint": [255, 184, 108], // #fg.orange, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_orange_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 184, 108],      // #fg.orange, #selcolor
+                "selected_match_fg": [255, 184, 108] // #fg.orange, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_orange_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 184, 108],      // #fg.orange, #selcolor
+                "selected_match_fg": [255, 184, 108] // #fg.orange, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Pink selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_pink_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_pink_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_pink_selected_text"],
+                "layer0.tint": [255, 121, 198], // #fg.pink, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_pink_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 121, 198],      // #fg.pink, #selcolor
+                "selected_match_fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_pink_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 121, 198],      // #fg.pink, #selcolor
+                "selected_match_fg": [255, 121, 198] // #fg.pink, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Purple selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_purple_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [189, 147, 249] // #fg.purple, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_purple_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [189, 147, 249] // #fg.purple, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_purple_selected_text"],
+                "layer0.tint": [189, 147, 249], // #fg.purple, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_purple_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [189, 147, 249],      // #fg.purple, #selcolor
+                "selected_match_fg": [189, 147, 249] // #fg.purple, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_purple_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [189, 147, 249],      // #fg.purple, #selcolor
+                "selected_match_fg": [189, 147, 249] // #fg.purple, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Red selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_red_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [255, 85, 85] // #fg.red, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_red_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [255, 85, 85] // #fg.red, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_red_selected_text"],
+                "layer0.tint": [255, 85, 85], // #fg.red, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_red_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 85, 85],      // #fg.red, #selcolor
+                "selected_match_fg": [255, 85, 85] // #fg.red, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_red_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [255, 85, 85],      // #fg.red, #selcolor
+                "selected_match_fg": [255, 85, 85] // #fg.red, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Yellow selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_yellow_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [241, 250, 140] // #fg.yellow, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_yellow_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [241, 250, 140] // #fg.yellow, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_yellow_selected_text"],
+                "layer0.tint": [241, 250, 140], // #fg.yellow, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_yellow_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [241, 250, 140],      // #fg.yellow, #selcolor
+                "selected_match_fg": [241, 250, 140] // #fg.yellow, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_yellow_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [241, 250, 140],      // #fg.yellow, #selcolor
+                "selected_match_fg": [241, 250, 140] // #fg.yellow, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Gray selected text color
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_gray_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_gray_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_gray_selected_text"],
+                "layer0.tint": [208, 208, 202], // #fg.gray, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_gray_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [208, 208, 202],      // #fg.gray, #selcolor
+                "selected_match_fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_gray_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [208, 208, 202],      // #fg.gray, #selcolor
+                "selected_match_fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+        /* --------------------------------------------------------------------
+         * Grey selected text color (for our friends across the ocean)
+         * --------------------------------------------------------------------
+
+            /* Tab label -- text of the actively selected tab. */
+            {
+                "class": "tab_label",
+                "settings": ["dracula_grey_selected_text"],
+                "parents": [{"class": "tab_control","attributes": ["selected"]}],
+                "fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* Sidebar label -- selected elements in a tree */
+            {
+                "class": "sidebar_label",
+                "settings": ["dracula_grey_selected_text"],
+                "parents": [{"class": "tree_row","attributes": ["selected"]}],
+                "color": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* Tooltip container */
+            {
+                "class": "tool_tip_control",
+                "settings": ["dracula_grey_selected_text"],
+                "layer0.tint": [208, 208, 202], // #fg.gray, #selcolor
+                "layer0.inner_margin": [1,1],
+                "layer0.opacity": 1,
+                "content_margin": [4,4]
+            },
+
+            /* Text label of the quick panel */
+            {
+                "class": "quick_panel_label",
+                "settings": ["dracula_grey_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [208, 208, 202],      // #fg.gray, #selcolor
+                "selected_match_fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+            /* The text on the auto complete entries */
+            {
+                "class": "auto_complete_label",
+                "settings": ["dracula_grey_selected_text"],
+                "fg": [208, 208, 202],               // #fg.gray
+                "match_fg": [248, 248, 242],         // #fg.white
+                "selected_fg": [208, 208, 202],      // #fg.gray, #selcolor
+                "selected_match_fg": [208, 208, 202] // #fg.gray, #selcolor
+            },
+
+]
