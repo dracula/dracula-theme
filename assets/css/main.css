@@ -20,7 +20,7 @@ body {
 
 .title {
 	margin: 0;
-	font-size: 5em;
+	font-size: 72px;
 	text-align: center;
 	font-family: "abril-text";
 }
@@ -220,4 +220,25 @@ a {
 
 .green .subtitle a:hover {
 	color: rgba(80, 250, 123, .7);
+}
+
+.wrapper {
+	width: 840px;
+}
+
+@media (max-width: 840px) {
+	.wrapper {
+		width: auto;
+	}
+
+	.title {
+		font-size: 64px;
+	}
+}
+
+.preview {
+	margin: -30px auto 0;
+	display: block;
+	height: auto;
+	max-width: 100%;
 }
