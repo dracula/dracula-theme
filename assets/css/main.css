@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #3C4556;
+	color: #f2f2f2;
+	font-family: "source-sans-pro";
+}
+
+.wrapper {
+	width: 840px;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.title {
+	margin: 0;
+	font-size: 5em;
+	text-align: center;
+	font-family: "abril-text";
+}
+
+.subtitle {
+	margin: 0 0 10px;
+	font-size: 28px;
+}
+
+.header {
+	margin: 30px 0 80px;
+}
+
+.gh-btns {
+    margin: 45px 0 0 25px;
+}
+
+/* App
+   ========================================================================== */
+
+.app {
+	margin-bottom: 80px;
+	text-decoration: none;
+}
+
+.app-title {
+	margin: 20px 0 0;
+	font-size: 36px;
+	color: #BCC2CD;
+	text-align: center;
+	font-family: "abril-text";
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+.app:hover .orange { color: #ffb86c; }
+.app:hover .pink { color: #ff79c6; }
+.app:hover .cyan { color: #8be9fd; }
+.app:hover .purple { color: #bd93f9; }
+.app:hover .red { color: #ff5555; }
+
+.app-img {
+	height: 205px;
+	display: block;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.app-img img {
+	display: flex;
+	align-self: flex-end;
+
+}
+
+/* Credits
+   ========================================================================== */
+
+.credits {
+	text-align: center;
+	font-size: 1.3em;
+	margin: 0 0 60px;
+}
+
+.credits a {
+	text-decoration: none;
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+.credits .cyan { color: rgba(139, 233, 253, 1); }
+.credits .cyan:hover { color: rgba(139, 233, 253, .7); }
+
+.credits .green { color: rgba(80, 250, 123, 1); }
+.credits .green:hover { color: rgba(80, 250, 123, .7); }
+
+.credits .love {
+  display: inline-block;
+  position: relative;
+  top: .2em;
+  font-size: 1.4em;
+  color: #ff79c6;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to { -webkit-transform: scale(1.1); }
+}
+
+@-moz-keyframes love {
+  to { -moz-transform: scale(1.1); }
+}
+
+@keyframes love {
+  to { transform: scale(1.1); }
+}
+
+/* ==========================================================================
+   Instructions
+   ========================================================================== */
+
+h3 {
+	font-family: "abril-text";
+	text-align: left;
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 1em 0 .3em;
+}
+
+code {
+	font-weight: 300;
+	font-family: "source-sans-pro";
+}
+
+pre {
+	background-color: #252525;
+	padding: 20px;
+	margin: 0 0 2em 0;
+	border-radius: 5px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+ol {
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-left: 25px;
+}
+
+a {
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+	text-decoration: none;
+}
+
+/* Theme
+   ========================================================================== */
+
+.theme {
+	margin: 0 auto;
+}
+
+.instructions {
+	margin-bottom: 60px;
+}
+
+.orange .title,
+.orange .subtitle a,
+.orange .instructions a,
+.orange .instructions h3 {
+	color: rgba(255, 184, 108, 1);
+}
+
+.orange .instructions a:hover {
+	color: rgba(255, 184, 108, .7);
+}
+
+.cyan .title,
+.cyan .subtitle a,
+.cyan .instructions a,
+.cyan .instructions h3 {
+	color: rgba(139, 233, 253, 1);
+}
+
+.cyan .instructions a:hover {
+	color: rgba(139, 233, 253, .7);
+}
+
+.purple .title,
+.purple .subtitle a,
+.purple .instructions a,
+.purple .instructions h3 {
+	color: rgba(189, 147, 249, 1);
+}
+
+.purple .instructions a:hover {
+	color: rgba(189, 147, 249, .7);
+}
+
+.green .title,
+.green .subtitle a {
+	color: rgb(80, 250, 123);
+}
+
+.green .subtitle a:hover {
+	color: rgba(80, 250, 123, .7);
+}
