@@ -180,7 +180,8 @@ a {
 .orange .title,
 .orange .subtitle a,
 .orange .instructions a,
-.orange .instructions h3 {
+.orange .instructions h3,
+.orange .instructions code {
 	color: rgba(255, 184, 108, 1);
 }
 
@@ -191,7 +192,8 @@ a {
 .cyan .title,
 .cyan .subtitle a,
 .cyan .instructions a,
-.cyan .instructions h3 {
+.cyan .instructions h3,
+.cyan .instructions code {
 	color: rgba(139, 233, 253, 1);
 }
 
@@ -202,7 +204,8 @@ a {
 .purple .title,
 .purple .subtitle a,
 .purple .instructions a,
-.purple .instructions h3 {
+.purple .instructions h3,
+.purple .instructions code {
 	color: rgba(189, 147, 249, 1);
 }
 
