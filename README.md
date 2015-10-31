@@ -39,6 +39,7 @@ Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
+* [@film42](https://github.com/film42/) - Emacs theme
 * [@felipekm](https://github.com/felipekm/) - Brackets theme
 * [@jordanbrown](https://github.com/jordanbrown/) - Xcode theme
 * [@nuxlli](https://github.com/nuxlli/) - Vim theme
