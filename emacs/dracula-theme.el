@@ -1,16 +1,20 @@
-;;; Dracula Theme
+;;; dracula-theme.el --- Dracula Theme
 
-;; Author: film42
-;;
-;; Version: 0.7.6
-;; Package-Requires: ((emacs "24"))
-
-;; https://github.com/zenorocha/dracula-theme
-;;
 ;; Copyright 2015, All rights reserved
 ;;
 ;; Code licensed under the MIT license
 ;; http://zenorocha.mit-license.org
+
+;; Author: film42
+;; Version: 0.7.6
+;; Package-Requires: ((emacs "24"))
+;; URL: https://github.com/zenorocha/dracula-theme
+
+;;; Commentary:
+
+;; A dark color theme available for a number of editors.
+
+;;; Code:
 
 (deftheme dracula)
 
