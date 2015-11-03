@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Nickname Format</key>
+	<string>%@%n:</string>
+	<key>Timestamp Format</key>
+	<string></string>
+	<key>Override Channel Font</key>
+	<dict>
+		<key>Font Name</key>
+		<string></string>
+		<key>Font Size</key>
+		<integer>0</integer>
+	</dict>
+	<key>Indentation Offset</key>
+	<integer>0</integer>
+	<key>Underlying Window Color</key>
+	<string>#000000</string>
+	<key>Force Invert Sidebars</key>
+	<true/>
+	<key>Template Engine Versions</key>
+	<dict>
+		<key>default</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>
