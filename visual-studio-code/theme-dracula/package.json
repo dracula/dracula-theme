@@ -1,0 +1,17 @@
+{
+	"name": "theme-dracula",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "none",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dracula.tmTheme"
+			}
+		]
+	}
+}
