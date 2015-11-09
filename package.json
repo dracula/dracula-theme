@@ -1,7 +1,7 @@
 {
   "name": "dracula-theme",
   "theme": "syntax",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A dark theme for Atom",
   "repository": "https://github.com/zenorocha/dracula-theme",
   "license": "MIT",
