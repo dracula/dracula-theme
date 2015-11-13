@@ -1,0 +1,77 @@
+# 'Dracula' color scheme
+# by Zeno Rocha: https://github.com/zenorocha/dracula-theme
+# Made for LightPaper (http://lightpaper.ashokgelal.com) by @ashokgelal
+
+editor
+background: 282a36 # Background
+foreground: CCf8f8f2 # Foreground, reduced alpha
+caret: 787ea0 # Modified Current Line
+
+editor-selection
+background: 44475a # Selection
+
+H1
+foreground: ff79c6 # Pink
+
+H2
+foreground: ddff79c6 # Pink, reduced alpha
+
+H3
+foreground: bbff79c6 # Pink, reduced alpha
+
+H4
+foreground: 99ff79c6 # Pink, reduced alpha
+
+H5
+foreground: 77ff79c6 # Pink, reduced alpha
+
+H6
+foreground: 66ff79c6 # Pink, reduced alpha
+
+HRULE
+foreground: 99414D73
+
+LIST_BULLET
+foreground: ffb86c # Orange
+
+LIST_ENUMERATOR
+foreground: ffb86c # Orange
+
+LINK
+foreground: 7C60A4 # Purple modified
+
+AUTO_LINK_URL
+foreground: 7C60A4 # Purple modified
+
+AUTO_LINK_EMAIL
+foreground: 7C60A4 # Purple modified
+
+IMAGE
+foreground: 99f1fa8c # Yellow
+
+REFERENCE
+foreground: 997C60A4 # Purple modified, reduced alpha
+
+CODE
+foreground: 9950fa7b # green, reduced alpha
+
+EMPH
+foreground: 8be9fd # cyan
+font-style: italic
+
+STRONG
+foreground: ff5555 # red
+font-style: bold
+
+HTML_ENTITY
+foreground: 6650fa7b # green, reduced alpha
+
+COMMENT
+foreground: 556272a4 # comment, reduced alpha
+
+VERBATIM
+foreground: 9950fa7b # green, reduced alpha
+
+BLOCKQUOTE
+foreground: d33682 # magenta
+
