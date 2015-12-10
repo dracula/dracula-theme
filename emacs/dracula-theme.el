@@ -65,7 +65,7 @@
    `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
    `(region ((,class (:background ,str :foreground ,bg1))))
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
-   `(hl-line ((,class (:background  ,nil))))
+   `(hl-line ((,class (:background  ,bg5))))
    `(fringe ((,class (:background ,bg1 :foreground ,fg4))))
    `(cursor ((,class (:background ,fg3))))
    `(show-paren-match-face ((,class (:background ,warning))))
