@@ -10,35 +10,37 @@
  * @author Zeno Rocha <hi@zenorocha.com>
  */
 
+ @import "stylesheets/syntax-variables";
+
 .atom-text-editor, .atom-text-editor .gutter,
 :host, :host .gutter {
-  background-color: #282a36;
-  color: #f8f8f2;
+  background-color: @very-dark-gray;
+  color: @very-light-gray;
 }
 
 .atom-text-editor.is-focused .cursor,
 :host(.is-focused) .cursor {
-  border-color: #f8f8f0;
+  border-color: @lace;
 }
 
 .atom-text-editor.is-focused .selection .region,
 :host(.is-focused) .selection .region {
-  background-color: #44475a;
+  background-color: @dark-gray;
 }
 
 .atom-text-editor.is-focused .line-number.cursor-line-no-selection, .atom-text-editor.is-focused .line.cursor-line,
 :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #44475a;
+  background-color: @dark-gray;
 }
 
 .atom-text-editor .invisible-character,
 :host .invisible-character {
-  color: #666;
+  color: @gray;
 }
 
 .atom-text-editor .indent-guide,
 :host .indent-guide {
-  box-shadow: 1px 0 #444;
+  box-shadow: 1px 0 darken(@gray, 13%);
 }
 
 .atom-text-editor .gutter .line-number.git-line-modified,
@@ -52,138 +54,138 @@
 }
 
 .markdown-preview > .atom-text-editor {
-  background: #282A36;
-  border: 1px solid #282A36;
+  background: @very-dark-gray;
+  border: 1px solid @very-dark-gray;
 }
 
 .wrap-guide {
-  background-color: #6272a4;
+  background-color: @blue;
 }
 
 .comment {
-  color: #6272a4;
+  color: @blue;
 }
 
 .string {
-  color: #f1fa8c;
+  color: @yellow;
 }
 
 .constant.numeric {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .constant.language {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .constant.character, .constant.other {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .variable {
 }
 
 .variable.other.readwrite.instance {
-  color: #ffb86c;
+  color: @orange;
 }
 
 .constant.character.escaped, .constant.character.escape, .string .source, .string .source.ruby {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .keyword {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .storage {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .storage.type {
   font-style: italic;
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .entity.name.class {
   text-decoration: underline;
-  color: #50fa7b;
+  color: @green;
 }
 
 .entity.other.inherited-class {
   font-style: italic;
   text-decoration: underline;
-  color: #50fa7b;
+  color: @green;
 }
 
 .entity.name.function {
-  color: #50fa7b;
+  color: @green;
 }
 
 .variable.parameter {
   font-style: italic;
-  color: #ffb86c;
+  color: @orange;
 }
 
 .entity.name.tag {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .entity.other.attribute-name {
-  color: #50fa7b;
+  color: @green;
 }
 
 .support.function {
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .support.constant {
-  color: #6be5fd;
+  color: darken(@cyan, 6%);
 }
 
 .support.type, .support.class {
   font-style: italic;
-  color: #66d9ef;
+  color: @soft-cyan;
 }
 
 .support.other.variable {
 }
 
 .invalid {
-  color: #F8F8F0;
-  background-color: #ff79c6;
+  color: @lace;
+  background-color: @pink;
 }
 
 .invalid.deprecated {
-  color: #F8F8F0;
-  background-color: #bd93f9;
+  color: @lace;
+  background-color: @purple;
 }
 
 .meta.structure.dictionary.json .string.quoted.double.json {
-  color: #CFCFC2;
+  color: @sandstone;
 }
 
 .meta.diff, .meta.diff.header {
-  color: #6272a4;
+  color: @blue;
 }
 
 .markup.deleted {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .markup.inserted {
-  color: #50fa7b;
+  color: @green;
 }
 
 .markup.changed {
-  color: #E6DB74;
+  color: @dark-yellow;
 }
 
 .constant.numeric.line-number.find-in-files:not(.match) {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .entity.name.filename {
-  color: #E6DB74;
+  color: @dark-yellow;
 }
 
 .message.error {
@@ -191,105 +193,105 @@
 }
 
 .punctuation.definition.string.begin.json:not(.meta.structure.dictionary.value.json), .punctuation.definition.string.end.json:not(.meta.structure.dictionary.value.json) {
-  color: #EEEEEE;
+  color: darken(@white, 7%);
 }
 
 .meta.structure.dictionary.json .string.quoted.double.json {
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .meta.structure.dictionary.value.json .string.quoted.double.json {
-  color: #f1fa8c;
+  color: @yellow;
 }
 
 .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.value .string {
-  color: #50fa7b;
+  color: @green;
 }
 
 .meta .meta .meta .meta .meta .meta.structure.dictionary.value .string {
-  color: #ffb86c;
+  color: @orange;
 }
 
 .meta .meta .meta .meta .meta.structure.dictionary.value .string {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .meta .meta .meta .meta.structure.dictionary.value .string {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .meta .meta .meta.structure.dictionary.value .string {
-  color: #50fa7b;
+  color: @green;
 }
 
 .meta .meta.structure.dictionary.value .string {
-  color: #ffb86c;
+  color: @orange;
 }
 
 .heading.gfm {
-  color: #bd93f9;
+  color: @purple;
 }
 
 .entity.gfm {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .markup.underline.link.gfm {
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .variable.unordered.list.gfm {
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .variable.ordered.list.gfm {
-  color: #8be9fd;
+  color: @cyan;
 }
 
 .variable.other.normal.shell {
-  color:#bd93f9;
+  color:@purple;
 }
 
 .markup.bold.gfm {
-  color: #ffb86c;
+  color: @orange;
 }
 
 .markup.italic.gfm {
-  color: #f1fa8c;
+  color: @yellow;
 }
 
 .markup.strike.gfm {
-  color: #ff5555;
+  color: @red;
 }
 
 .markup.raw.gfm {
-  color: #50fa7b;
+  color: @green;
 }
 
 .code.gfm {
-  color: #50fa7b;
+  color: @green;
 }
 
 .code.gfm .link {
-    color: #8be9fd;
+    color: @cyan;
 }
 
 .critic.gfm.addition {
-  color: #50fa7b;
+  color: @green;
 }
 
 .critic.gfm.deletion {
-  color: #ff5555;
+  color: @red;
 }
 
 .critic.gfm.substitution {
-  color:  #ffb86c;
+  color:  @orange;
 }
 
 .critic.gfm.highlight {
-  color: #ff79c6;
+  color: @pink;
 }
 
 .critic.gfm.comment {
-  color: #6272a4;
+  color: @blue;
 }
