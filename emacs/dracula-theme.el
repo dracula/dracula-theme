@@ -268,7 +268,8 @@
    `(enh-ruby-op-face ((,class (:foreground ,keyword))))
    `(enh-ruby-heredoc-delimiter-face ((,class (:foreground ,str))))
    `(enh-ruby-string-delimiter-face ((,class (:foreground ,str))))
-   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))))
+   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))
+   `(which-func ((,class (:inherit ,font-lock-function-name-face))))))
 
 ;;;###autoload
 (when load-file-name
