@@ -175,6 +175,7 @@
    `(undo-tree-visualizer-register-face ((,class :foreground ,type)))
    `(slime-repl-inputed-output-face ((,class (:foreground ,type))))
    `(trailing-whitespace ((,class :foreground nil :background ,warning)))
+   `(whitespace-trailing ((,class :inherit trailing-whitespace)))
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,rainbow-1)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,rainbow-2)))
    `(rainbow-delimiters-depth-3-face ((,class :foreground ,rainbow-3)))
