@@ -111,6 +111,7 @@
    `(ido-only-match ((,class (:foreground ,warning))))
    `(org-sexp-date ((,class (:foreground ,fg4))))
    `(ido-first-match ((,class (:foreground ,keyword :bold t))))
+   `(ido-subdir ((,class (:foreground ,builtin))))
    `(gnus-group-mail-1 ((,class (:foreground ,keyword :bold t))))
    `(gnus-group-mail-1-empty ((,class (:inherit gnus-group-mail-1 :bold nil))))
    `(gnus-group-mail-2 ((,class (:foreground ,const :bold t))))
