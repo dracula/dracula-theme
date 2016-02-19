@@ -70,6 +70,7 @@
    `(cursor ((,class (:background ,fg3))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
+   `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
    `(mode-line ((,class (:foreground nil :background ,bg3 :box ,bg3))))
    `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
    `(vertical-border ((,class (:foreground ,bg2))))
