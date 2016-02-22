@@ -1,5 +1,8 @@
 # Dracula Theme for ConEmu
 
+## Screenshot
+![dracula-theme](screenshot.png)
+
 ## Install
 
 You have to manually modify ConEmu config file.
