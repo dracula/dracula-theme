@@ -70,6 +70,7 @@
    `(cursor ((,class (:background ,fg3))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
+   `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
    `(mode-line ((,class (:foreground nil :background ,bg3 :box ,bg3))))
    `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
    `(vertical-border ((,class (:foreground ,bg2))))
@@ -111,6 +112,7 @@
    `(ido-only-match ((,class (:foreground ,warning))))
    `(org-sexp-date ((,class (:foreground ,fg4))))
    `(ido-first-match ((,class (:foreground ,keyword :bold t))))
+   `(ido-subdir ((,class (:foreground ,builtin))))
    `(gnus-group-mail-1 ((,class (:foreground ,keyword :bold t))))
    `(gnus-group-mail-1-empty ((,class (:inherit gnus-group-mail-1 :bold nil))))
    `(gnus-group-mail-2 ((,class (:foreground ,const :bold t))))
@@ -173,6 +175,7 @@
    `(undo-tree-visualizer-register-face ((,class :foreground ,type)))
    `(slime-repl-inputed-output-face ((,class (:foreground ,type))))
    `(trailing-whitespace ((,class :foreground nil :background ,warning)))
+   `(whitespace-trailing ((,class :inherit trailing-whitespace)))
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,rainbow-1)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,rainbow-2)))
    `(rainbow-delimiters-depth-3-face ((,class :foreground ,rainbow-3)))
@@ -268,7 +271,8 @@
    `(enh-ruby-op-face ((,class (:foreground ,keyword))))
    `(enh-ruby-heredoc-delimiter-face ((,class (:foreground ,str))))
    `(enh-ruby-string-delimiter-face ((,class (:foreground ,str))))
-   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))))
+   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))
+   `(which-func ((,class (:inherit ,font-lock-function-name-face))))))
 
 ;;;###autoload
 (when load-file-name
