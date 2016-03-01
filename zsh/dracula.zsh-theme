@@ -9,9 +9,15 @@
 #
 # @author Zeno Rocha <hi@zenorocha.com>
 
-PROMPT='%{$fg_bold[green]%}➜ %{$fg_bold[green]%}%p %{$fg_bold[blue]%}%c $(git_prompt_info)% %{$reset_color%}'
+PURPLE=$FG[141]
+YELLOW=$FG[228]
+GREEN=$FG[084]
+CYAN=$FG[117]
+BOLD=$FX[bold]
 
-ZSH_THEME_GIT_PROMPT_CLEAN=") %{$fg_bold[green]%}✔ "
-ZSH_THEME_GIT_PROMPT_DIRTY=") %{$fg_bold[yellow]%}✗ "
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[cyan]%}("
+PROMPT='%{$BOLD$GREEN%}➜ %{$BOLD$GREEN%}%p %{$BOLD$PURPLE%}%c $(git_prompt_info)% %{$reset_color%}'
+
+ZSH_THEME_GIT_PROMPT_CLEAN=") %{$BOLD$GREEN%}✔ "
+ZSH_THEME_GIT_PROMPT_DIRTY=") %{$BOLD$YELLOW%}✗ "
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$BOLD$CYAN%}("
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
