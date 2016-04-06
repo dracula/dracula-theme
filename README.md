@@ -4,6 +4,8 @@
 
 > A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [iTerm](http://www.iterm2.com/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
+![screenshot](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-sublime.png)
+
 ## Install
 
 All instructions can be found at [zenorocha.github.io/dracula-theme](http://zenorocha.github.io/dracula-theme/).
