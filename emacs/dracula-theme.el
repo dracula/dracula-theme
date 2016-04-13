@@ -6,7 +6,7 @@
 ;; http://zenorocha.mit-license.org
 
 ;; Author: film42
-;; Version: 1.2.0
+;; Version: 1.2.1
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/zenorocha/dracula-theme
 
@@ -70,6 +70,7 @@
    `(cursor ((,class (:background ,fg3))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
+   `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
    `(mode-line ((,class (:foreground nil :background ,bg3 :box ,bg3))))
    `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
    `(vertical-border ((,class (:foreground ,bg2))))
@@ -111,10 +112,40 @@
    `(ido-only-match ((,class (:foreground ,warning))))
    `(org-sexp-date ((,class (:foreground ,fg4))))
    `(ido-first-match ((,class (:foreground ,keyword :bold t))))
+   `(ido-subdir ((,class (:foreground ,builtin))))
+   `(gnus-group-mail-1 ((,class (:foreground ,keyword :bold t))))
+   `(gnus-group-mail-1-empty ((,class (:inherit gnus-group-mail-1 :bold nil))))
+   `(gnus-group-mail-2 ((,class (:foreground ,const :bold t))))
+   `(gnus-group-mail-2-empty ((,class (:inherit gnus-group-mail-2 :bold nil))))
+   `(gnus-group-mail-3 ((,class (:foreground ,comment :bold t))))
+   `(gnus-group-mail-3-empty ((,class (:inherit gnus-group-mail-3 :bold nil))))
+   `(gnus-group-mail-low ((,class (:foreground ,bg5 :bold t))))
+   `(gnus-group-mail-low-empty ((,class (:inherit gnus-group-mail-low :bold nil))))
+   `(gnus-group-news-1 ((,class (:foreground ,keyword :bold t))))
+   `(gnus-group-news-1-empty ((,class (:inherit gnus-group-news-1 :bold nil))))
+   `(gnus-group-news-2 ((,class (:foreground ,const :bold t))))
+   `(gnus-group-news-2-empty ((,class (:inherit gnus-group-news-2 :bold nil))))
+   `(gnus-group-news-3 ((,class (:foreground ,comment :bold t))))
+   `(gnus-group-news-3-empty ((,class (:inherit gnus-group-news-3 :bold nil))))
+   `(gnus-group-news-low ((,class (:foreground ,bg5 :bold t))))
+   `(gnus-group-news-low-empty ((,class (:inherit gnus-group-news-low :bold nil))))
+   `(gnus-group-news-4 ((,class (:inherit gnus-group-news-low))))
+   `(gnus-group-news-4-empty ((,class (:inherit gnus-group-news-low-empty))))
+   `(gnus-group-news-5 ((,class (:inherit gnus-group-news-low))))
+   `(gnus-group-news-5-empty ((,class (:inherit gnus-group-news-low-empty))))
+   `(gnus-group-news-6 ((,class (:inherit gnus-group-news-low))))
+   `(gnus-group-news-6-empty ((,class (:inherit gnus-group-news-low-empty))))
    `(gnus-header-content ((,class (:foreground ,keyword))))
    `(gnus-header-from ((,class (:foreground ,var))))
    `(gnus-header-name ((,class (:foreground ,type))))
    `(gnus-header-subject ((,class (:foreground ,func :bold t))))
+   `(gnus-summary-normal-unread ((,class (:foreground ,comment :weight normal))))
+   `(gnus-summary-normal-read ((,class (:foreground ,bg5 :weight normal))))
+   `(gnus-summary-normal-ticked ((,class (:foreground ,keyword :weight light))))
+   `(gnus-summary-selected ((,class (:inverse-video t))))
+   `(gnus-summary-markup-face ((,class (:foreground ,const))))
+   `(gnus-summary-normal-ancient ((,class (:inherit gnus-summary-normal-read))))
+   `(spam ((,class (:inherit gnus-summary-normal-read :foreground ,warning :strike-through t :slant oblique))))
    `(mu4e-view-url-number-face ((,class (:foreground ,type))))
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
    `(mu4e-cited-7-face ((,class (:foreground ,fg3))))
@@ -144,6 +175,7 @@
    `(undo-tree-visualizer-register-face ((,class :foreground ,type)))
    `(slime-repl-inputed-output-face ((,class (:foreground ,type))))
    `(trailing-whitespace ((,class :foreground nil :background ,warning)))
+   `(whitespace-trailing ((,class :inherit trailing-whitespace)))
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,rainbow-1)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,rainbow-2)))
    `(rainbow-delimiters-depth-3-face ((,class :foreground ,rainbow-3)))
@@ -239,7 +271,8 @@
    `(enh-ruby-op-face ((,class (:foreground ,keyword))))
    `(enh-ruby-heredoc-delimiter-face ((,class (:foreground ,str))))
    `(enh-ruby-string-delimiter-face ((,class (:foreground ,str))))
-   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))))
+   `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))
+   `(which-func ((,class (:inherit ,font-lock-function-name-face))))))
 
 ;;;###autoload
 (when load-file-name
