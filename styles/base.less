@@ -294,11 +294,11 @@
 }
 
 atom-text-editor::shadow .highlight.find-result .region {
-  background: lighten(#44475a, 3%);
+  background: lighten(@dark-gray, 3%);
   z-index: -1000;
 }
 atom-text-editor::shadow .highlight.current-result .region,
 atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .region {
-  background: lighten(#44475a, 20%); // to distinguish from the other results
+  background: lighten(@dark-gray, 20%); // to distinguish from the other results
   z-index: -1000;
 }
