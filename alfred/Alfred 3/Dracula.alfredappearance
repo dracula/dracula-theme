@@ -1,0 +1,62 @@
+{
+  "AlfredTheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#BD93F9A8",
+        "font" : "System",
+        "color" : "#6171A3BF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#50FA7BFF",
+        "font" : "System",
+        "color" : "#8BE9FD4C"
+      },
+      "backgroundSelected" : "#444759E4",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#F8F8F2FF",
+        "font" : "System",
+        "color" : "#F8F8F27F"
+      },
+      "iconPaddingHorizontal" : 4,
+      "paddingVertical" : 3,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 5,
+      "background" : "#282A3600",
+      "spacing" : 4,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#000000FF",
+        "font" : "System Thin",
+        "color" : "#F8F8F2FF"
+      },
+      "backgroundSelected" : "#A3CCFEFF"
+    },
+    "window" : {
+      "cogColor" : "#7F7F7FB7",
+      "color" : "#282A36BF",
+      "paddingHorizontal" : 4,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 40,
+      "roundness" : 3,
+      "paddingVertical" : 4
+    },
+    "credit" : "Zeno Rocha",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FF79C6FF",
+      "thickness" : 2
+    },
+    "name" : "Dracula"
+  }
+}
