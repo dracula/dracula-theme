@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{#if title }}A dark theme for {{ title }} and more{{ else }}{{ site.description }}{{/if}}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="{{ site.name }}{{#if title }} · {{ title }}{{/if}}">
+	<meta property="og:description" content="{{#if title }}A dark theme for {{ title }} and more{{ else }}{{ site.description }}{{/if}}">
+	<meta property="og:url" content="https://zenorocha.github.io/dracula-theme{{#if url }}{{ url }}{{/if}}">
+	<meta property="og:image" content="https://zenorocha.github.io/dracula-theme/assets/img/facebook.png">
+
+	<title>{{ site.name }} &mdash; {{#if title }}A dark theme for {{ title }} and more{{ else }}{{ site.description }}{{/if}}</title>
+
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
+	<link rel="stylesheet" href="{{ baseurl }}/assets/css/main.css">
+	<link rel="icon" type="image/x-icon" href="{{ baseurl }}/assets/img/favicon.ico">
+
+	<script type="text/javascript" src="//use.typekit.net/wjm5nzc.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body class="{{#if color }}{{ color }}{{ else }}green{{/if}}">
+	<div class="container-fluid">
+		<header class="header row center-xs">
+			<div class="col-xs-12">
+				<a href="{{ baseurl }}/">
+					<img src="{{ baseurl }}/assets/img/icon-{{#if icon }}{{ icon }}{{ else }}dracula{{/if}}.png" width="{{#if icon_width }}{{ icon_width }}{{ else }}168{{/if}}" height="{{#if icon_height }}{{ icon_height }}{{ else }}176{{/if}}" alt="{{#if title }}{{ title }}{{ else }}Dracula{{/if}}">
+					<h1 class="title">Dracula</h1>
+				</a>
+				<h2 class="subtitle">A dark theme for {{#if title }}{{ title }} <a href="{{ baseurl }}/">and more</a>{{ else }}<span class="rotating"></span>{{/if}}</h2>
+				<p class="gh-btns">
+					<iframe src="https://ghbtns.com/github-btn.html?user=zenorocha&amp;repo=dracula-theme&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
+					<iframe src="https://ghbtns.com/github-btn.html?user=zenorocha&amp;repo=dracula-theme&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="156" height="30"></iframe>
+				</p>
+			</div>
+		</header>

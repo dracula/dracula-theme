@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "gh-pages": "^0.11.0",
+    "handlebars": "^4.0.5",
+    "load-metalsmith-plugins": "^0.1.1",
+    "metalsmith": "^2.1.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-filemetadata": "^1.0.0",
+    "metalsmith-in-place": "^1.4.4",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-less": "^2.0.0",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-metaobject": "^0.1.0",
+    "metalsmith-partial": "^0.1.0",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-watch": "^1.0.1",
+    "pretty-hrtime": "^1.0.0"
+  }
+}

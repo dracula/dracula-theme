@@ -1,0 +1,10 @@
+url: http://zenorocha.github.io
+
+name: Dracula
+description: 'A dark theme for Atom, Alfred, Emacs, iTerm, Slack, Sequel Pro, Sublime Text, Textmate, Terminal.app, Vim, Visual Studio Code, Xcode, and Zsh'
+
+author: Zeno Rocha
+author-url: 'http://zenorocha.com'
+
+github-user: 'zenorocha'
+github-repo: 'dracula-theme'
