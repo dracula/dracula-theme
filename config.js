@@ -41,6 +41,7 @@ module.exports = {
   watch: {
     paths: {
       "${source}/**/*": true,
+      "src/assets/**/*": "**/*",
       "src/layouts/**/*": "**/*.html",
       "src/partials/**/*": "**/*.html"
     }
