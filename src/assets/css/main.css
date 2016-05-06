@@ -97,6 +97,9 @@ body {
 .credits .green { color: rgba(80, 250, 123, 1); }
 .credits .green:hover { color: rgba(80, 250, 123, .7); }
 
+.credits .orange { color: rgba(255, 184, 108, 1); }
+.credits .orange:hover { color: rgba(255, 184, 108, .7); }
+
 .credits .love {
   display: inline-block;
   position: relative;
