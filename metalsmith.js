@@ -1,72 +1,56 @@
-var start = process.hrtime();
-var task  = process.argv[2];
+const start = process.hrtime();
+const task  = process.argv[2];
 
-var metalsmith = require('metalsmith')(__dirname);
-var chalk      = require('chalk');
-var ghpages    = require('gh-pages');
-var plugins    = require('load-metalsmith-plugins')();
-var prettytime = require('pretty-hrtime');
+/* Dependencies
+   ========================================================================== */
+
+const config     = require('./config');
+const chalk      = require('chalk');
+const ghpages    = require('gh-pages');
+const plugins    = require('load-metalsmith-plugins')();
+const prettytime = require('pretty-hrtime');
+const metalsmith = require('metalsmith')(__dirname);
+
+/* Pipeline
+   ========================================================================== */
 
 metalsmith
-  .source('src/content')
-  .destination('dist')
-  .use(plugins.metadata({
-    site: 'config.yml'
-  }))
-  .use(plugins.filemetadata([
-    {pattern: '*', metadata: {'baseurl': '.'}},
-    {pattern: '**/*', metadata: {'baseurl': '..'}}
-  ]))
-  .use(plugins.assets({
-    source: 'src/assets',
-    destination: './assets'
-  }))
-  .use(plugins.layouts({
-    engine: 'handlebars',
-    directory: 'src/layouts',
-    partials: {
-      header: '../partials/header',
-      footer: '../partials/footer'
-    }
-  }))
-  .use(plugins.inPlace({
-    directory: 'src/layouts',
-    engine: 'handlebars'
-  }));
+  .source(config.source)
+  .destination(config.destination)
+  .use(plugins.metadata(config.metadata))
+  .use(plugins.filemetadata(config.filemetadata))
+  .use(plugins.assets(config.assets))
+  .use(plugins.layouts(config.layouts))
+  .use(plugins.inPlace(config.inPlace));
 
 if (task === 'watch') {
   metalsmith
-    .use(plugins.serve({
-      port: 8000,
-      verbose: true
-    }))
-    .use(plugins.watch({
-      paths: {
-        "${source}/**/*": true,
-        "src/layouts/**/*": "**/*.html",
-        "src/partials/**/*": "**/*.html"
-      }
-    }));
+    .use(plugins.serve(config.serve))
+    .use(plugins.watch(config.watch));
 }
 
-metalsmith.build(function(err) {
-  if (err) {
-    throw err;
-  } else {
-    if (task === 'build') {
-      var end = prettytime(process.hrtime(start));
-      console.log('> done in ' + chalk.green(end));
-    }
+/* Generate
+   ========================================================================== */
 
-    if (task === 'deploy') {
-      ghpages.publish('dist', function(err) {
-        if (err) {
-          throw err;
-        } else {
-          var end = prettytime(process.hrtime(start));
-          console.log('> done in ' + chalk.green(end));
-        }
-      });
-    }
-  }
+metalsmith.build((err) => {
+  if (err) throw err;
+  else buildCompleted();
 });
+
+const buildCompleted = () => {
+  if (task === 'build') {
+    buildDuration();
+  }
+
+  if (task === 'deploy') {
+    ghpages.publish(config.destination, (err) => {
+      if (err) throw err;
+      else buildDuration();
+    });
+  }
+}
+
+const buildDuration = () => {
+  const end = prettytime(process.hrtime(start));
+  console.log(`> done in ${chalk.green(end)}`);
+}
