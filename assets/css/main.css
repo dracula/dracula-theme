@@ -7,6 +7,7 @@ body {
 	background-color: #3C4556;
 	color: #f2f2f2;
 	font-family: "source-sans-pro";
+	font-weight: 300;
 }
 
 .wrapper {
@@ -28,7 +29,6 @@ body {
 .subtitle {
 	margin: 0 0 10px;
 	font-size: 28px;
-	font-weight: 400;
 }
 
 .header {
