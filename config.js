@@ -6,15 +6,15 @@ module.exports = {
   },
   filemetadata: [
     {
-      pattern: '*',
+      pattern: '**/*.html',
       metadata: {
-        'baseurl': '.'
+        'baseurl': '..'
       }
     },
     {
-      pattern: '**/*',
+      pattern: 'index.html',
       metadata: {
-        'baseurl': '..'
+        'baseurl': '.'
       }
     }
   ],
