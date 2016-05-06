@@ -3,6 +3,7 @@ var task  = process.argv[2];
 
 var metalsmith = require('metalsmith')(__dirname);
 var chalk      = require('chalk');
+var ghpages    = require('gh-pages');
 var plugins    = require('load-metalsmith-plugins')();
 var prettytime = require('pretty-hrtime');
 
@@ -13,8 +14,8 @@ metalsmith
     site: 'config.yml'
   }))
   .use(plugins.filemetadata([
-      {pattern: '*', metadata: {'baseurl': '.'}},
-      {pattern: '**/*', metadata: {'baseurl': '..'}}
+    {pattern: '*', metadata: {'baseurl': '.'}},
+    {pattern: '**/*', metadata: {'baseurl': '..'}}
   ]))
   .use(plugins.assets({
     source: 'src/assets',
@@ -52,9 +53,20 @@ metalsmith.build(function(err) {
   if (err) {
     throw err;
   } else {
-    if (task === 'generate') {
+    if (task === 'build') {
       var end = prettytime(process.hrtime(start));
       console.log('> done in ' + chalk.green(end));
+    }
+
+    if (task === 'deploy') {
+      ghpages.publish('dist', function(err) {
+        if (err) {
+          throw err;
+        } else {
+          var end = prettytime(process.hrtime(start));
+          console.log('> done in ' + chalk.green(end));
+        }
+      });
     }
   }
 });
