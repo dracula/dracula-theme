@@ -4,11 +4,11 @@
 
 > A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
-![screenshot](http://zenorocha.github.io/dracula-theme/assets/img/screenshot-sublime.png)
-
 ## Install
 
-All instructions can be found at [zenorocha.github.io/dracula-theme](http://zenorocha.github.io/dracula-theme/).
+All instructions can be found at [draculatheme.com](https://draculatheme.com/).
+
+![screenshot](https://draculatheme.com/assets/img/screenshot-sublime.png)
 
 ## Roadmap
 
@@ -41,17 +41,17 @@ Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
-* [@Ulthes](https://github.com/Ulthes/) - Visual Studio Code theme
-* [@film42](https://github.com/film42/) - Emacs theme
-* [@quagliato](https://github.com/quagliato/) - Slack theme
-* [@felipekm](https://github.com/felipekm/) - Brackets theme
-* [@jordanbrown](https://github.com/jordanbrown/) - Xcode theme
-* [@nuxlli](https://github.com/nuxlli/) - Vim theme
-* [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
-* [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
-* [@JimmyMultani](https://github.com/JimmyMultani) - Atom theme
+* [@Ulthes](https://github.com/Ulthes/) - Visual Studio Code
+* [@film42](https://github.com/film42/) - Emacs
+* [@quagliato](https://github.com/quagliato/) - Slack
+* [@felipekm](https://github.com/felipekm/) - Brackets
+* [@jordanbrown](https://github.com/jordanbrown/) - Xcode
+* [@nuxlli](https://github.com/nuxlli/) - Vim
+* [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred
+* [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools
+* [@JimmyMultani](https://github.com/JimmyMultani) - Atom
 * [@cbracco](https://github.com/cbracco) - JetBrains
-* [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate, Zsh, iTerm, Terminal.app, Website
+* [@zenorocha](https://github.com/zenorocha/) - Everything else :)
 
 ## Contributing
 
@@ -60,7 +60,6 @@ If you want to help, please read the [Contributing](https://github.com/zenorocha
 ## Credits
 
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
-* Chrome DevTools theme built on top of [@mauricecruz's ZeroDarkMatrix theme](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
 * ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
 * Icons by [@sunbzy](http://www.sunbzy.com/)
