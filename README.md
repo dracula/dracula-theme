@@ -2,7 +2,7 @@
 
 ![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
 
 ## Install
 
@@ -51,6 +51,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools
 * [@JimmyMultani](https://github.com/JimmyMultani) - Atom
 * [@cbracco](https://github.com/cbracco) - JetBrains
+* [@Mottie](https://github.com/Mottie) - Pygments
 * [@zenorocha](https://github.com/zenorocha/) - Everything else :)
 
 ## Contributing
