@@ -5,8 +5,8 @@
 " Code licensed under the MIT license
 " http://zenorocha.mit-license.org
 "
-" @author Zeno Rocha <hi@zenorocha.com>
 " @author Extrante <extrante@gmail.com>
+" @author Zeno Rocha <hi@zenorocha.com>
 
 " Color palette
 let s:gui01 = "#44475a"

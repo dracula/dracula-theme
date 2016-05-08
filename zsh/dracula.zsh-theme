@@ -1,8 +1,8 @@
-# Dracula Theme v1.2.1
+# Dracula Theme v1.2.5
 #
 # https://github.com/zenorocha/dracula-theme
 #
-# Copyright 2015, All rights reserved
+# Copyright 2016, All rights reserved
 #
 # Code licensed under the MIT license
 # http://zenorocha.mit-license.org

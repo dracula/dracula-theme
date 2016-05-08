@@ -1,12 +1,12 @@
 ;;; dracula-theme.el --- Dracula Theme
 
-;; Copyright 2015, All rights reserved
+;; Copyright 2016, All rights reserved
 ;;
 ;; Code licensed under the MIT license
 ;; http://zenorocha.mit-license.org
 
 ;; Author: film42
-;; Version: 1.2.1
+;; Version: 1.2.5
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/zenorocha/dracula-theme
 
