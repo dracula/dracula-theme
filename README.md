@@ -50,6 +50,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred theme
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools theme
 * [@JimmyMultani](https://github.com/JimmyMultani) - Atom theme
+* [@cbracco](https://github.com/cbracco) - JetBrains
 * [@zenorocha](https://github.com/zenorocha/) - Sublime Text theme, TextMate, Zsh, iTerm, Terminal.app, Website
 
 ## Contributing
