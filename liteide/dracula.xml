@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Dracula">
+  <!--
+  Based on Dracula and GitHub Gist Themes
+  Copyright (c) 2014 Sam Zaydel
+  MIT License
+  -->
+  <style name="Text" foreground="#f1fa8c" background="#282a36"/>
+  <style name="Extra" foreground="#50fa7b" background="#44475a"/>
+  <style name="Selection" background="#44475a"/>
+  <style name="CurrentLine" background="#44475a"/>
+  <style name="IndentLine" foreground="#44475a"/>
+  <style name="VisualWhitespace" foreground="#f57900"/>
+  <style name="Keyword" foreground="#8be9fd" bold="true"/>
+  <style name="DataType" foreground="#8be9fd" bold="true" /> 
+  <style name="Decimal" foreground="#bd93f9" bold="true"/>
+  <style name="BaseN" foreground="#bd93f9" bold="true"/>
+  <style name="Float" foreground="#bd93f9" bold="true"/>
+  <style name="Char" foreground="#f8f8f2"/>
+  <style name="String" foreground="#f8f8f2"/>
+  <style name="Comment" foreground="#6272a4" italic="true"/>
+  <style name="Alert" foreground="#ffb86c" bold="true"/>
+  <style name="Error" foreground="#ff5555" bold="true"/>
+  <style name="Function" foreground="#8be9fd"/>
+  <style name="RegionMarker" foreground="#ff79c6"/>
+  <style name="Symbol" foreground="#f8f8f2"/> 
+  <style name="BuiltinFunc" foreground="#8be9fd" bold="true"/>
+  <style name="Predeclared" foreground="#50fa7b" bold="true"/>
+  <style name="FuncDecl" foreground="#ff79c6"/>
+  <style name="Placeholder" foreground="#ffb86c"/>
+  <style name="ToDo" foreground="#50fa7b" background="#e0e0e0" bold="true"/>
+</style-scheme>
+
