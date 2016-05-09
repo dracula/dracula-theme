@@ -18,7 +18,7 @@ Nope. Dracula can't stand the light.
 
 ###### "Are you going to support editor X?"
 
-I hope so, but I need your help to accomplish that. Since you're using editor X you're probably much more expert on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
+I hope so, but I need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
 
 ## Color Palette
 
@@ -39,7 +39,7 @@ Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](ht
 
 ## Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each theme there's a specific maintainer, that way we can support more platforms and still keep a high quality project.
 
 * [@Ulthes](https://github.com/Ulthes/) - Visual Studio Code
 * [@film42](https://github.com/film42/) - Emacs
@@ -58,10 +58,6 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@radmonlee](https://github.com/radmonlee) - ConEmu
 * [@ashokgelal](https://github.com/ashokgelal) - LightPaper
 * [@zenorocha](https://github.com/zenorocha/) - Everything else :)
-
-## Contributing
-
-If you want to help, please read the [Contributing](https://github.com/zenorocha/dracula-theme/blob/master/CONTRIBUTING.md) guide.
 
 ## Credits
 
