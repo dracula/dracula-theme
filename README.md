@@ -54,6 +54,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@Mottie](https://github.com/Mottie) - Pygments
 * [@dciccale](https://github.com/dciccale) - Highlight.js
 * [@defectivebit](https://github.com/defectivebit) - Coda, Ulysses
+* [@szaydel](https://github.com/szaydel) - LiteIDE
 * [@zenorocha](https://github.com/zenorocha/) - Everything else :)
 
 ## Contributing
