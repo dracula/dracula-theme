@@ -20,3 +20,5 @@ malarkey(document.querySelector('.rotating'), {
   .type('Emacs').pause().delete()
   .type('Sequel Pro').pause().delete()
   .type('Visual Studio Code').pause().delete()
+  .type('JetBrains').pause().delete()
+  .type('Visual Studio').pause().delete()

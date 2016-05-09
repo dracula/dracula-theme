@@ -10,7 +10,7 @@ We use [Metalsmith](http://www.metalsmith.io/), a static generator in NodeJS.
 
 ## Getting Started
 
-1. Install [NodeJS](http://nodejs.org/download/), if you don't have it yet.
+1. Install [NodeJS](http://nodejs.org/download/) (>= 4.3.0), if you don't have it yet.
 
 2. Now clone this repository:
 

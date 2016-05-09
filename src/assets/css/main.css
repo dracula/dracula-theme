@@ -102,6 +102,9 @@ body {
 .credits .orange { color: rgba(255, 184, 108, 1); }
 .credits .orange:hover { color: rgba(255, 184, 108, .7); }
 
+.credits .pink { color: rgba(255, 121, 198, 1); }
+.credits .pink:hover { color: rgba(255, 121, 198, .7); }
+
 .credits .love {
   display: inline-block;
   position: relative;
@@ -192,6 +195,18 @@ a {
 
 .orange .instructions a:hover {
 	color: rgba(255, 184, 108, .7);
+}
+
+.pink .title,
+.pink .subtitle a,
+.pink .instructions a,
+.pink .instructions h3,
+.pink .instructions code {
+	color: rgba(255, 121, 198, 1);
+}
+
+.pink .instructions a:hover {
+	color: rgba(255, 121, 198, .7);
 }
 
 .cyan .title,
