@@ -46,7 +46,6 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@quagliato](https://github.com/quagliato/) - Slack
 * [@felipekm](https://github.com/felipekm/) - Brackets
 * [@jordanbrown](https://github.com/jordanbrown/) - Xcode
-* [@nuxlli](https://github.com/nuxlli/) - Vim
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools
 * [@JimmyMultani](https://github.com/JimmyMultani) - Atom
@@ -57,6 +56,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@szaydel](https://github.com/szaydel) - LiteIDE
 * [@radmonlee](https://github.com/radmonlee) - ConEmu
 * [@ashokgelal](https://github.com/ashokgelal) - LightPaper
+* [@heinst](https://github.com/heinst/) - Vim
 * [@zenorocha](https://github.com/zenorocha/) - Everything else :)
 
 ## Credits
