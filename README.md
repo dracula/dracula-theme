@@ -43,7 +43,7 @@ We use [Metalsmith](http://www.metalsmith.io/), a static generator in NodeJS.
     ```
    Now you can see the website running in `localhost:8000` :D
 
-6. If you're a contributor, you can publish the site to GitHub Pages by running:
+6. If you're a collaborator, you can publish the site to GitHub Pages by running:
 
     ```sh
     $ npm run deploy
