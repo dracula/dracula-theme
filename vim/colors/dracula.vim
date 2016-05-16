@@ -7,7 +7,8 @@
 " Code licensed under the MIT license
 " http://zenorocha.mit-license.org
 "
-" @author Éverton Ribeiro <nuxlli@gmail.com>
+" (vinceskahan mod: took the accented E out - hoses up the filetype for us cygwin (sorry))
+" @author Everton Ribeiro <nuxlli@gmail.com>
 " @author Zeno Rocha <hi@zenorocha.com>
 
 set background=dark
