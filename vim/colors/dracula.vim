@@ -7,7 +7,8 @@
 " Code licensed under the MIT license
 " http://zenorocha.mit-license.org
 "
-" @author Éverton Ribeiro <nuxlli@gmail.com>
+" (vinceskahan mod: took the accented E out - hoses up the filetype for us cygwin (sorry))
+" @author Everton Ribeiro <nuxlli@gmail.com>
 " @author Zeno Rocha <hi@zenorocha.com>
 
 set background=dark
@@ -118,3 +119,17 @@ hi goMethod ctermfg=117 ctermbg=NONE cterm=NONE guifg=#8be9fd guibg=NONE gui=NON
 hi goType ctermfg=117 ctermbg=NONE cterm=NONE guifg=#8be9fd guibg=NONE gui=NONE
 hi goBuiltins ctermfg=117 ctermbg=NONE cterm=NONE guifg=#8be9fd guibg=NONE gui=NONE
 
+"-------------------
+"
+"cygwin has an annoying behavior where it resets background to light
+"regardless of what is set above, so we force it yet again
+"
+"add these to get cygwin shell working when used to ssh into a centos6 vm
+"this requires your TERM=xterm-256color in the guest vm
+"- one way to do this is to append to /home/vagrant/.bash_profile ala:
+"      TERM=xterm-256color
+"      export $TERM
+
+execute "set background=dark"
+highlight clear
+"-------------------
