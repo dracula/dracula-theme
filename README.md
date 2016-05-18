@@ -8,8 +8,6 @@
 
 All instructions can be found at [draculatheme.com](https://draculatheme.com/).
 
-![screenshot](https://draculatheme.com/assets/img/screenshot-sublime.png)
-
 ## Roadmap
 
 ###### "Are you going to create a light color scheme?"
