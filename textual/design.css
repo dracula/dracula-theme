@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* Basic Body Structure */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  word-wrap: break-word;
+  line-height: 1.7em;
+}
+
+body {
+  color: #f8f8f2;
+  height: 100%;
+  z-index: 100;
+  font-size: 11px;
+  overflow: hidden;
+  overflow-y: visible;
+  background-color: #1E1F29;
+  font-family: caption;
+}
+
+body div#body_home {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: 100;
+  max-height: 99.99%;
+  position: absolute;
+  opacity: 0;
+  /* Set by JavaScript */
+  -webkit-transition: opacity 0.8s linear;
+}
+
+body[viewlltype*=channel] div#body_home {
+  max-height: 96.5%;
+}
+
+body .line {
+  margin-top: -1px;
+  clear: both;
+}
+
+body[dir=rtl] .sender {
+  display: inline-block;
+}
+
+/* Loading Screen */
+body div#loading_screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -11px;
+  margin-left: -150px;
+  width: 300px;
+  height: 21px;
+  font-size: 18px;
+  background: #1E1F29;
+  border: 1px solid #44475a;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  opacity: 1;
+  /* Set by JavaScript */
+  -webkit-transition: opacity 0.8s linear;
+}
+
+/* Time */
+body[dir=ltr] .time {
+  color: #50fa7b;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+body[dir=rtl] .time {
+  color: #50fa7b;
+  white-space: nowrap;
+  padding-left: 0.4em;
+  display: inline-block;
+}
+
+/* Encryption Lock */
+.encryptionLock img {
+  float: right;
+  margin: 0;
+  padding: 0;
+  height: 11px;
+  margin-top: 2px;
+  padding-left: 10px;
+}
+
+/* Links */
+a {
+  color: #8be9fd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #72e4fd;
+}
+
+/* Topic Bar */
+#topic_bar {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  /* Set by JavaScript */
+  z-index: 400;
+  color: #6272a4;
+  position: fixed;
+  padding: 2px 0.5em 3px;
+  border-bottom: 1px solid #08090c;
+  text-shadow: 1px 1px rgba(10, 10, 10, 0.7);
+  background: #13141a;
+  -webkit-transition: opacity 0.8s linear;
+  -webkit-font-smoothing: subpixel-antialiased;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Topic bar hover additions contributed with permission from the project:
+	<https://github.com/hbang/Simplified-Light-Modifications> */
+#topic_bar:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+#topic_bar a {
+  color: #8be9fd;
+  text-shadow: 1px 1px rgba(10, 10, 10, 0.7);
+}
+
+#topic_bar span.channel {
+  border-color: #ff79c6;
+  text-shadow: 1px 1px rgba(10, 10, 10, 0.7);
+}
+
+/* Images */
+.inlineImageCell {
+  overflow: auto;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.inlineImageCell .image {
+  display: inline-block;
+  float: left;
+  margin-right: 12px;
+  margin-left: 10px;
+  min-width: 40px;
+  max-width: 90%;
+}
+
+.inlineImageCell .closeButton {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #6272a4;
+  color: #6272a4;
+  display: inline-block;
+  line-height: 14px;
+  font-size: 15px;
+  font-family: caption !important;
+  text-indent: 7px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  padding-right: 7px;
+  padding-left: 0px;
+}
+
+html[systemversion^="10.9"] .inlineImageCell .closeButton,
+html[systemversion^="10.8"] .inlineImageCell .closeButton {
+  line-height: 13px;
+}
+
+/* Remember Line */
+div[id=mark] {
+  position: relative;
+  clear: both;
+  z-index: 295;
+  margin: 10px 0;
+  border-bottom: 1px dotted;
+  border-color: #44475a;
+  -webkit-transition: 0.2s linear;
+}
+
+/* Selected User Message */
+.sender {
+  cursor: pointer;
+}
+
+body div.line[ltype*=privmsg]:not(.selectedUser),
+body div.line[ltype*=action]:not(.selectedUser) {
+  transition-property: border-top, border-bottom, background-color;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+}
+
+body div.line[ltype*=privmsg] .time:not(.selectedUser),
+body div.line[ltype*=action] .time:not(.selectedUser) {
+  transition: color 0.5s;
+}
+
+body div.line.selectedUser[highlight=false] .time {
+  transition: color 0.5s ease-in;
+  color: #aaa;
+}
+
+body div.line.selectedUser[ltype*=privmsg][mtype*=myself] .time {
+  color: #f8f8f2;
+}
+
+body div.line.selectedUser[highlight=false] {
+  transition-property: border-top, border-bottom, background-color;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  z-index: 190;
+  position: relative;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  background-color: #44475a !important;
+}
+
+/* Historic Line */
+#historic_messages {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  opacity: 0.6;
+}
+
+/* NOTICE/CTCP/WALLOPS */
+body div.line[ltype*=ctcp],
+body div.line[ltype*=notice],
+body div.line[ltype*=wallops] {
+  color: #ff5555;
+  z-index: 191;
+  background: #44475a;
+  position: relative;
+  padding: 2px 5px 2px 5px;
+}
+
+body div[ltype*=notice] .sender {
+  color: #ff5555;
+}
+
+/* PRIVMSG */
+body div.line[ltype*=privmsg][highlight=false] {
+  padding: 3px 5px 3px 5px;
+}
+
+body div.line[ltype*=privmsg][highlight=true],
+body div.line[ltype*=action][highlight=true] {
+  padding: 2px 5px 2px 5px;
+  border-top: 1px solid #f1fa8c;
+  border-bottom: 1px solid #f1fa8c;
+  background-color: #778106 !important;
+}
+
+body div[lltype*="privmsg"] .message {
+  color: #d4d4b0;
+}
+
+body div[ltype*=privmsg] p[mtype*=myself] .message {
+  color: #f8f8f2;
+}
+
+/* ACTION */
+body div.line[ltype*=action] {
+  padding: 3px 5px 3px 5px;
+}
+
+body div[lltype*="action"] .message {
+  color: #d4d4b0;
+}
+
+body div[ltype*=action] .sender {
+  color: #d4d4b0;
+}
+
+body div[ltype*=action] p[mtype*=myself] .sender,
+body div[ltype*=action] p[mtype*=myself] .message {
+  color: #bd93f9;
+}
+
+body[dir=ltr] div[ltype*=action] .sender:before {
+  content: "\2022";
+  margin-right: 0.4em;
+}
+
+body[dir=ltr] div[ltype*=action] .sender:after {
+  content: "";
+  /* margin-right: 0.4em; */
+}
+
+body[dir=rtl] div[ltype*=action] .sender:before {
+  content: "\2022";
+  margin-left: 0.4em;
+}
+
+body[dir=rtl] div[ltype*=action] .sender:after {
+  content: "";
+  /* margin-left: 0.4em; */
+}
+
+/* DEBUG/INVITE */
+body div.line[ltype*=invite],
+body div.line[ltype*=debug],
+body div.line[ltype*=dcc-file-transfer],
+body div.line[ltype*=off-the-record-encryption-status] {
+  color: #787840;
+  z-index: 190;
+  background: #35351d;
+  position: relative;
+  padding: 2px 5px 2px 5px;
+  border-top: 1px solid #56562f;
+  border-bottom: 1px solid #56562f;
+}
+
+/* off-the-record-encryption-status Message Event */
+body div.line[ltype*=off-the-record-encryption-status] .message {
+  color: #ff5555;
+  font-weight: 700;
+}
+
+/* Message of the Day (MOTD) */
+/* 720, 721, 722 are used by ShadowIRCd for Oper MOTD. */
+/* 372, 375, 376 are normal MOTD shared by several IRCds. */
+body div.line[command="372"],
+body div.line[command="721"] {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+body div.line[command="375"],
+body div.line[command="720"] {
+  /* Start. */
+  border-bottom: none;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+body div.line[command="376"],
+body div.line[command="722"] {
+  /* End. */
+  border-top: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+body div.line[command="372"] .message,
+body div.line[command="375"] .message,
+body div.line[command="376"] .message
+body div.line[command="720"] .message,
+body div.line[command="721"] .message,
+body div.line[command="722"] .message {
+  font-family: "Monaco" !important;
+}
+
+/* GENERAL EVENT */
+body div.line[ltype*=join],
+body div.line[ltype*=part],
+body div.line[ltype*=kick],
+body div.line[ltype*=quit],
+body div.line[ltype*=kill],
+body div.line[ltype*=nick],
+body div.line[ltype*=mode],
+body div.line[ltype*=topic],
+body div.line[ltype*=website] {
+  padding: 3px 5px 3px 5px;
+  color: #6272a4;
+}
+
+body[dir=ltr] div[ltype*=join] .message:before {
+  content: "→";
+  color: #50fa7b;
+  /* margin-right: 0.4em; */
+}
+
+body[dir=ltr] div[ltype*=kick] .message:before,
+body[dir=ltr] div[ltype*=part] .message:before,
+body[dir=ltr] div[ltype*=quit] .message:before {
+  content: "←";
+  color: #ff5555;
+  /* margin-right: 0.4em; */
+}
+
+body[dir=ltr] div[ltype*=nick] .message:before {
+  content: "•";
+  color: #8be9fd;
+  /* margin-right: 0.4em; */
+}
+
+body[dir=rtl] div[ltype*=join] .message:before {
+  content: "→";
+  color: #50fa7b;
+  /* margin-left: 0.4em; */
+}
+
+body[dir=rtl] div[ltype*=kick] .message:before,
+body[dir=rtl] div[ltype*=part] .message:before,
+body[dir=rtl] div[ltype*=quit] .message:before {
+  content: "←";
+  color: #ff5555;
+  /* margin-left: 0.4em; */
+}
+
+body[dir=rtl] div[ltype*=nick] .message:before {
+  content: "•";
+  color: #8be9fd;
+  /* margin-left: 0.4em; */
+}
+
+/* Nickname Colors */
+body div[ltype*=privmsg] .sender[mtype*=myself] {
+  color: #bd93f9;
+}
+
+body .sender[mtype*=normal][colornumber='0'],
+body .inline_nickname[colornumber='0'] {
+  color: #ff79c6;
+}
+
+body .sender[mtype*=normal][colornumber='1'],
+body .inline_nickname[colornumber='1'] {
+  color: #50fa7b;
+}
+
+body .sender[mtype*=normal][colornumber='2'],
+body .inline_nickname[colornumber='2'] {
+  color: #8be9fd;
+}
+
+body .sender[mtype*=normal][colornumber='3'],
+body .inline_nickname[colornumber='3'] {
+  color: #f1fa8c;
+}
+
+body .sender[mtype*=normal][colornumber='4'],
+body .inline_nickname[colornumber='4'] {
+  color: #ffb86c;
+}
+
+body .sender[mtype*=normal][colornumber='5'],
+body .inline_nickname[colornumber='5'] {
+  color: #ff5555;
+}
+
+body .sender[mtype*=normal][colornumber='6'],
+body .inline_nickname[colornumber='6'] {
+  color: #b687f8;
+}
+
+body .sender[mtype*=normal][colornumber='7'],
+body .inline_nickname[colornumber='7'] {
+  color: #ff6cc1;
+}
+
+body .sender[mtype*=normal][colornumber='8'],
+body .inline_nickname[colornumber='8'] {
+  color: #44fa72;
+}
+
+body .sender[mtype*=normal][colornumber='9'],
+body .inline_nickname[colornumber='9'] {
+  color: #7ee7fd;
+}
+
+body .sender[mtype*=normal][colornumber='10'],
+body .inline_nickname[colornumber='10'] {
+  color: #f0f980;
+}
+
+body .sender[mtype*=normal][colornumber='11'],
+body .inline_nickname[colornumber='11'] {
+  color: #ffb25f;
+}
+
+body .sender[mtype*=normal][colornumber='12'],
+body .inline_nickname[colornumber='12'] {
+  color: #ff4848;
+}
+
+body .sender[mtype*=normal][colornumber='13'],
+body .inline_nickname[colornumber='13'] {
+  color: #ae7bf8;
+}
+
+body .sender[mtype*=normal][colornumber='14'],
+body .inline_nickname[colornumber='14'] {
+  color: #ff60bb;
+}
+
+body .sender[mtype*=normal][colornumber='15'],
+body .inline_nickname[colornumber='15'] {
+  color: #37f968;
+}
+
+body .sender[mtype*=normal][colornumber='16'],
+body .inline_nickname[colornumber='16'] {
+  color: #72e4fd;
+}
+
+body .sender[mtype*=normal][colornumber='17'],
+body .inline_nickname[colornumber='17'] {
+  color: #eef974;
+}
+
+body .sender[mtype*=normal][colornumber='18'],
+body .inline_nickname[colornumber='18'] {
+  color: #ffac53;
+}
+
+body .sender[mtype*=normal][colornumber='19'],
+body .inline_nickname[colornumber='19'] {
+  color: #ff3b3b;
+}
+
+body .sender[mtype*=normal][colornumber='20'],
+body .inline_nickname[colornumber='20'] {
+  color: #a76ff7;
+}
+
+body .sender[mtype*=normal][colornumber='21'],
+body .inline_nickname[colornumber='21'] {
+  color: #ff53b6;
+}
+
+body .sender[mtype*=normal][colornumber='22'],
+body .inline_nickname[colornumber='22'] {
+  color: #2bf95f;
+}
+
+body .sender[mtype*=normal][colornumber='23'],
+body .inline_nickname[colornumber='23'] {
+  color: #65e2fc;
+}
+
+body .sender[mtype*=normal][colornumber='24'],
+body .inline_nickname[colornumber='24'] {
+  color: #edf867;
+}
+
+body .sender[mtype*=normal][colornumber='25'],
+body .inline_nickname[colornumber='25'] {
+  color: #ffa646;
+}
+
+body .sender[mtype*=normal][colornumber='26'],
+body .inline_nickname[colornumber='26'] {
+  color: #ff2f2f;
+}
+
+body .sender[mtype*=normal][colornumber='27'],
+body .inline_nickname[colornumber='27'] {
+  color: #9f63f6;
+}
+
+body .sender[mtype*=normal][colornumber='28'],
+body .inline_nickname[colornumber='28'] {
+  color: #ff46b0;
+}
+
+body .sender[mtype*=normal][colornumber='29'],
+body .inline_nickname[colornumber='29'] {
+  color: #1ef956;
+}
+
+body .sender[mtype*=normal][colornumber='30'],
+body .inline_nickname[colornumber='30'] {
+  color: #59dffc;
+}
