@@ -49,7 +49,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred
 * [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools
 * [@JimmyMultani](https://github.com/JimmyMultani) - Atom
-* [@cbracco](https://github.com/cbracco) - JetBrains
+* [@joaoevangelista](https://github.com/joaoevangelista) - JetBrains
 * [@Mottie](https://github.com/Mottie) - Pygments
 * [@dciccale](https://github.com/dciccale) - Highlight.js
 * [@defectivebit](https://github.com/defectivebit) - Coda, Ulysses
@@ -57,6 +57,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * [@radmonlee](https://github.com/radmonlee) - ConEmu
 * [@ashokgelal](https://github.com/ashokgelal) - LightPaper
 * [@heinst](https://github.com/heinst/) - Vim
+* [@cbracco](https://github.com/cbracco/) - Icon designs
 * [@zenorocha](https://github.com/zenorocha/) - Everything else :)
 
 ## Credits
