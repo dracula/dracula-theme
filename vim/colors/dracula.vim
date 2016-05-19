@@ -134,5 +134,4 @@ hi TabLineSel   guifg=WHITE guibg=#1e1f29 gui=none
 "      export $TERM
 
 execute "set background=dark"
-highlight clear
 "-------------------
