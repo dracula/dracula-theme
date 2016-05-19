@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "1.2.5",
   "description": "A dark theme for Atom",
-  "repository": "https://github.com/zenorocha/dracula-theme",
+  "repository": "https://github.com/dracula/atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
