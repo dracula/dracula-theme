@@ -2,7 +2,7 @@
 
 ![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/).
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/) and many more.
 
 ## Install
 
@@ -37,26 +37,7 @@ Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](ht
 
 ## Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome [contributors](https://github.com/zenorocha/dracula-theme/graphs/contributors). For each theme there's a specific maintainer, that way we can support more platforms and still keep a high quality project.
-
-* [@Ulthes](https://github.com/Ulthes/) - Visual Studio Code
-* [@film42](https://github.com/film42/) - Emacs
-* [@quagliato](https://github.com/quagliato/) - Slack
-* [@felipekm](https://github.com/felipekm/) - Brackets
-* [@jordanbrown](https://github.com/jordanbrown/) - Xcode
-* [@oswaldoacauan](https://github.com/oswaldoacauan/) - Alfred
-* [@vagnervjs](https://github.com/vagnervjs/) - Chrome Devtools
-* [@JimmyMultani](https://github.com/JimmyMultani) - Atom
-* [@joaoevangelista](https://github.com/joaoevangelista) - JetBrains
-* [@Mottie](https://github.com/Mottie) - Pygments
-* [@dciccale](https://github.com/dciccale) - Highlight.js
-* [@defectivebit](https://github.com/defectivebit) - Coda, Ulysses
-* [@szaydel](https://github.com/szaydel) - LiteIDE
-* [@radmonlee](https://github.com/radmonlee) - ConEmu
-* [@ashokgelal](https://github.com/ashokgelal) - LightPaper
-* [@heinst](https://github.com/heinst/) - Vim
-* [@cbracco](https://github.com/cbracco/) - Icon designs
-* [@zenorocha](https://github.com/zenorocha/) - Everything else :)
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme is contained in it's own repository. Each repository lists the current maintainer(s).
 
 ## Credits
 
@@ -67,8 +48,8 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 
 ## History
 
-For detailed changelog, see [Releases](https://github.com/zenorocha/dracula-theme/releases).
+The changelog is available on the release page in each theme's repository.
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+[MIT License](./LICENSE) © Dracula Theme
