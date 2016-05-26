@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<style-scheme id="dracula" name="Dracula" version="1.0">
+	<author>Ricardo Madriz</author>
+	<_description>A dark theme for Gedit</_description>
+
+	<style background="#f8f8f0" foreground="#282a36" name="cursor"/>
+	<style background="#44475a" name="current-line"/>
+	<style background="#282a36" foreground="#909194" name="line-numbers"/>
+	<style foreground="#ff79c6" name="bracket-match" underline="true"/>
+	<style name="search-match" underline="true"/>
+	<style background="#282a36" foreground="#f8f8f2" name="text"/>
+	<style foreground="#bd93f9" name="def:boolean"/>
+	<style foreground="#6272a4" name="def:comment"/>
+	<style background="#468410" bold="true" foreground="#f8f8f2" name="diff:added-line"/>
+	<style foreground="#8b080b" name="diff:removed-line"/>
+	<style background="#243a5f" foreground="#f8f8f2" name="diff:changed-line"/>
+	<style foreground="#50fa7b" name="def:function"/>
+	<style foreground="#8be9fd" italic="true" name="def:identifier"/>
+	<style foreground="#ff79c6" name="def:keyword"/>
+	<style foreground="#bd93f9" name="def:number"/>
+	<style foreground="#ff79c6" name="def:preprocessor"/>
+	<style foreground="#f8f8f2" name="def:specials"/>
+	<style foreground="#ff79c6" name="def:statement"/>
+	<style foreground="#f1fa8c" name="def:string"/>
+</style-scheme>
