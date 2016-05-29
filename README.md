@@ -2,21 +2,11 @@
 
 ![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/) and many more.
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/) and many more.
 
 ## Install
 
 All instructions can be found at [draculatheme.com](https://draculatheme.com/).
-
-## Roadmap
-
-###### "Are you going to create a light color scheme?"
-
-Nope. Dracula can't stand the light.
-
-###### "Are you going to support editor X?"
-
-I hope so, but I need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
 
 ## Color Palette
 
@@ -35,9 +25,33 @@ Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![Purple Color](ht
 Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://raw.githubusercontent.com/zenorocha/dracula-theme/gh-pages/assets/img/color-boxes/red.png)
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://raw.githubusercontent.com/zenorocha/dracula-theme/gh-pages/assets/img/color-boxes/yellow.png)
 
+## FAQ
+
+###### "Are you going to create a light color scheme?"
+
+Nope. Dracula can't stand the light.
+
+###### "Are you going to support editor X?"
+
+I hope so, but I need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
+
 ## Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme is contained in it's own repository. Each repository lists the current maintainer(s).
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme has it's own maintainer listed in the Team section of it's README.
+
+## Organization Migration
+
+Over the years Dracula has grown to support many more editors. With that came the challenge of supporting a myriad of editors, terminals, shells, and more in the same repository. Some package manager's require specific files and layouts which cause conflicts and make it harder to maintain.
+
+So it was decided to change Dracula from a one repository theme to an organization. All themes have now been migrated to their own repository. With this change we can better support package managers, list maintainers, make installation instructions easier to find, and support independent releases.
+
+Please see https://github.com/dracula for all of our repositories.
+
+## Roadmap
+
+* Build the site based on the repository (This makes it easier to contribute to)
+  * Use the README.md to generate the theme's page
+  * Move the screenshots to the repository
 
 ## Credits
 
@@ -46,7 +60,7 @@ Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with
 * ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
 * Icons by [@sunbzy](http://www.sunbzy.com/)
 
-## History
+## Changelog
 
 The changelog is available on the release page in each theme's repository.
 
