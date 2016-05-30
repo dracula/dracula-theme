@@ -1,7 +1,4 @@
 ## New Theme?
 
-Submit your new theme to the `master` branch and include instructions on how to install it by sending another pull request to the `site` branch.
+Please submit an issue with a screenshot of the theme, and a link to your repository that contains the theme. If/when the theme is accepted, we'll create a new repository under the Dracula organization where you can submit the PR.
 
-## Existing Theme?
-
-Take two screenshots. One that shows the actual bug and another that shows how you fixed it.
