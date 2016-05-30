@@ -6,4 +6,4 @@ We would love to support all code editors out there, but we need your help to ac
 
 Consider fixing the issue yourself. That's the best way to contribute ;)
 
-If that doesn't work, take a screenshot that shows the actual bug and mention the [specific maintainer](https://github.com/zenorocha/dracula-theme#team) of your theme.
+If that doesn't work, take a screenshot that shows the actual bug and mention the [specific maintainer](https://github.com/dracula/dracula-theme#team) of your theme.
