@@ -36,7 +36,13 @@ Nope. Dracula can't stand the light.
 
 ###### "Are you going to support editor X?"
 
-I hope so, but I need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than me. So feel free to send a pull request based on the [Color Palette](#color-palette) below.
+We hope so, but we need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than us. Please see [How do I submit a new theme?](#how-do-i-submit-a-new-theme)
+
+###### "How do I submit a new theme?"
+
+Please create a new repository containing the files from https://github.com/dracula/template. Then add the files for your editor, shell, etc. based on the [Color Palette](#color-palette) above.
+
+Next, submit an issue with a screenshot of the theme, and a link to your repository that contains the theme. If/when the theme is accepted, we'll create a new repository under the Dracula organization where you can submit a PR for the new theme. Once the theme is accepted, we will give you rights to maintain the theme.
 
 ## Team
 
