@@ -44,6 +44,12 @@ Please create a new repository containing the files from https://github.com/drac
 
 Next, submit an issue with a screenshot of the theme, and a link to your repository that contains the theme. If/when the theme is accepted, we'll create a new repository under the Dracula organization where you can submit a PR for the new theme. Once the theme is accepted, we will give you rights to maintain the theme.
 
+###### "Do you accept UI themes?"
+
+At this time we are currently passing on UI themes. Unfortunately they are usually extremely complicated, and require constant updates as the editors make changes. Without extremely active maintainers, the theme would end up causing lots of issues for users. With this in mind, we'd rather not officially support any UI themes.
+
+We do realize though that fans of Dracula may want a UI theme, so if you've created one, we'd love to add you to the "Related" section for the particular theme. Simply submit a PR containing a link. If you keep your theme maintained well, and there are enough users, we may consider adopting it officially (should you wish to submit it).
+
 ## Team
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme has it's own maintainer listed in the Team section of it's README.
