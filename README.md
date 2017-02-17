@@ -28,6 +28,8 @@ Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![Purple Color](ht
 Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://draculatheme.com/assets/img/color-boxes/red.png)
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://draculatheme.com/assets/img/color-boxes/yellow.png)
 
+[Swatch library for Adobe Illustrator](https://github.com/Kondenko/dracula-theme/raw/master/Dracula.ase)
+
 ## FAQ
 
 ###### "Are you going to create a light color scheme?"
