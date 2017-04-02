@@ -22,6 +22,9 @@
 [submodule "highlightjs"]
 	path = highlightjs
 	url = https://github.com/dracula/highlightjs
+[submodule "hyper"]
+	path = hyper
+	url = https://github.com/dracula/hyper
 [submodule "iterm"]
 	path = iterm
 	url = https://github.com/dracula/iterm
