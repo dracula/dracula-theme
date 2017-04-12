@@ -31,6 +31,9 @@
 [submodule "jetbrains"]
 	path = jetbrains
 	url = https://github.com/dracula/jetbrains
+[submodule "konsole"]
+	path = konsole
+	url = https://github.com/dracula/konsole
 [submodule "light-table"]
 	path = light-table
 	url = https://github.com/dracula/light-table
