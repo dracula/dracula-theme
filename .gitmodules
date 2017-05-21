@@ -112,3 +112,6 @@
 [submodule "hyper"]
 	path = hyper
 	url = https://github.com/dracula/hyper
+[submodule "brackets"]
+	path = brackets
+	url = https://github.com/dracula/brackets
