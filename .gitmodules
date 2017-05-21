@@ -109,3 +109,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
+[submodule "hyper"]
+	path = hyper
+	url = https://github.com/dracula/hyper
