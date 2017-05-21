@@ -22,12 +22,18 @@
 [submodule "highlightjs"]
 	path = highlightjs
 	url = https://github.com/dracula/highlightjs
+[submodule "hyper"]
+	path = hyper
+	url = https://github.com/dracula/hyper
 [submodule "iterm"]
 	path = iterm
 	url = https://github.com/dracula/iterm
 [submodule "jetbrains"]
 	path = jetbrains
 	url = https://github.com/dracula/jetbrains
+[submodule "konsole"]
+	path = konsole
+	url = https://github.com/dracula/konsole
 [submodule "light-table"]
 	path = light-table
 	url = https://github.com/dracula/light-table
@@ -40,6 +46,9 @@
 [submodule "mintty"]
 	path = mintty
 	url = https://github.com/dracula/mintty
+[submodule "monodevelop"]
+	path = monodevelop
+	url = https://github.com/dracula/monodevelop
 [submodule "notepad-plus-plus"]
 	path = notepad-plus-plus
 	url = https://github.com/dracula/notepad-plus-plus
