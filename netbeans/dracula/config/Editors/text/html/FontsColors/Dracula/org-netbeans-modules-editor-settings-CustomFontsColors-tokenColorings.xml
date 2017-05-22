@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor default="markup-attribute" name="argument"/>
+    <fontcolor default="default" name="sgml-declaration">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="markup-attribute" name="mod-constructor">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="default" foreColor="black" name="el-content"/>
+    <fontcolor default="default" name="text"/>
+    <fontcolor name="mod-method"/>
+    <fontcolor default="error" name="error"/>
+    <fontcolor bgColor="ff2c232e" default="default" name="css-embedded"/>
+    <fontcolor default="comment" name="sgml-comment"/>
+    <fontcolor default="markup-element" foreColor="ff729fcf" name="tag">
+        <font style="plain"/>
+    </fontcolor>
+    <fontcolor default="whitespace" name="ws"/>
+    <fontcolor default="argument" name="operator"/>
+    <fontcolor default="entity-reference" foreColor="ffc4a000" name="character"/>
+    <fontcolor name="mod-class" waveUnderlined="red"/>
+    <fontcolor default="default" name="xml-pi"/>
+    <fontcolor default="default" foreColor="black" name="el-delimiter">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ff273447" default="default" name="javascript-embedded"/>
+    <fontcolor default="markup-attribute-value" name="value"/>
+    <fontcolor default="comment" name="block-comment"/>
+</fontscolors>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor default="error" name="twig_other"/>
+    <fontcolor foreColor="ff966738" name="twig_var_delimiter">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor foreColor="ff966738" name="twig_interpolation"/>
+    <fontcolor default="comment" name="twig_comment"/>
+    <fontcolor foreColor="ff966738" name="twig_block_delimiter">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="keyword" foreColor="ff00a0a0" name="twig_punctuation"/>
+    <fontcolor default="keyword" foreColor="ff00a0a0" name="twig_operator"/>
+    <fontcolor default="identifier" name="twig_name"/>
+    <fontcolor default="keyword" foreColor="ff00a0a0" name="twig_tag"/>
+    <fontcolor default="number" name="twig_number"/>
+    <fontcolor default="string" foreColor="ffb4b427" name="twig_string"/>
+</fontscolors>

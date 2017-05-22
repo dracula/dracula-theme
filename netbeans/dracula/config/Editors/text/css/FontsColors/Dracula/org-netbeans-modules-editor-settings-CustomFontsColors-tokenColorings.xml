@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="mod-constructor">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor foreColor="ffffb86c" name="mod-local-variable"/>
+    <fontcolor default="number" name="hashes"/>
+    <fontcolor foreColor="ffbd93f9" name="mod-method"/>
+    <fontcolor default="default" name="others"/>
+    <fontcolor default="string" name="uris"/>
+    <fontcolor default="separator" name="braces"/>
+    <fontcolor default="identifier" foreColor="ff8be9fd" name="identifiers"/>
+    <fontcolor foreColor="ffffb86c" name="mod-private">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="separator" name="separators"/>
+    <fontcolor default="string" name="strings"/>
+    <fontcolor default="default" name="whitespaces"/>
+    <fontcolor name="mod-class">
+        <font style="italic"/>
+    </fontcolor>
+    <fontcolor foreColor="ff50fa7b" name="at_rule_symbol">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ffeceba3" name="mark-occurrences"/>
+    <fontcolor default="number" name="numbers"/>
+    <fontcolor foreColor="fff1fa8c" name="mod-custom1"/>
+    <fontcolor default="operator" name="operators"/>
+    <fontcolor foreColor="black" name="mod-custom3">
+        <font style="italic"/>
+    </fontcolor>
+    <fontcolor foreColor="blue" name="mod-custom2">
+        <font style="italic"/>
+    </fontcolor>
+    <fontcolor default="comment" name="comments"/>
+</fontscolors>
