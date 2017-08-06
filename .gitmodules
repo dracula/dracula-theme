@@ -4,6 +4,12 @@
 [submodule "alfred"]
 	path = alfred
 	url = https://github.com/dracula/alfred
+[submodule "base16"]
+	path = base16
+	url = https://github.com/dracula/base16
+[submodule "brackets"]
+	path = brackets
+	url = https://github.com/dracula/brackets
 [submodule "chrome-devtools"]
 	path = chrome-devtools
 	url = https://github.com/dracula/chrome-devtools
@@ -31,6 +37,9 @@
 [submodule "jetbrains"]
 	path = jetbrains
 	url = https://github.com/dracula/jetbrains
+[submodule "kate"]
+	path = kate
+	url = https://github.com/dracula/kate
 [submodule "konsole"]
 	path = konsole
 	url = https://github.com/dracula/konsole
@@ -61,6 +70,9 @@
 [submodule "qtcreator"]
 	path = qtcreator
 	url = https://github.com/dracula/qtcreator
+[submodule "quassel"]
+	path = quassel
+	url = https://github.com/dracula/quassel
 [submodule "sequel-pro"]
 	path = sequel-pro
 	url = https://github.com/dracula/sequel-pro
@@ -109,9 +121,3 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
-[submodule "hyper"]
-	path = hyper
-	url = https://github.com/dracula/hyper
-[submodule "brackets"]
-	path = brackets
-	url = https://github.com/dracula/brackets
