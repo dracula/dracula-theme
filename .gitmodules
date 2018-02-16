@@ -7,6 +7,9 @@
 [submodule "base16"]
 	path = base16
 	url = https://github.com/dracula/base16
+[submodule "bbedit"]
+	path = bbedit
+	url = https://github.com/dracula/bbedit
 [submodule "brackets"]
 	path = brackets
 	url = https://github.com/dracula/brackets
