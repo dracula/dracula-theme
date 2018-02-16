@@ -76,6 +76,9 @@
 [submodule "quassel"]
 	path = quassel
 	url = https://github.com/dracula/quassel
+[submodule "quiver"]
+	path = quiver
+	url = https://github.com/dracula/quiver
 [submodule "sequel-pro"]
 	path = sequel-pro
 	url = https://github.com/dracula/sequel-pro
