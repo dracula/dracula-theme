@@ -55,6 +55,9 @@
 [submodule "liteide"]
 	path = liteide
 	url = https://github.com/dracula/liteide
+[submodule "macdown"]
+	path = macdown
+	url = https://github.com/dracula/macdown
 [submodule "mintty"]
 	path = mintty
 	url = https://github.com/dracula/mintty
