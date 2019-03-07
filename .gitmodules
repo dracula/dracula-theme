@@ -130,3 +130,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
+[submodule "wordpress"]
+	path = wordpress
+	url = https://github.com/dracula/wordpress
