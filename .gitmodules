@@ -115,6 +115,9 @@
 [submodule "visual-studio-code"]
 	path = visual-studio-code
 	url = https://github.com/dracula/visual-studio-code
+[submodule "wordpress"]
+	path = wordpress
+	url = https://github.com/dracula/wordpress
 [submodule "wox"]
 	path = wox
 	url = https://github.com/dracula/wox
@@ -130,6 +133,3 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
-[submodule "wordpress"]
-	path = wordpress
-	url = https://github.com/dracula/wordpress
