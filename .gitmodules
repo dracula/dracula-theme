@@ -124,9 +124,6 @@
 [submodule "xcode"]
 	path = xcode
 	url = https://github.com/dracula/xcode
-[submodule "xresources"]
-	path = xresources
-	url = https://github.com/dracula/xresources
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
