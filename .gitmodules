@@ -22,6 +22,9 @@
 [submodule "conemu"]
 	path = conemu
 	url = https://github.com/dracula/conemu
+[submodule "couscous"]
+	path = couscous
+	url = https://github.com/dracula/couscous	
 [submodule "emacs"]
 	path = emacs
 	url = https://github.com/dracula/emacs
