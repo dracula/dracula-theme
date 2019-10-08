@@ -37,6 +37,9 @@
 [submodule "hyper"]
 	path = hyper
 	url = https://github.com/dracula/hyper
+[submodule "insomnia"]
+	path = insomnia
+	url = https://github.com/dracula/insomnia
 [submodule "iterm"]
 	path = iterm
 	url = https://github.com/dracula/iterm
