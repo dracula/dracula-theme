@@ -139,3 +139,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
+[submodule "windows-terminal"]
+	path = windows-terminal
+	url = https://github.com/dracula/windows-terminal
