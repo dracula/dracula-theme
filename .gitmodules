@@ -121,6 +121,9 @@
 [submodule "visual-studio-code"]
 	path = visual-studio-code
 	url = https://github.com/dracula/visual-studio-code
+[submodule "windows-terminal"]
+	path = windows-terminal
+	url = https://github.com/dracula/windows-terminal
 [submodule "wordpress"]
 	path = wordpress
 	url = https://github.com/dracula/wordpress
@@ -139,6 +142,3 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
-[submodule "windows-terminal"]
-	path = windows-terminal
-	url = https://github.com/dracula/windows-terminal
