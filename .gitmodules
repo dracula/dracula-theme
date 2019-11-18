@@ -103,6 +103,9 @@
 [submodule "terminal-app"]
 	path = terminal-app
 	url = https://github.com/dracula/terminal.app
+[submodule "termux"]
+	path = termux
+	url = https://github.com/dracula/termux
 [submodule "textmate"]
 	path = textmate
 	url = https://github.com/dracula/textmate
