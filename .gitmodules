@@ -1,42 +1,81 @@
-[submodule "atom"]
-	path = atom
-	url = https://github.com/dracula/atom
+[submodule "alacritty"]
+	path = alacritty
+	url = https://github.com/dracula/alacritty
 [submodule "alfred"]
 	path = alfred
 	url = https://github.com/dracula/alfred
+[submodule "arduino-ide"]
+	path = arduino-ide
+	url = https://github.com/dracula/arduino-ide
+[submodule "atom"]
+	path = atom
+	url = https://github.com/dracula/atom
 [submodule "base16"]
 	path = base16
 	url = https://github.com/dracula/base16
 [submodule "bbedit"]
 	path = bbedit
 	url = https://github.com/dracula/bbedit
+[submodule "blender"]
+	path = blender
+	url = https://github.com/dracula/blender
 [submodule "brackets"]
 	path = brackets
 	url = https://github.com/dracula/brackets
 [submodule "chrome-devtools"]
 	path = chrome-devtools
 	url = https://github.com/dracula/chrome-devtools
+[submodule "cmder"]
+	path = cmder
+	url = https://github.com/dracula/cmder
 [submodule "coda"]
 	path = coda
 	url = https://github.com/dracula/coda
 [submodule "conemu"]
 	path = conemu
 	url = https://github.com/dracula/conemu
+[submodule "coteditor"]
+	path = coteditor
+	url = https://github.com/dracula/coteditor
 [submodule "couscous"]
 	path = couscous
-	url = https://github.com/dracula/couscous	
+	url = https://github.com/dracula/couscous
+[submodule "duckduckgo"]
+	path = duckduckgo
+	url = https://github.com/dracula/duckduckgo
+[submodule "editplus"]
+	path = editplus
+	url = https://github.com/dracula/editplus
 [submodule "emacs"]
 	path = emacs
 	url = https://github.com/dracula/emacs
+[submodule "fb-messenger"]
+	path = fb-messenger
+	url = https://github.com/dracula/fb-messenger
+[submodule "fish"]
+	path = fish
+	url = https://github.com/dracula/fish
+[submodule "gamemaker-studio"]
+	path = gamemaker-studio
+	url = https://github.com/dracula/gamemaker-studio
+[submodule "geany"]
+	path = geany
+	url = https://github.com/dracula/geany
 [submodule "gedit"]
 	path = gedit
 	url = https://github.com/dracula/gedit
+[submodule "gnome-terminal"]
+	path = gnome-terminal
+	url = https://github.com/dracula/gnome-terminal
 [submodule "highlightjs"]
 	path = highlightjs
 	url = https://github.com/dracula/highlightjs
 [submodule "hyper"]
 	path = hyper
 	url = https://github.com/dracula/hyper
+[submodule "i3"]
+	path = i3
+	url = https://github.com/dracula/i3
 [submodule "insomnia"]
 	path = insomnia
 	url = https://github.com/dracula/insomnia
@@ -46,9 +85,15 @@
 [submodule "jetbrains"]
 	path = jetbrains
 	url = https://github.com/dracula/jetbrains
+[submodule "jgrasp"]
+	path = jgrasp
+	url = https://github.com/dracula/jgrasp
 [submodule "kate"]
 	path = kate
 	url = https://github.com/dracula/kate
+[submodule "kitty"]
+	path = kitty
+	url = https://github.com/dracula/kitty
 [submodule "konsole"]
 	path = konsole
 	url = https://github.com/dracula/konsole
@@ -58,15 +103,27 @@
 [submodule "lightpaper"]
 	path = lightpaper
 	url = https://github.com/dracula/lightpaper
+[submodule "limechat"]
+	path = limechat
+	url = https://github.com/dracula/limechat
 [submodule "liteide"]
 	path = liteide
 	url = https://github.com/dracula/liteide
 [submodule "macdown"]
 	path = macdown
 	url = https://github.com/dracula/macdown
+[submodule "mattermost"]
+	path = mattermost
+	url = https://github.com/dracula/mattermost
+[submodule "mindnode"]
+	path = mindnode
+	url = https://github.com/dracula/mindnode
 [submodule "mintty"]
 	path = mintty
 	url = https://github.com/dracula/mintty
+[submodule "mobaxterm"]
+	path = mobaxterm
+	url = https://github.com/dracula/mobaxterm
 [submodule "monodevelop"]
 	path = monodevelop
 	url = https://github.com/dracula/monodevelop
@@ -76,6 +133,9 @@
 [submodule "nylas-n1"]
 	path = nylas-n1
 	url = https://github.com/dracula/nylas-n1
+[submodule "powershell"]
+	path = powershell
+	url = https://github.com/dracula/powershell
 [submodule "pygments"]
 	path = pygments
 	url = https://github.com/dracula/pygments
@@ -94,12 +154,21 @@
 [submodule "slack"]
 	path = slack
 	url = https://github.com/dracula/slack
+[submodule "sql-developer"]
+	path = sql-developer
+	url = https://github.com/dracula/sql-developer
+[submodule "steam"]
+	path = steam
+	url = https://github.com/dracula/steam
 [submodule "sublime"]
 	path = sublime
 	url = https://github.com/dracula/sublime
 [submodule "telegram"]
 	path = telegram
 	url = https://github.com/dracula/telegram
+[submodule "telegram-android"]
+	path = telegram-android
+	url = https://github.com/dracula/telegram-android
 [submodule "terminal-app"]
 	path = terminal-app
 	url = https://github.com/dracula/terminal.app
@@ -112,21 +181,36 @@
 [submodule "textual"]
 	path = textual
 	url = https://github.com/dracula/textual
+[submodule "tilix"]
+	path = tilix
+	url = https://github.com/dracula/tilix
+[submodule "typora"]
+	path = typora
+	url = https://github.com/dracula/typora
 [submodule "ulysses"]
 	path = ulysses
 	url = https://github.com/dracula/ulysses
 [submodule "vim"]
 	path = vim
 	url = https://github.com/dracula/vim
+[submodule "vimium"]
+	path = vimium
+	url = https://github.com/dracula/vimium
 [submodule "visual-studio"]
 	path = visual-studio
 	url = https://github.com/dracula/visual-studio
 [submodule "visual-studio-code"]
 	path = visual-studio-code
 	url = https://github.com/dracula/visual-studio-code
+[submodule "vivaldi"]
+	path = vivaldi
+	url = https://github.com/dracula/vivaldi
 [submodule "windows-terminal"]
 	path = windows-terminal
 	url = https://github.com/dracula/windows-terminal
+[submodule "wing"]
+	path = wing
+	url = https://github.com/dracula/wing
 [submodule "wordpress"]
 	path = wordpress
 	url = https://github.com/dracula/wordpress
