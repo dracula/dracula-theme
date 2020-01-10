@@ -64,6 +64,15 @@
 [submodule "gedit"]
 	path = gedit
 	url = https://github.com/dracula/gedit
+[submodule "gh-pages"]
+	path = gh-pages
+	url = https://github.com/dracula/gh-pages
+[submodule "gitk"]
+	path = gitk
+	url = https://github.com/dracula/gitk
+[submodule "gmk"]
+	path = gmk
+	url = https://github.com/dracula/gmk
 [submodule "gnome-terminal"]
 	path = gnome-terminal
 	url = https://github.com/dracula/gnome-terminal
@@ -139,6 +148,9 @@
 [submodule "pygments"]
 	path = pygments
 	url = https://github.com/dracula/pygments
+[submodule "pythonista"]
+	path = pythonista
+	url = https://github.com/dracula/pythonista
 [submodule "qtcreator"]
 	path = qtcreator
 	url = https://github.com/dracula/qtcreator
@@ -148,6 +160,9 @@
 [submodule "quiver"]
 	path = quiver
 	url = https://github.com/dracula/quiver
+[submodule "react-devtools"]
+	path = react-devtools
+	url = https://github.com/dracula/react-devtools
 [submodule "sequel-pro"]
 	path = sequel-pro
 	url = https://github.com/dracula/sequel-pro
