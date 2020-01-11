@@ -145,6 +145,9 @@
 [submodule "powershell"]
 	path = powershell
 	url = https://github.com/dracula/powershell
+[submodule "prism"]
+	path = prism
+	url = https://github.com/dracula/prism
 [submodule "pygments"]
 	path = pygments
 	url = https://github.com/dracula/pygments
@@ -187,6 +190,9 @@
 [submodule "terminal-app"]
 	path = terminal-app
 	url = https://github.com/dracula/terminal.app
+[submodule "termite"]
+	path = termite
+	url = https://github.com/dracula/termite
 [submodule "termux"]
 	path = termux
 	url = https://github.com/dracula/termux
@@ -244,9 +250,3 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
-[submodule "termite"]
-	path = termite
-	url = https://github.com/dracula/termite
-[submodule "prism"]
-	path = prism
-	url = https://github.com/dracula/prism
