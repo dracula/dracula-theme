@@ -136,6 +136,9 @@
 [submodule "monodevelop"]
 	path = monodevelop
 	url = https://github.com/dracula/monodevelop
+[submodule "mutt"]
+	path = mutt
+	url = https://github.com/dracula/mutt
 [submodule "notepad-plus-plus"]
 	path = notepad-plus-plus
 	url = https://github.com/dracula/notepad-plus-plus
