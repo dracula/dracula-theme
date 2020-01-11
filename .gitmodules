@@ -244,3 +244,9 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
+[submodule "termite"]
+	path = termite
+	url = https://github.com/dracula/termite
+[submodule "prism"]
+	path = prism
+	url = https://github.com/dracula/prism
