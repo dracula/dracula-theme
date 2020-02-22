@@ -1,3 +1,6 @@
+[submodule "adobe"]
+	path = adobe
+	url = git@github.com:dracula/adobe
 [submodule "alacritty"]
 	path = alacritty
 	url = https://github.com/dracula/alacritty
@@ -52,6 +55,9 @@
 [submodule "fb-messenger"]
 	path = fb-messenger
 	url = https://github.com/dracula/fb-messenger
+[submodule "figma"]
+	path = figma
+	url = git@github.com:dracula/figma
 [submodule "fish"]
 	path = fish
 	url = https://github.com/dracula/fish
@@ -169,6 +175,9 @@
 [submodule "react-devtools"]
 	path = react-devtools
 	url = https://github.com/dracula/react-devtools
+[submodule "sketch"]
+	path = sketch
+	url = git@github.com:dracula/sketch
 [submodule "sequel-pro"]
 	path = sequel-pro
 	url = https://github.com/dracula/sequel-pro
