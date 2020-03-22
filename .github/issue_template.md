@@ -4,6 +4,6 @@ We would love to support all code editors out there, but we need your help to ac
 
 ## Existing Theme?
 
-Consider fixing the issue yourself. That's the best way to contribute ;)
+Find the appropriate repository on the [Dracula organization](https://github.com/dracula). This is just the umbrella place where we store all themes.
 
-If that doesn't work, take a screenshot that shows the actual bug and mention the [specific maintainer](https://github.com/dracula/dracula-theme#team) of your theme.
+And remember - consider fixing the issue yourself. That's the best way to contribute ;)

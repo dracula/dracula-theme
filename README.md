@@ -33,13 +33,13 @@ Nope. Dracula can't stand the light.
 
 ###### "Are you going to support editor X?"
 
-We hope so, but we need your help to accomplish that. Since you're using code editor X you're probably much more experienced on it than us. So give it a try first!
+We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced on it than us. So give it a try first!
 
 ###### "How do I submit a new theme?"
 
-Please create a new repository containing the files from [the template](https://github.com/dracula/template). Then add the files for your editor, shell, etc. based on the [Color Palette](#color-palette) above.
-
-Next, submit an issue with a screenshot of the theme, and a link to your repository that contains the theme. If/when the theme is accepted, we'll create a new repository under the Dracula organization where you can submit a PR for the new theme. Once the theme is accepted, we will give you rights to maintain the theme.
+1. Create a new repository based on this [template](https://github.com/dracula/template).
+2. Build the new theme using the [Color Palette](#color-palette) above.
+3. Finally, [submit an issue](https://github.com/dracula/dracula-theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Dracula organization and give you rights to maintain it :)
 
 ## Team
 
@@ -51,14 +51,13 @@ Over the years Dracula has grown to support many more editors. With that came th
 
 So it was decided to change Dracula from a one repository theme to an organization. All themes have now been migrated to their own repository. With this change we can better support package managers, list maintainers, make installation instructions easier to find, and support independent releases.
 
-Please see https://github.com/dracula for all of our repositories.
+See [Dracula organization](https://github.com/dracula) for all of our repositories.
 
 ## Credits
 
 * Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
 * Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
 * ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
-* Icons by [@sunbzy](http://www.sunbzy.com/)
 
 ## Changelog
 
