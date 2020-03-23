@@ -25,6 +25,8 @@ Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![Purple Color](ht
 Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://draculatheme.com/static/img/color-boxes/red.png)
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://draculatheme.com/static/img/color-boxes/yellow.png)
 
+For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://spec.draculatheme.com).
+
 ## FAQ
 
 ###### "Are you going to create a light color scheme?"
