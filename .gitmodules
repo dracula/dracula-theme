@@ -25,6 +25,9 @@
 [submodule "brackets"]
 	path = brackets
 	url = https://github.com/dracula/brackets
+[submodule "bspwm"]
+	path = bspwm
+	url = git@github.com:dracula/bspwm
 [submodule "chrome-devtools"]
 	path = chrome-devtools
 	url = https://github.com/dracula/chrome-devtools
