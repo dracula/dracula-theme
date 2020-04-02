@@ -46,6 +46,9 @@
 [submodule "couscous"]
 	path = couscous
 	url = https://github.com/dracula/couscous
+[submodule "discourse"]
+	path = discourse
+	url = git@github.com:dracula/discourse
 [submodule "duckduckgo"]
 	path = duckduckgo
 	url = https://github.com/dracula/duckduckgo
@@ -100,12 +103,18 @@
 [submodule "iterm"]
 	path = iterm
 	url = https://github.com/dracula/iterm
+[submodule "javadoc"]
+	path = javadoc
+	url = git@github.com:dracula/javadoc
 [submodule "jetbrains"]
 	path = jetbrains
 	url = https://github.com/dracula/jetbrains
 [submodule "jgrasp"]
 	path = jgrasp
 	url = https://github.com/dracula/jgrasp
+[submodule "kakoune"]
+	path = kakoune
+	url = git@github.com:dracula/kakoune
 [submodule "kate"]
 	path = kate
 	url = https://github.com/dracula/kate
@@ -196,6 +205,9 @@
 [submodule "sublime"]
 	path = sublime
 	url = https://github.com/dracula/sublime
+[submodule "tabletop-simulator"]
+	path = tabletop-simulator
+	url = git@github.com:dracula/tabletop-simulator
 [submodule "telegram"]
 	path = telegram
 	url = https://github.com/dracula/telegram
