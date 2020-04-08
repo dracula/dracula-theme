@@ -232,6 +232,9 @@
 [submodule "tilix"]
 	path = tilix
 	url = https://github.com/dracula/tilix
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:dracula/tmux
 [submodule "typora"]
 	path = typora
 	url = https://github.com/dracula/typora
