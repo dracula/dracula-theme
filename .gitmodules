@@ -88,6 +88,9 @@
 [submodule "gnome-terminal"]
 	path = gnome-terminal
 	url = https://github.com/dracula/gnome-terminal
+[submodule "godot"]
+	path = godot
+	url = git@github.com:dracula/godot
 [submodule "highlightjs"]
 	path = highlightjs
 	url = https://github.com/dracula/highlightjs
