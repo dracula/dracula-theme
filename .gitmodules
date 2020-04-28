@@ -52,6 +52,9 @@
 [submodule "duckduckgo"]
 	path = duckduckgo
 	url = https://github.com/dracula/duckduckgo
+[submodule "eclipse"]
+	path = eclipse
+	url = git@github.com:dracula/eclipse
 [submodule "editplus"]
 	path = editplus
 	url = https://github.com/dracula/editplus
