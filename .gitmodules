@@ -1,3 +1,6 @@
+[submodule "ableton-live"]
+	path = ableton-live
+	url = git@github.com:dracula/ableton-live
 [submodule "adobe"]
 	path = adobe
 	url = git@github.com:dracula/adobe
@@ -202,6 +205,9 @@
 [submodule "slack"]
 	path = slack
 	url = https://github.com/dracula/slack
+[submodule "spacemacs"]
+	path = spacemacs
+	url = git@github.com:dracula/spacemacs
 [submodule "sql-developer"]
 	path = sql-developer
 	url = https://github.com/dracula/sql-developer
