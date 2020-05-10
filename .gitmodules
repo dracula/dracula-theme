@@ -247,6 +247,9 @@
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:dracula/tmux
+[submodule "total-commander"]
+	path = total-commander
+	url = git@github.com:dracula/total-commander
 [submodule "typora"]
 	path = typora
 	url = https://github.com/dracula/typora
