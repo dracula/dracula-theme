@@ -13,6 +13,9 @@
 [submodule "arduino-ide"]
 	path = arduino-ide
 	url = https://github.com/dracula/arduino-ide
+[submodule "aseprite"]
+	path = aseprite
+	url = git@github.com:dracula/aseprite
 [submodule "atom"]
 	path = atom
 	url = https://github.com/dracula/atom
