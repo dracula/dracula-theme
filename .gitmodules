@@ -253,6 +253,9 @@
 [submodule "total-commander"]
 	path = total-commander
 	url = git@github.com:dracula/total-commander
+[submodule "tower"]
+	path = tower
+	url = git@github.com:dracula/tower
 [submodule "typora"]
 	path = typora
 	url = https://github.com/dracula/typora
