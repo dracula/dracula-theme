@@ -151,6 +151,9 @@
 [submodule "macdown"]
 	path = macdown
 	url = https://github.com/dracula/macdown
+[submodule "mailspring"]
+	path = mailspring
+	url = git@github.com:dracula/mailspring
 [submodule "mattermost"]
 	path = mattermost
 	url = https://github.com/dracula/mattermost
