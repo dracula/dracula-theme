@@ -19,6 +19,9 @@
 [submodule "atom"]
 	path = atom
 	url = https://github.com/dracula/atom
+[submodule "b4x"]
+	path = b4x
+	url = git@github.com:dracula/b4x
 [submodule "base16"]
 	path = base16
 	url = https://github.com/dracula/base16
