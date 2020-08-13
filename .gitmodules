@@ -250,6 +250,9 @@
 [submodule "textual"]
 	path = textual
 	url = https://github.com/dracula/textual
+[submodule "thonny"]
+	path = thonny
+	url = git@github.com:dracula/thonny
 [submodule "tilix"]
 	path = tilix
 	url = https://github.com/dracula/tilix
