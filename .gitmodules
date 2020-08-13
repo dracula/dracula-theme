@@ -166,6 +166,9 @@
 [submodule "marp"]
 	path = marp
 	url = git@github.com:dracula/marp
+[submodule "matlab"]
+	path = matlab
+	url = git@github.com:dracula/matlab
 [submodule "mattermost"]
 	path = mattermost
 	url = https://github.com/dracula/mattermost
