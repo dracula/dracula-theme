@@ -175,6 +175,9 @@
 [submodule "monodevelop"]
 	path = monodevelop
 	url = https://github.com/dracula/monodevelop
+[submodule "musicbee"]
+	path = musicbee
+	url = git@github.com:dracula/musicbee
 [submodule "mutt"]
 	path = mutt
 	url = https://github.com/dracula/mutt
