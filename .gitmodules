@@ -163,6 +163,9 @@
 [submodule "mailspring"]
 	path = mailspring
 	url = git@github.com:dracula/mailspring
+[submodule "marp"]
+	path = marp
+	url = git@github.com:dracula/marp
 [submodule "mattermost"]
 	path = mattermost
 	url = https://github.com/dracula/mattermost
