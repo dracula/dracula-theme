@@ -55,6 +55,9 @@
 [submodule "discourse"]
 	path = discourse
 	url = git@github.com:dracula/discourse
+[submodule "doom-emacs"]
+	path = doom-emacs
+	url = git@github.com:dracula/doom-emacs
 [submodule "duckduckgo"]
 	path = duckduckgo
 	url = https://github.com/dracula/duckduckgo
