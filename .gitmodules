@@ -331,3 +331,6 @@
 [submodule "idle"]
 	path = idle
 	url = git@github.com:dracula/idle
+[submodule "zathura"]
+	path = zathura
+	url = git@github.com:dracula/zathura
