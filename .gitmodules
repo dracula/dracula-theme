@@ -337,3 +337,6 @@
 [submodule "tiddlywiki"]
 	path = tiddlywiki
 	url = git@github.com:dracula/tiddlywiki
+[submodule "plank"]
+	path = plank
+	url = git@github.com:dracula/plank
