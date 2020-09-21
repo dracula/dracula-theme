@@ -334,3 +334,6 @@
 [submodule "zathura"]
 	path = zathura
 	url = git@github.com:dracula/zathura
+[submodule "tiddlywiki"]
+	path = tiddlywiki
+	url = git@github.com:dracula/tiddlywiki
