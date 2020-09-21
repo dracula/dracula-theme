@@ -340,3 +340,6 @@
 [submodule "plank"]
 	path = plank
 	url = git@github.com:dracula/plank
+[submodule "betterdiscord"]
+	path = betterdiscord
+	url = git@github.com:dracula/betterdiscord
