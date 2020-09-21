@@ -343,3 +343,6 @@
 [submodule "betterdiscord"]
 	path = betterdiscord
 	url = git@github.com:dracula/betterdiscord
+[submodule "thelounge"]
+	path = thelounge
+	url = git@github.com:dracula/thelounge
