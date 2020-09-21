@@ -325,3 +325,9 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/dracula/zsh
+[submodule "pywal"]
+	path = pywal
+	url = git@github.com:dracula/pywal
+[submodule "idle"]
+	path = idle
+	url = git@github.com:dracula/idle
