@@ -355,3 +355,6 @@
 [submodule "obsidian"]
 	path = obsidian
 	url = git@github.com:dracula/obsidian
+[submodule "adminer"]
+	path = adminer
+	url = git@github.com:dracula/adminer
