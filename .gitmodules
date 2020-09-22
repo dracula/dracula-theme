@@ -346,3 +346,6 @@
 [submodule "thelounge"]
 	path = thelounge
 	url = git@github.com:dracula/thelounge
+[submodule "colorls"]
+	path = colorls
+	url = git@github.com:dracula/colorls
