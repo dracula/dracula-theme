@@ -352,3 +352,6 @@
 [submodule "roam-research"]
 	path = roam-research
 	url = git@github.com:dracula/roam-research
+[submodule "obsidian"]
+	path = obsidian
+	url = git@github.com:dracula/obsidian
