@@ -349,3 +349,6 @@
 [submodule "colorls"]
 	path = colorls
 	url = git@github.com:dracula/colorls
+[submodule "roam-research"]
+	path = roam-research
+	url = git@github.com:dracula/roam-research
