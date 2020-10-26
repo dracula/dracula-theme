@@ -358,3 +358,6 @@
 [submodule "adminer"]
 	path = adminer
 	url = git@github.com:dracula/adminer
+[submodule "micro"]
+	path = micro
+	url = git@github.com:dracula/micro
