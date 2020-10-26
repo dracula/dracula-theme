@@ -361,3 +361,6 @@
 [submodule "micro"]
 	path = micro
 	url = git@github.com:dracula/micro
+[submodule "renoise"]
+	path = renoise
+	url = git@github.com:dracula/renoise
