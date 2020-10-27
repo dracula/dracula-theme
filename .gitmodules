@@ -367,3 +367,6 @@
 [submodule "fman"]
 	path = fman
 	url = git@github.com:dracula/fman
+[submodule "copyq"]
+	path = copyq
+	url = git@github.com:dracula/copyq
