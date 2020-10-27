@@ -364,3 +364,6 @@
 [submodule "renoise"]
 	path = renoise
 	url = git@github.com:dracula/renoise
+[submodule "fman"]
+	path = fman
+	url = git@github.com:dracula/fman
