@@ -373,3 +373,6 @@
 [submodule "cryptowatch"]
 	path = cryptowatch
 	url = git@github.com:dracula/cryptowatch
+[submodule "midnight-commander"]
+	path = midnight-commander
+	url = git@github.com:dracula/midnight-commander
