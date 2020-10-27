@@ -370,3 +370,6 @@
 [submodule "copyq"]
 	path = copyq
 	url = git@github.com:dracula/copyq
+[submodule "cryptowatch"]
+	path = cryptowatch
+	url = git@github.com:dracula/cryptowatch
