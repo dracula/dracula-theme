@@ -376,3 +376,6 @@
 [submodule "midnight-commander"]
 	path = midnight-commander
 	url = git@github.com:dracula/midnight-commander
+[submodule "keypirinha"]
+	path = keypirinha
+	url = https://github.com/dracula/keypirinha.git
