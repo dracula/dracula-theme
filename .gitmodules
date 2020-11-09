@@ -379,3 +379,6 @@
 [submodule "keypirinha"]
 	path = keypirinha
 	url = https://github.com/dracula/keypirinha.git
+[submodule "mousepad"]
+	path = mousepad
+	url = git@github.com:dracula/mousepad
