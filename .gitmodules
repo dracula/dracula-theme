@@ -382,3 +382,6 @@
 [submodule "mousepad"]
 	path = mousepad
 	url = git@github.com:dracula/mousepad
+[submodule "linear"]
+	path = linear
+	url = git@github.com:dracula/linear
