@@ -388,3 +388,6 @@
 [submodule "albert"]
 	path = albert
 	url = git@github.com:dracula/albert
+[submodule "arduino-pro-ide"]
+	path = arduino-pro-ide
+	url = git@github.com:dracula/arduino-pro-ide
