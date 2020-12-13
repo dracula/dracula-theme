@@ -385,3 +385,6 @@
 [submodule "linear"]
 	path = linear
 	url = git@github.com:dracula/linear
+[submodule "albert"]
+	path = albert
+	url = git@github.com:dracula/albert
