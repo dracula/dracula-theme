@@ -394,3 +394,6 @@
 [submodule "kicad"]
 	path = kicad
 	url = git@github.com:dracula/kicad
+[submodule "standard-notes"]
+	path = standard-notes
+	url = git@github.com:dracula/standard-notes
