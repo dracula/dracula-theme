@@ -391,3 +391,6 @@
 [submodule "arduino-pro-ide"]
 	path = arduino-pro-ide
 	url = git@github.com:dracula/arduino-pro-ide
+[submodule "kicad"]
+	path = kicad
+	url = git@github.com:dracula/kicad
