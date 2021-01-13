@@ -400,3 +400,6 @@
 [submodule "liteide"]
 	path = liteide
 	url = git@github.com:dracula/liteide
+[submodule "bashtop"]
+	path = bashtop
+	url = git@github.com:dracula/bashtop
