@@ -397,3 +397,6 @@
 [submodule "standard-notes"]
 	path = standard-notes
 	url = git@github.com:dracula/standard-notes
+[submodule "thunderbird"]
+	path = thunderbird
+	url = git@github.com:dracula/thunderbird
