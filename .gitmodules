@@ -154,9 +154,6 @@
 [submodule "limechat"]
 	path = limechat
 	url = https://github.com/dracula/limechat
-[submodule "liteide"]
-	path = liteide
-	url = https://github.com/dracula/liteide
 [submodule "macdown"]
 	path = macdown
 	url = https://github.com/dracula/macdown
@@ -400,3 +397,6 @@
 [submodule "thunderbird"]
 	path = thunderbird
 	url = git@github.com:dracula/thunderbird
+[submodule "liteide"]
+	path = liteide
+	url = git@github.com:dracula/liteide
