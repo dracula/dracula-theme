@@ -403,3 +403,6 @@
 [submodule "bashtop"]
 	path = bashtop
 	url = git@github.com:dracula/bashtop
+[submodule "logseq"]
+	path = logseq
+	url = git@github.com:dracula/logseq
