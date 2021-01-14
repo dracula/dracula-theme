@@ -406,3 +406,6 @@
 [submodule "logseq"]
 	path = logseq
 	url = git@github.com:dracula/logseq
+[submodule "qt5"]
+	path = qt5
+	url = git@github.com:dracula/qt5
