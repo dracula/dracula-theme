@@ -415,3 +415,6 @@
 [submodule "telegram-ios"]
 	path = telegram-ios
 	url = git@github.com:dracula/telegram-ios
+[submodule "ida"]
+	path = ida
+	url = git@github.com:dracula/ida
