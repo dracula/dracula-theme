@@ -409,3 +409,6 @@
 [submodule "qt5"]
 	path = qt5
 	url = git@github.com:dracula/qt5
+[submodule "terminator"]
+	path = terminator
+	url = git@github.com:dracula/terminator
