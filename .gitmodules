@@ -412,3 +412,6 @@
 [submodule "terminator"]
 	path = terminator
 	url = git@github.com:dracula/terminator
+[submodule "telegram-ios"]
+	path = telegram-ios
+	url = git@github.com:dracula/telegram-ios
