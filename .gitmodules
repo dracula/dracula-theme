@@ -418,3 +418,6 @@
 [submodule "ida"]
 	path = ida
 	url = git@github.com:dracula/ida
+[submodule "netbeans"]
+	path = netbeans
+	url = git@github.com:dracula/netbeans
