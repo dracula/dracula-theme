@@ -424,3 +424,6 @@
 [submodule "xournalpp"]
 	path = xournalpp
 	url = git@github.com:dracula/xournalpp
+[submodule "ditto"]
+	path = ditto
+	url = git@github.com:dracula/ditto
