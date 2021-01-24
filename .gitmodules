@@ -421,3 +421,6 @@
 [submodule "netbeans"]
 	path = netbeans
 	url = git@github.com:dracula/netbeans
+[submodule "xournalpp"]
+	path = xournalpp
+	url = git@github.com:dracula/xournalpp
