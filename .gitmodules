@@ -427,3 +427,6 @@
 [submodule "ditto"]
 	path = ditto
 	url = git@github.com:dracula/ditto
+[submodule "matplotlib"]
+	path = matplotlib
+	url = git@github.com:dracula/matplotlib
