@@ -430,3 +430,6 @@
 [submodule "matplotlib"]
 	path = matplotlib
 	url = git@github.com:dracula/matplotlib
+[submodule "nova"]
+	path = nova
+	url = git@github.com:dracula/nova
