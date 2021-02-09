@@ -442,3 +442,6 @@
 [submodule "vivado"]
 	path = vivado
 	url = git@github.com:dracula/vivado
+[submodule "everythingtoolbar"]
+	path = everythingtoolbar
+	url = git@github.com:dracula/everythingtoolbar
