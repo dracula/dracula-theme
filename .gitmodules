@@ -433,3 +433,6 @@
 [submodule "nova"]
 	path = nova
 	url = git@github.com:dracula/nova
+[submodule "tty"]
+	path = tty
+	url = git@github.com:dracula/tty
