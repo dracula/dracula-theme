@@ -457,3 +457,6 @@
 [submodule "dunst"]
 	path = dunst
 	url = git@github.com:dracula/dunst
+[submodule "ncspot"]
+	path = ncspot
+	url = git@github.com:dracula/ncspot
