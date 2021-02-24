@@ -448,3 +448,6 @@
 [submodule "xfce4-terminal"]
 	path = xfce4-terminal
 	url = git@github.com:dracula/xfce4-terminal
+[submodule "spotify-tui"]
+	path = spotify-tui
+	url = git@github.com:dracula/spotify-tui
