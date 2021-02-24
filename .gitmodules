@@ -454,3 +454,6 @@
 [submodule "inkscape"]
 	path = inkscape
 	url = git@github.com:dracula/inkscape
+[submodule "dunst"]
+	path = dunst
+	url = git@github.com:dracula/dunst
