@@ -451,3 +451,6 @@
 [submodule "spotify-tui"]
 	path = spotify-tui
 	url = git@github.com:dracula/spotify-tui
+[submodule "inkscape"]
+	path = inkscape
+	url = git@github.com:dracula/inkscape
