@@ -466,3 +466,6 @@
 [submodule "themes/bemenu"]
 	path = themes/bemenu
 	url = git@github.com:dracula/bemenu
+[submodule "themes/abricotine"]
+	path = themes/abricotine
+	url = git@github.com:dracula/abricotine
