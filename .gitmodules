@@ -463,3 +463,6 @@
 [submodule "themes/ltspice"]
 	path = themes/ltspice
 	url = git@github.com:dracula/ltspice
+[submodule "themes/bemenu"]
+	path = themes/bemenu
+	url = git@github.com:dracula/bemenu
