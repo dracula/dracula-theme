@@ -460,3 +460,6 @@
 [submodule "ncspot"]
 	path = themes/ncspot
 	url = git@github.com:dracula/ncspot
+[submodule "themes/ltspice"]
+	path = themes/ltspice
+	url = git@github.com:dracula/ltspice
