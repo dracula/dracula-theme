@@ -478,3 +478,6 @@
 [submodule "themes/grub"]
 	path = themes/grub
 	url = git@github.com:dracula/grub
+[submodule "themes/pandoc"]
+	path = themes/pandoc
+	url = git@github.com:dracula/pandoc
