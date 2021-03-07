@@ -472,3 +472,6 @@
 [submodule "themes/latex"]
 	path = themes/latex
 	url = git@github.com:dracula/latex
+[submodule "themes/unigram"]
+	path = themes/unigram
+	url = git@github.com:dracula/unigram
