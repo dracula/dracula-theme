@@ -214,9 +214,6 @@
 [submodule "quiver"]
 	path = themes/quiver
 	url = https://github.com/dracula/quiver
-[submodule "react-devtools"]
-	path = themes/react-devtools
-	url = https://github.com/dracula/react-devtools
 [submodule "sketch"]
 	path = themes/sketch
 	url = git@github.com:dracula/sketch
