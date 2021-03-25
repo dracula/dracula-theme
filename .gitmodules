@@ -484,3 +484,6 @@
 [submodule "themes/sumatra-pdf"]
 	path = themes/sumatra-pdf
 	url = git@github.com:dracula/sumatra-pdf
+[submodule "themes/visual-spigot"]
+	path = themes/visual-spigot
+	url = git@github.com:dracula/visual-spigot
