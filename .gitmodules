@@ -481,3 +481,6 @@
 [submodule "themes/abap"]
 	path = themes/abap
 	url = git@github.com:dracula/abap
+[submodule "themes/sumatra-pdf"]
+	path = themes/sumatra-pdf
+	url = git@github.com:dracula/sumatra-pdf
