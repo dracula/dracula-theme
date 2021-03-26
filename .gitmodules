@@ -487,3 +487,6 @@
 [submodule "themes/visual-spigot"]
 	path = themes/visual-spigot
 	url = git@github.com:dracula/visual-spigot
+[submodule "themes/freecad"]
+	path = themes/freecad
+	url = git@github.com:dracula/freecad
