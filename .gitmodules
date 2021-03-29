@@ -91,6 +91,9 @@
 [submodule "gedit"]
 	path = themes/gedit
 	url = https://github.com/dracula/gedit
+[submodule "ghostwriter"]
+	path = themes/ghostwriter
+	url = https://github.com/dracula/ghostwriter
 [submodule "gh-pages"]
 	path = themes/gh-pages
 	url = https://github.com/dracula/gh-pages
