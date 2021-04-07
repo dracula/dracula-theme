@@ -493,3 +493,6 @@
 [submodule "themes/ghostwriter"]
 	path = themes/ghostwriter
 	url = git@github.com:dracula/ghostwriter
+[submodule "themes/beamer"]
+	path = themes/beamer
+	url = git@github.com:dracula/beamer
