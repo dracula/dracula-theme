@@ -496,3 +496,6 @@
 [submodule "themes/beamer"]
 	path = themes/beamer
 	url = git@github.com:dracula/beamer
+[submodule "themes/kdiff3"]
+	path = themes/kdiff3
+	url = git@github.com:dracula/kdiff3
