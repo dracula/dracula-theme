@@ -499,3 +499,6 @@
 [submodule "themes/kdiff3"]
 	path = themes/kdiff3
 	url = git@github.com:dracula/kdiff3
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = git@github.com:dracula/tailwind
