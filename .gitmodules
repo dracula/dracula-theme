@@ -508,3 +508,6 @@
 [submodule "themes/files"]
 	path = themes/files
 	url = git@github.com:dracula/files
+[submodule "themes/discordbotmaker"]
+	path = themes/discordbotmaker
+	url = git@github.com:dracula/discordbotmaker
