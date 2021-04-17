@@ -502,3 +502,6 @@
 [submodule "themes/tailwind"]
 	path = themes/tailwind
 	url = git@github.com:dracula/tailwind
+[submodule "themes/metaeditor"]
+	path = themes/metaeditor
+	url = git@github.com:dracula/metaeditor
