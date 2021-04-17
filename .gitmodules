@@ -505,3 +505,6 @@
 [submodule "themes/metaeditor"]
 	path = themes/metaeditor
 	url = git@github.com:dracula/metaeditor
+[submodule "themes/files"]
+	path = themes/files
+	url = git@github.com:dracula/files
