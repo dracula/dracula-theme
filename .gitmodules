@@ -520,3 +520,6 @@
 [submodule "themes/imageglass"]
 	path = themes/imageglass
 	url = git@github.com:dracula/imageglass
+[submodule "themes/mako"]
+	path = themes/mako
+	url = git@github.com:dracula/mako
