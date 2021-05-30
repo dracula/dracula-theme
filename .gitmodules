@@ -511,3 +511,6 @@
 [submodule "themes/discordbotmaker"]
 	path = themes/discordbotmaker
 	url = git@github.com:dracula/discordbotmaker
+[submodule "themes/qbittorrent"]
+	path = themes/qbittorrent
+	url = git@github.com:dracula/qbittorrent
