@@ -514,3 +514,6 @@
 [submodule "themes/qbittorrent"]
 	path = themes/qbittorrent
 	url = git@github.com:dracula/qbittorrent
+[submodule "themes/streamlit"]
+	path = themes/streamlit
+	url = git@github.com:dracula/streamlit
