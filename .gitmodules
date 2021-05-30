@@ -517,3 +517,6 @@
 [submodule "themes/streamlit"]
 	path = themes/streamlit
 	url = git@github.com:dracula/streamlit
+[submodule "themes/imageglass"]
+	path = themes/imageglass
+	url = git@github.com:dracula/imageglass
