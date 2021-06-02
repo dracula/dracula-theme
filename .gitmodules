@@ -526,3 +526,6 @@
 [submodule "themes/fzf"]
 	path = themes/fzf
 	url = git@github.com:dracula/fzf
+[submodule "themes/swiftui"]
+	path = themes/swiftui
+	url = git@github.com:dracula/swiftui
