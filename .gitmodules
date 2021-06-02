@@ -529,3 +529,6 @@
 [submodule "themes/swiftui"]
 	path = themes/swiftui
 	url = git@github.com:dracula/swiftui
+[submodule "themes/solidworks"]
+	path = themes/solidworks
+	url = git@github.com:dracula/solidworks
