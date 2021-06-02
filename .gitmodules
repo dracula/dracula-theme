@@ -523,3 +523,6 @@
 [submodule "themes/mako"]
 	path = themes/mako
 	url = git@github.com:dracula/mako
+[submodule "themes/fzf"]
+	path = themes/fzf
+	url = git@github.com:dracula/fzf
