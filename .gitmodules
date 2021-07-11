@@ -535,3 +535,6 @@
 [submodule "themes/zsh-syntax-highlighting"]
 	path = themes/zsh-syntax-highlighting
 	url = git@github.com:dracula/zsh-syntax-highlighting
+[submodule "themes/flarum"]
+	path = themes/flarum
+	url = git@github.com:dracula/flarum
