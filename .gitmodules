@@ -544,3 +544,6 @@
 [submodule "themes/texstudio"]
 	path = themes/texstudio
 	url = git@github.com:dracula/texstudio
+[submodule "themes/dwarf-fortress"]
+	path = themes/dwarf-fortress
+	url = git@github.com:dracula/dwarf-fortress
