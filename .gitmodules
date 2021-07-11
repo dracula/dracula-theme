@@ -547,3 +547,6 @@
 [submodule "themes/dwarf-fortress"]
 	path = themes/dwarf-fortress
 	url = git@github.com:dracula/dwarf-fortress
+[submodule "themes/lxterminal"]
+	path = themes/lxterminal
+	url = git@github.com:dracula/lxterminal
