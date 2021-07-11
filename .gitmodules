@@ -538,3 +538,6 @@
 [submodule "themes/flarum"]
 	path = themes/flarum
 	url = git@github.com:dracula/flarum
+[submodule "themes/beyond-compare-4"]
+	path = themes/beyond-compare-4
+	url = git@github.com:dracula/beyond-compare-4
