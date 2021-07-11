@@ -541,3 +541,6 @@
 [submodule "themes/beyond-compare-4"]
 	path = themes/beyond-compare-4
 	url = git@github.com:dracula/beyond-compare-4
+[submodule "themes/texstudio"]
+	path = themes/texstudio
+	url = git@github.com:dracula/texstudio
