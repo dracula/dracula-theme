@@ -550,3 +550,6 @@
 [submodule "themes/lxterminal"]
 	path = themes/lxterminal
 	url = git@github.com:dracula/lxterminal
+[submodule "themes/ripcord"]
+	path = themes/ripcord
+	url = git@github.com:dracula/ripcord
