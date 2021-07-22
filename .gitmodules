@@ -553,6 +553,3 @@
 [submodule "themes/ripcord"]
 	path = themes/ripcord
 	url = git@github.com:dracula/ripcord
-[submodule "themes/nyxt"]
-	path = themes/nyxt
-	url = git@github.com:dracula/nyxt
