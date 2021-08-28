@@ -556,3 +556,6 @@
 [submodule "themes/nyxt"]
 	path = themes/nyxt
 	url = https://github.com/dracula/nyxt
+[submodule "themes/node-console"]
+	path = themes/node-console
+	url = git@github.com:dracula/node-console
