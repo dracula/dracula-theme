@@ -571,3 +571,6 @@
 [submodule "themes/ueli"]
 	path = themes/ueli
 	url = git@github.com:dracula/ueli
+[submodule "themes/btcpay-server"]
+	path = themes/btcpay-server
+	url = git@github.com:dracula/btcpay-server
