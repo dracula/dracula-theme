@@ -559,3 +559,6 @@
 [submodule "themes/node-console"]
 	path = themes/node-console
 	url = git@github.com:dracula/node-console
+[submodule "themes/krita"]
+	path = themes/krita
+	url = git@github.com:dracula/krita
