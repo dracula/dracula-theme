@@ -565,3 +565,6 @@
 [submodule "themes/funkwhale"]
 	path = themes/funkwhale
 	url = git@github.com:dracula/funkwhale
+[submodule "themes/sidenotes"]
+	path = themes/sidenotes
+	url = git@github.com:dracula/sidenotes
