@@ -574,3 +574,6 @@
 [submodule "themes/btcpay-server"]
 	path = themes/btcpay-server
 	url = git@github.com:dracula/btcpay-server
+[submodule "themes/caprine-messenger"]
+	path = themes/caprine-messenger
+	url = git@github.com:dracula/caprine-messenger
