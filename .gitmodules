@@ -568,3 +568,6 @@
 [submodule "themes/sidenotes"]
 	path = themes/sidenotes
 	url = git@github.com:dracula/sidenotes
+[submodule "themes/ueli"]
+	path = themes/ueli
+	url = git@github.com:dracula/ueli
