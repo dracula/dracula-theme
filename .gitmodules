@@ -580,3 +580,6 @@
 [submodule "themes/em-client"]
 	path = themes/em-client
 	url = git@github.com:dracula/em-client
+[submodule "themes/fig"]
+	path = themes/fig
+	url = git@github.com:dracula/fig
