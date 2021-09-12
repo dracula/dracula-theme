@@ -586,3 +586,6 @@
 [submodule "themes/amfora"]
 	path = themes/amfora
 	url = git@github.com:dracula/amfora
+[submodule "themes/passky"]
+	path = themes/passky
+	url = git@github.com:dracula/passky
