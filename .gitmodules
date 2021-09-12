@@ -595,3 +595,6 @@
 [submodule "themes/pantheon-terminal"]
 	path = themes/pantheon-terminal
 	url = git@github.com:dracula/pantheon-terminal
+[submodule "themes/rofi"]
+	path = themes/rofi
+	url = git@github.com:dracula/rofi
