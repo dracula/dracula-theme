@@ -583,3 +583,6 @@
 [submodule "themes/fig"]
 	path = themes/fig
 	url = git@github.com:dracula/fig
+[submodule "themes/amfora"]
+	path = themes/amfora
+	url = git@github.com:dracula/amfora
