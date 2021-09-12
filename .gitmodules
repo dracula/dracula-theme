@@ -592,3 +592,6 @@
 [submodule "themes/rstudio"]
 	path = themes/rstudio
 	url = git@github.com:dracula/rstudio
+[submodule "themes/pantheon-terminal"]
+	path = themes/pantheon-terminal
+	url = git@github.com:dracula/pantheon-terminal
