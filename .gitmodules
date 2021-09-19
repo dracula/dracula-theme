@@ -601,3 +601,6 @@
 [submodule "themes/tym"]
 	path = themes/tym
 	url = git@github.com:dracula/tym
+[submodule "themes/gamepad-viewer"]
+	path = themes/gamepad-viewer
+	url = git@github.com:dracula/gamepad-viewer
