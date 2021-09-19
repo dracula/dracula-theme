@@ -604,3 +604,6 @@
 [submodule "themes/gamepad-viewer"]
 	path = themes/gamepad-viewer
 	url = git@github.com:dracula/gamepad-viewer
+[submodule "themes/mixplorer"]
+	path = themes/mixplorer
+	url = git@github.com:dracula/mixplorer
