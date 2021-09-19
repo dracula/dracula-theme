@@ -607,3 +607,6 @@
 [submodule "themes/mixplorer"]
 	path = themes/mixplorer
 	url = git@github.com:dracula/mixplorer
+[submodule "themes/dev-cpp"]
+	path = themes/dev-cpp
+	url = git@github.com:dracula/dev-cpp
