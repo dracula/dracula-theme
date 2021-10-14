@@ -610,3 +610,6 @@
 [submodule "themes/dev-cpp"]
 	path = themes/dev-cpp
 	url = git@github.com:dracula/dev-cpp
+[submodule "themes/revolt"]
+	path = themes/revolt
+	url = git@github.com:dracula/revolt
