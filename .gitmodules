@@ -622,3 +622,6 @@
 [submodule "themes/aliucord"]
 	path = themes/aliucord
 	url = git@github.com:dracula/aliucord
+[submodule "themes/metatrader5"]
+	path = themes/metatrader5
+	url = git@github.com:dracula/metatrader5
