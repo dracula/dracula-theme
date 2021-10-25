@@ -616,3 +616,6 @@
 [submodule "themes/ranger"]
 	path = themes/ranger
 	url = git@github.com:dracula/ranger
+[submodule "themes/texshop"]
+	path = themes/texshop
+	url = git@github.com:dracula/texshop
