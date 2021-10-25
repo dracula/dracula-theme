@@ -619,3 +619,6 @@
 [submodule "themes/texshop"]
 	path = themes/texshop
 	url = git@github.com:dracula/texshop
+[submodule "themes/aliucord"]
+	path = themes/aliucord
+	url = git@github.com:dracula/aliucord
