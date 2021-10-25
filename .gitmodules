@@ -613,3 +613,6 @@
 [submodule "themes/revolt"]
 	path = themes/revolt
 	url = git@github.com:dracula/revolt
+[submodule "themes/ranger"]
+	path = themes/ranger
+	url = git@github.com:dracula/ranger
