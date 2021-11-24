@@ -631,3 +631,6 @@
 [submodule "themes/nova-launcher"]
 	path = themes/nova-launcher
 	url = git@github.com:dracula/nova-launcher
+[submodule "themes/textastic"]
+	path = themes/textastic
+	url = git@github.com:dracula/textastic
