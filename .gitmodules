@@ -634,3 +634,6 @@
 [submodule "themes/textastic"]
 	path = themes/textastic
 	url = git@github.com:dracula/textastic
+[submodule "themes/revolution-irc"]
+	path = themes/revolution-irc
+	url = git@github.com:dracula/revolution-irc
