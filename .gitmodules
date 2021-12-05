@@ -646,3 +646,6 @@
 [submodule "themes/ggplot2"]
 	path = themes/ggplot2
 	url = git@github.com:dracula/ggplot2
+[submodule "themes/windterm"]
+	path = themes/windterm
+	url = git@github.com:dracula/windterm
