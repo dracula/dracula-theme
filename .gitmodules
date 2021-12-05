@@ -640,3 +640,6 @@
 [submodule "themes/powerlevel10k"]
 	path = themes/powerlevel10k
 	url = git@github.com:dracula/powerlevel10k
+[submodule "themes/unreal-engine"]
+	path = themes/unreal-engine
+	url = git@github.com:dracula/unreal-engine
