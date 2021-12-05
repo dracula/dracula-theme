@@ -643,3 +643,6 @@
 [submodule "themes/unreal-engine"]
 	path = themes/unreal-engine
 	url = git@github.com:dracula/unreal-engine
+[submodule "themes/ggplot2"]
+	path = themes/ggplot2
+	url = git@github.com:dracula/ggplot2
