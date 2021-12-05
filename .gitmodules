@@ -649,3 +649,6 @@
 [submodule "themes/windterm"]
 	path = themes/windterm
 	url = git@github.com:dracula/windterm
+[submodule "themes/musikcube"]
+	path = themes/musikcube
+	url = git@github.com:dracula/musikcube
