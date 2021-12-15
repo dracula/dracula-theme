@@ -658,3 +658,6 @@
 [submodule "themes/delphi"]
 	path = themes/delphi
 	url = git@github.com:dracula/delphi
+[submodule "themes/gitkraken"]
+	path = themes/gitkraken
+	url = git@github.com:dracula/gitkraken
