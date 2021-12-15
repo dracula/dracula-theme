@@ -652,3 +652,6 @@
 [submodule "themes/musikcube"]
 	path = themes/musikcube
 	url = git@github.com:dracula/musikcube
+[submodule "themes/florisboard"]
+	path = themes/florisboard
+	url = git@github.com:dracula/florisboard
