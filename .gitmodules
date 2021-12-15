@@ -655,3 +655,6 @@
 [submodule "themes/florisboard"]
 	path = themes/florisboard
 	url = git@github.com:dracula/florisboard
+[submodule "themes/delphi"]
+	path = themes/delphi
+	url = git@github.com:dracula/delphi
