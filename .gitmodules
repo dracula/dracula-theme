@@ -664,3 +664,6 @@
 [submodule "themes/apollo"]
 	path = themes/apollo
 	url = git@github.com:dracula/apollo
+[submodule "themes/mysql-workbench"]
+	path = themes/mysql-workbench
+	url = git@github.com:dracula/mysql-workbench
