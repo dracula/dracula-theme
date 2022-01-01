@@ -226,9 +226,6 @@
 [submodule "spacemacs"]
 	path = themes/spacemacs
 	url = https://github.com/dracula/spacemacs
-[submodule "sql-developer"]
-	path = themes/sql-developer
-	url = https://github.com/dracula/sql-developer
 [submodule "steam"]
 	path = themes/steam
 	url = https://github.com/dracula/steam
@@ -667,3 +664,36 @@
 [submodule "themes/mysql-workbench"]
 	path = themes/mysql-workbench
 	url = git@github.com:dracula/mysql-workbench
+[submodule "themes/bear"]
+	path = themes/bear
+	url = git@github.com:dracula/bear
+[submodule "themes/chrome"]
+	path = themes/chrome
+	url = git@github.com:dracula/chrome
+[submodule "themes/firefox"]
+	path = themes/firefox
+	url = git@github.com:dracula/firefox
+[submodule "themes/fluent-terminal"]
+	path = themes/fluent-terminal
+	url = git@github.com:dracula/fluent-terminal
+[submodule "themes/jupyterlab"]
+	path = themes/jupyterlab
+	url = git@github.com:dracula/jupyterlab
+[submodule "themes/oracle-sql-developer"]
+	path = themes/oracle-sql-developer
+	url = git@github.com:dracula/oracle-sql-developer
+[submodule "themes/qutebrowser"]
+	path = themes/qutebrowser
+	url = git@github.com:dracula/qutebrowser
+[submodule "themes/ulauncher"]
+	path = themes/ulauncher
+	url = git@github.com:dracula/ulauncher
+[submodule "themes/wallpaper"]
+	path = themes/wallpaper
+	url = git@github.com:dracula/wallpaper
+[submodule "themes/wofi"]
+	path = themes/wofi
+	url = git@github.com:dracula/wofi
+[submodule "themes/wolfram-notebooks"]
+	path = themes/wolfram-notebooks
+	url = git@github.com:dracula/wolfram-notebooks
