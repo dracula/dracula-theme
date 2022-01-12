@@ -700,3 +700,6 @@
 [submodule "themes/bobthefish"]
 	path = themes/bobthefish
 	url = git@github.com:dracula/bobthefish
+[submodule "themes/warp"]
+	path = themes/warp
+	url = https://github.com/dracula/warp.git
