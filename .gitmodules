@@ -697,3 +697,6 @@
 [submodule "themes/wolfram-notebooks"]
 	path = themes/wolfram-notebooks
 	url = git@github.com:dracula/wolfram-notebooks
+[submodule "themes/bobthefish"]
+	path = themes/bobthefish
+	url = git@github.com:dracula/bobthefish
