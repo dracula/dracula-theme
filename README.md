@@ -2,7 +2,7 @@
 
 ![Dracula](https://draculatheme.com/static/img/dracula.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [Hyper](https://hyper.is/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/) and many more.
+> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [Hyper](https://hyper.is/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/), and many more.
 
 ## Install
 
@@ -35,7 +35,7 @@ Nope. Dracula can't stand the light.
 
 ###### "Are you going to support editor X?"
 
-We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced on it than us. So give it a try first!
+We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced in it than us. So give it a try first!
 
 ###### "How do I submit a new theme?"
 
@@ -45,11 +45,11 @@ We hope so, but we need your help to accomplish that. Since you're already using
 
 ## Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme has it's own maintainer listed in the Team section of it's README.
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme has its own maintainer listed in the Team section of its README.
 
 ## Organization
 
-Over the years Dracula has grown to support many more editors. With that came the challenge of supporting a myriad of editors, terminals, shells, and more in the same repository. Some package manager's require specific files and layouts which cause conflicts and make it harder to maintain.
+Over the years Dracula has grown to support many more editors. With that came the challenge of supporting a myriad of editors, terminals, shells, and more in the same repository. Some package managers require specific files and layouts which cause conflicts and make it harder to maintain.
 
 So it was decided to change Dracula from a one repository theme to an organization. All themes have now been migrated to their own repository. With this change we can better support package managers, list maintainers, make installation instructions easier to find, and support independent releases.
 
