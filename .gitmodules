@@ -706,3 +706,6 @@
 [submodule "themes/gajim"]
 	path = themes/gajim
 	url = git@github.com:dracula/gajim
+[submodule "themes/github"]
+	path = themes/github
+	url = git@github.com:dracula/github
