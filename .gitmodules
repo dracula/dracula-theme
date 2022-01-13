@@ -703,3 +703,6 @@
 [submodule "themes/warp"]
 	path = themes/warp
 	url = https://github.com/dracula/warp.git
+[submodule "themes/gajim"]
+	path = themes/gajim
+	url = git@github.com:dracula/gajim
