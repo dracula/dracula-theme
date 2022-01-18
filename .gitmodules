@@ -709,3 +709,6 @@
 [submodule "themes/github"]
 	path = themes/github
 	url = git@github.com:dracula/github
+[submodule "themes/foot"]
+	path = themes/foot
+	url = git@github.com:dracula/foot
