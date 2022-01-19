@@ -715,3 +715,6 @@
 [submodule "themes/spyder-ide"]
 	path = themes/spyder-ide
 	url = git@github.com:dracula/spyder-ide
+[submodule "themes/monkeytype"]
+	path = themes/monkeytype
+	url = https://github.com/dracula/monkeytype.git
