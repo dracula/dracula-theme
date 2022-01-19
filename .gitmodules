@@ -718,3 +718,6 @@
 [submodule "themes/monkeytype"]
 	path = themes/monkeytype
 	url = https://github.com/dracula/monkeytype.git
+[submodule "themes/joplin"]
+	path = themes/joplin
+	url = https://github.com/dracula/joplin.git
