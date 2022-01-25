@@ -721,3 +721,6 @@
 [submodule "themes/joplin"]
 	path = themes/joplin
 	url = https://github.com/dracula/joplin.git
+[submodule "themes/codeblocks"]
+	path = themes/codeblocks
+	url = https://github.com/dracula/codeblocks.git
