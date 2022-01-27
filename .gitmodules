@@ -724,3 +724,6 @@
 [submodule "themes/codeblocks"]
 	path = themes/codeblocks
 	url = https://github.com/dracula/codeblocks.git
+[submodule "themes/starship"]
+	path = themes/starship
+	url = https://github.com/dracula/starship.git
