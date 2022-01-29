@@ -733,3 +733,6 @@
 [submodule "themes/gitlab"]
 	path = themes/gitlab
 	url = git@github.com:dracula/gitlab
+[submodule "themes/tig"]
+	path = themes/tig
+	url = git@github.com:dracula/tig
