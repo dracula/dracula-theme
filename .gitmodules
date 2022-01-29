@@ -730,3 +730,6 @@
 [submodule "themes/serenityos"]
 	path = themes/serenityos
 	url = git@github.com:dracula/serenityos
+[submodule "themes/gitlab"]
+	path = themes/gitlab
+	url = git@github.com:dracula/gitlab
