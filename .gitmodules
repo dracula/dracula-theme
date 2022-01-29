@@ -736,3 +736,6 @@
 [submodule "themes/tig"]
 	path = themes/tig
 	url = git@github.com:dracula/tig
+[submodule "themes/openbox"]
+	path = themes/openbox
+	url = https://github.com/dracula/openbox.git
