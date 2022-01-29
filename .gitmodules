@@ -727,3 +727,6 @@
 [submodule "themes/starship"]
 	path = themes/starship
 	url = https://github.com/dracula/starship.git
+[submodule "themes/serenityos"]
+	path = themes/serenityos
+	url = git@github.com:dracula/serenityos
