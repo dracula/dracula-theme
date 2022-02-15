@@ -742,3 +742,6 @@
 [submodule "themes/wezterm"]
 	path = themes/wezterm
 	url = https://github.com/dracula/wezterm.git
+[submodule "themes/postbox"]
+	path = themes/postbox
+	url = https://github.com/dracula/postbox.git
