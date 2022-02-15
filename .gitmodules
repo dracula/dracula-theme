@@ -739,3 +739,6 @@
 [submodule "themes/openbox"]
 	path = themes/openbox
 	url = https://github.com/dracula/openbox.git
+[submodule "themes/wezterm"]
+	path = themes/wezterm
+	url = https://github.com/dracula/wezterm.git
