@@ -745,3 +745,6 @@
 [submodule "themes/postbox"]
 	path = themes/postbox
 	url = https://github.com/dracula/postbox.git
+[submodule "themes/coderunner"]
+	path = themes/coderunner
+	url = git@github.com:dracula/coderunner
