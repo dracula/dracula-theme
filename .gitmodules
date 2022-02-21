@@ -751,3 +751,6 @@
 [submodule "themes/cider"]
 	path = themes/cider
 	url = git@github.com:dracula/cider
+[submodule "themes/git"]
+	path = themes/git
+	url = git@github.com:dracula/git
