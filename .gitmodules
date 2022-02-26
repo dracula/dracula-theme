@@ -760,3 +760,6 @@
 [submodule "themes/stackoverflow"]
 	path = themes/stackoverflow
 	url = git@github.com:dracula/stackoverflow
+[submodule "themes/flowlab"]
+	path = themes/flowlab
+	url = git@github.com:dracula/flowlab
