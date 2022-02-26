@@ -763,3 +763,6 @@
 [submodule "themes/flowlab"]
 	path = themes/flowlab
 	url = git@github.com:dracula/flowlab
+[submodule "themes/archive-of-our-own"]
+	path = themes/archive-of-our-own
+	url = git@github.com:dracula/archive-of-our-own
