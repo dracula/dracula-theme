@@ -757,3 +757,6 @@
 [submodule "themes/jdownloader2"]
 	path = themes/jdownloader2
 	url = git@github.com:dracula/jdownloader2
+[submodule "themes/stackoverflow"]
+	path = themes/stackoverflow
+	url = git@github.com:dracula/stackoverflow
