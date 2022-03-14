@@ -772,3 +772,6 @@
 [submodule "themes/visual-basic-6"]
 	path = themes/visual-basic-6
 	url = git@github.com:dracula/visual-basic-6
+[submodule "themes/noir"]
+	path = themes/noir
+	url = git@github.com:dracula/noir
