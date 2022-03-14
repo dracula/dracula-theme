@@ -769,3 +769,6 @@
 [submodule "themes/zellij"]
 	path = themes/zellij
 	url = git@github.com:dracula/zellij
+[submodule "themes/visual-basic-6"]
+	path = themes/visual-basic-6
+	url = git@github.com:dracula/visual-basic-6
