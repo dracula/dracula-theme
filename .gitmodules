@@ -766,3 +766,6 @@
 [submodule "themes/archive-of-our-own"]
 	path = themes/archive-of-our-own
 	url = git@github.com:dracula/archive-of-our-own
+[submodule "themes/zellij"]
+	path = themes/zellij
+	url = git@github.com:dracula/zellij
