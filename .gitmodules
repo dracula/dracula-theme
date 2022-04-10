@@ -775,3 +775,6 @@
 [submodule "themes/noir"]
 	path = themes/noir
 	url = git@github.com:dracula/noir
+[submodule "themes/oh-my-posh"]
+	path = themes/oh-my-posh
+	url = git@github.com:dracula/oh-my-posh
