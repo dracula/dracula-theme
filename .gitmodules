@@ -778,3 +778,6 @@
 [submodule "themes/oh-my-posh"]
 	path = themes/oh-my-posh
 	url = git@github.com:dracula/oh-my-posh
+[submodule "themes/dircolors"]
+	path = themes/dircolors
+	url = git@github.com:dracula/dircolors
