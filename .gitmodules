@@ -781,3 +781,6 @@
 [submodule "themes/dircolors"]
 	path = themes/dircolors
 	url = git@github.com:dracula/dircolors
+[submodule "themes/itfy"]
+	path = themes/itfy
+	url = git@github.com:dracula/itfy
