@@ -796,3 +796,6 @@
 [submodule "themes/codepen"]
 	path = themes/codepen
 	url = https://github.com/dracula/codepen.git
+[submodule "themes/macos-color-picker"]
+	path = themes/macos-color-picker
+	url = https://github.com/dracula/macos-color-picker.git
