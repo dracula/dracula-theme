@@ -790,3 +790,6 @@
 [submodule "themes/clone-hero"]
 	path = themes/clone-hero
 	url = https://github.com/dracula/clone-hero.git
+[submodule "themes/ngenuity"]
+	path = themes/ngenuity
+	url = https://github.com/dracula/ngenuity.git
