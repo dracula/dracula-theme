@@ -784,3 +784,6 @@
 [submodule "themes/itfy"]
 	path = themes/itfy
 	url = git@github.com:dracula/itfy
+[submodule "themes/vortex-mod-manager"]
+	path = themes/vortex-mod-manager
+	url = https://github.com/dracula/vortex-mod-manager.git
