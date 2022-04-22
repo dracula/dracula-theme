@@ -799,3 +799,6 @@
 [submodule "themes/macos-color-picker"]
 	path = themes/macos-color-picker
 	url = https://github.com/dracula/macos-color-picker.git
+[submodule "themes/psychopy"]
+	path = themes/psychopy
+	url = https://github.com/dracula/psychopy.git
