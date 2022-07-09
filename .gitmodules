@@ -808,3 +808,6 @@
 [submodule "themes/drafts"]
 	path = themes/drafts
 	url = git@github.com:dracula/drafts
+[submodule "themes/tint2"]
+	path = themes/tint2
+	url = git@github.com:dracula/tint2
