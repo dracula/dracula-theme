@@ -814,3 +814,6 @@
 [submodule "themes/snippetslab"]
 	path = themes/snippetslab
 	url = git@github.com:dracula/snippetslab
+[submodule "themes/homer"]
+	path = themes/homer
+	url = git@github.com:dracula/homer
