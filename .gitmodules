@@ -811,3 +811,6 @@
 [submodule "themes/tint2"]
 	path = themes/tint2
 	url = git@github.com:dracula/tint2
+[submodule "themes/snippetslab"]
+	path = themes/snippetslab
+	url = git@github.com:dracula/snippetslab
