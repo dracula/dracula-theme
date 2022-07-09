@@ -802,3 +802,6 @@
 [submodule "themes/psychopy"]
 	path = themes/psychopy
 	url = https://github.com/dracula/psychopy.git
+[submodule "themes/gimp"]
+	path = themes/gimp
+	url = git@github.com:dracula/gimp
