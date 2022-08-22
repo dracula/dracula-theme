@@ -817,3 +817,6 @@
 [submodule "themes/homer"]
 	path = themes/homer
 	url = git@github.com:dracula/homer
+[submodule "themes/sandpack"]
+	path = themes/sandpack
+	url = https://github.com/dracula/sandpack.git
