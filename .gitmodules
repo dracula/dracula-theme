@@ -820,3 +820,6 @@
 [submodule "themes/sandpack"]
 	path = themes/sandpack
 	url = https://github.com/dracula/sandpack.git
+[submodule "themes/nextcloud"]
+	path = themes/nextcloud
+	url = https://github.com/dracula/nextcloud.git
