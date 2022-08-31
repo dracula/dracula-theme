@@ -823,3 +823,6 @@
 [submodule "themes/nextcloud"]
 	path = themes/nextcloud
 	url = https://github.com/dracula/nextcloud.git
+[submodule "themes/hacker-news"]
+	path = themes/hacker-news
+	url = https://github.com/dracula/hacker-news.git
