@@ -826,3 +826,6 @@
 [submodule "themes/hacker-news"]
 	path = themes/hacker-news
 	url = https://github.com/dracula/hacker-news.git
+[submodule "themes/youtube"]
+	path = themes/youtube
+	url = https://github.com/dracula/youtube.git
