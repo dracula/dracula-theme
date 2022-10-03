@@ -841,3 +841,6 @@
 [submodule "themes/polymc"]
 	path = themes/polymc
 	url = https://github.com/dracula/polymc.git
+[submodule "themes/yunohost"]
+	path = themes/yunohost
+	url = https://github.com/dracula/yunohost.git
