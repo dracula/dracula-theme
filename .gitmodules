@@ -829,3 +829,6 @@
 [submodule "themes/youtube"]
 	path = themes/youtube
 	url = https://github.com/dracula/youtube.git
+[submodule "themes/blink-shell"]
+	path = themes/blink-shell
+	url = https://github.com/dracula/blink-shell.git
