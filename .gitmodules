@@ -844,3 +844,6 @@
 [submodule "themes/yunohost"]
 	path = themes/yunohost
 	url = https://github.com/dracula/yunohost.git
+[submodule "themes/atom-ui"]
+	path = themes/atom-ui
+	url = https://github.com/dracula/atom-ui.git
