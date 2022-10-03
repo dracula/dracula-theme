@@ -835,3 +835,6 @@
 [submodule "themes/auto-ao3-app"]
 	path = themes/auto-ao3-app
 	url = https://github.com/dracula/auto-ao3-app.git
+[submodule "themes/youtube-music-desktop"]
+	path = themes/youtube-music-desktop
+	url = https://github.com/dracula/youtube-music-desktop.git
