@@ -832,3 +832,6 @@
 [submodule "themes/blink-shell"]
 	path = themes/blink-shell
 	url = https://github.com/dracula/blink-shell.git
+[submodule "themes/auto-ao3-app"]
+	path = themes/auto-ao3-app
+	url = https://github.com/dracula/auto-ao3-app.git
