@@ -850,3 +850,6 @@
 [submodule "themes/sioyek"]
 	path = themes/sioyek
 	url = https://github.com/dracula/sioyek.git
+[submodule "themes/cava"]
+	path = themes/cava
+	url = https://github.com/dracula/cava.git
