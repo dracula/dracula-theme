@@ -853,3 +853,6 @@
 [submodule "themes/cava"]
 	path = themes/cava
 	url = https://github.com/dracula/cava.git
+[submodule "themes/minecraft"]
+	path = themes/minecraft
+	url = https://github.com/dracula/minecraft.git
