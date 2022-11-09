@@ -847,3 +847,6 @@
 [submodule "themes/atom-ui"]
 	path = themes/atom-ui
 	url = https://github.com/dracula/atom-ui.git
+[submodule "themes/sioyek"]
+	path = themes/sioyek
+	url = https://github.com/dracula/sioyek.git
