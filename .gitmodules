@@ -871,3 +871,6 @@
 [submodule "themes/kanbanflow"]
 	path = themes/kanbanflow
 	url = https://github.com/dracula/kanbanflow.git
+[submodule "themes/scrivener"]
+	path = themes/scrivener
+	url = https://github.com/dracula/scrivener.git
