@@ -859,3 +859,6 @@
 [submodule "themes/wp"]
 	path = themes/wp
 	url = https://github.com/dracula/wp.git
+[submodule "themes/vital"]
+	path = themes/vital
+	url = https://github.com/dracula/vital.git
