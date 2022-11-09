@@ -865,3 +865,6 @@
 [submodule "themes/i3lock-color"]
 	path = themes/i3lock-color
 	url = https://github.com/dracula/i3lock-color.git
+[submodule "themes/color-slurp"]
+	path = themes/color-slurp
+	url = https://github.com/dracula/color-slurp.git
