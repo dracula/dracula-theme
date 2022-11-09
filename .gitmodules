@@ -862,3 +862,6 @@
 [submodule "themes/vital"]
 	path = themes/vital
 	url = https://github.com/dracula/vital.git
+[submodule "themes/i3lock-color"]
+	path = themes/i3lock-color
+	url = https://github.com/dracula/i3lock-color.git
