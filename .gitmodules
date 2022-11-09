@@ -856,3 +856,6 @@
 [submodule "themes/minecraft"]
 	path = themes/minecraft
 	url = https://github.com/dracula/minecraft.git
+[submodule "themes/wp"]
+	path = themes/wp
+	url = https://github.com/dracula/wp.git
