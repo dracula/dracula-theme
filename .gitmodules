@@ -868,3 +868,6 @@
 [submodule "themes/color-slurp"]
 	path = themes/color-slurp
 	url = https://github.com/dracula/color-slurp.git
+[submodule "themes/kanbanflow"]
+	path = themes/kanbanflow
+	url = https://github.com/dracula/kanbanflow.git
