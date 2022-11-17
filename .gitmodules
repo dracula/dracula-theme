@@ -874,3 +874,6 @@
 [submodule "themes/scrivener"]
 	path = themes/scrivener
 	url = https://github.com/dracula/scrivener.git
+[submodule "themes/leftwm"]
+	path = themes/leftwm
+	url = https://github.com/dracula/leftwm.git
