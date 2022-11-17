@@ -880,3 +880,6 @@
 [submodule "themes/dmenu"]
 	path = themes/dmenu
 	url = https://github.com/dracula/dmenu.git
+[submodule "themes/dwm"]
+	path = themes/dwm
+	url = https://github.com/dracula/dwm.git
