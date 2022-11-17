@@ -886,3 +886,6 @@
 [submodule "themes/dyalog"]
 	path = themes/dyalog
 	url = https://github.com/dracula/dyalog.git
+[submodule "themes/spicetify"]
+	path = themes/spicetify
+	url = https://github.com/dracula/spicetify.git
