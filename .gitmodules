@@ -904,3 +904,6 @@
 [submodule "themes/runjs"]
 	path = themes/runjs
 	url = https://github.com/dracula/runjs.git
+[submodule "themes/suckless-tabbed"]
+	path = themes/suckless-tabbed
+	url = https://github.com/dracula/suckless-tabbed.git
