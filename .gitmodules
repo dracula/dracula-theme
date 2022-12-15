@@ -892,3 +892,6 @@
 [submodule "themes/novel-writer"]
 	path = themes/novel-writer
 	url = https://github.com/dracula/novel-writer.git
+[submodule "themes/campfire"]
+	path = themes/campfire
+	url = https://github.com/dracula/campfire.git
