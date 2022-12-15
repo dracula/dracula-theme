@@ -910,3 +910,6 @@
 [submodule "themes/peacock-extension"]
 	path = themes/peacock-extension
 	url = https://github.com/dracula/peacock-extension.git
+[submodule "themes/tridactyl"]
+	path = themes/tridactyl
+	url = https://github.com/dracula/tridactyl.git
