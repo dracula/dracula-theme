@@ -901,3 +901,6 @@
 [submodule "themes/fl-studio-21"]
 	path = themes/fl-studio-21
 	url = https://github.com/dracula/fl-studio-21.git
+[submodule "themes/runjs"]
+	path = themes/runjs
+	url = https://github.com/dracula/runjs.git
