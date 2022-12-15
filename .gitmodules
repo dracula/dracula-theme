@@ -913,3 +913,6 @@
 [submodule "themes/tridactyl"]
 	path = themes/tridactyl
 	url = https://github.com/dracula/tridactyl.git
+[submodule "themes/plsql-developer"]
+	path = themes/plsql-developer
+	url = https://github.com/dracula/plsql-developer.git
