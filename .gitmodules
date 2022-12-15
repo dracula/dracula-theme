@@ -895,3 +895,6 @@
 [submodule "themes/campfire"]
 	path = themes/campfire
 	url = https://github.com/dracula/campfire.git
+[submodule "themes/omglol"]
+	path = themes/omglol
+	url = https://github.com/dracula/omglol.git
