@@ -922,3 +922,6 @@
 [submodule "themes/infinity-for-reddit"]
 	path = themes/infinity-for-reddit
 	url = https://github.com/dracula/infinity-for-reddit.git
+[submodule "themes/fedilab"]
+	path = themes/fedilab
+	url = https://github.com/dracula/fedilab.git
