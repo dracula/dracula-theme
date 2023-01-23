@@ -928,3 +928,6 @@
 [submodule "themes/harpy-for-twitter"]
 	path = themes/harpy-for-twitter
 	url = https://github.com/dracula/harpy-for-twitter.git
+[submodule "themes/nitter"]
+	path = themes/nitter
+	url = https://github.com/dracula/nitter.git
