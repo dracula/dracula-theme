@@ -925,3 +925,6 @@
 [submodule "themes/fedilab"]
 	path = themes/fedilab
 	url = https://github.com/dracula/fedilab.git
+[submodule "themes/harpy-for-twitter"]
+	path = themes/harpy-for-twitter
+	url = https://github.com/dracula/harpy-for-twitter.git
