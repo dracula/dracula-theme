@@ -919,3 +919,6 @@
 [submodule "themes/new-tabs"]
 	path = themes/new-tabs
 	url = https://github.com/dracula/new-tabs.git
+[submodule "themes/infinity-for-reddit"]
+	path = themes/infinity-for-reddit
+	url = https://github.com/dracula/infinity-for-reddit.git
