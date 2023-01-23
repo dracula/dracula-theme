@@ -916,3 +916,6 @@
 [submodule "themes/plsql-developer"]
 	path = themes/plsql-developer
 	url = https://github.com/dracula/plsql-developer.git
+[submodule "themes/new-tabs"]
+	path = themes/new-tabs
+	url = https://github.com/dracula/new-tabs.git
