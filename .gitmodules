@@ -937,3 +937,6 @@
 [submodule "themes/todoist"]
 	path = themes/todoist
 	url = https://github.com/dracula/todoist.git
+[submodule "themes/misskey"]
+	path = themes/misskey
+	url = https://github.com/dracula/misskey.git
