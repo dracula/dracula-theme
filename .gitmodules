@@ -958,3 +958,6 @@
 [submodule "themes/newsboat"]
 	path = themes/newsboat
 	url = https://github.com/dracula/newsboat.git
+[submodule "themes/jabref"]
+	path = themes/jabref
+	url = https://github.com/dracula/jabref.git
