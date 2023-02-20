@@ -931,3 +931,6 @@
 [submodule "themes/nitter"]
 	path = themes/nitter
 	url = https://github.com/dracula/nitter.git
+[submodule "themes/libreddit"]
+	path = themes/libreddit
+	url = https://github.com/dracula/libreddit.git
