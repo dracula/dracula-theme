@@ -946,3 +946,6 @@
 [submodule "themes/replugged"]
 	path = themes/replugged
 	url = https://github.com/dracula/replugged.git
+[submodule "themes/uptime-kuma"]
+	path = themes/uptime-kuma
+	url = https://github.com/dracula/uptime-kuma.git
