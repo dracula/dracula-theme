@@ -943,3 +943,6 @@
 [submodule "themes/cli-visualizer"]
 	path = themes/cli-visualizer
 	url = https://github.com/dracula/cli-visualizer.git
+[submodule "themes/replugged"]
+	path = themes/replugged
+	url = https://github.com/dracula/replugged.git
