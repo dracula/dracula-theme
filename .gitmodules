@@ -955,3 +955,6 @@
 [submodule "themes/aerc"]
 	path = themes/aerc
 	url = https://github.com/dracula/aerc.git
+[submodule "themes/newsboat"]
+	path = themes/newsboat
+	url = https://github.com/dracula/newsboat.git
