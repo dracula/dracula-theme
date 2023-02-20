@@ -949,3 +949,6 @@
 [submodule "themes/uptime-kuma"]
 	path = themes/uptime-kuma
 	url = https://github.com/dracula/uptime-kuma.git
+[submodule "themes/yakuake"]
+	path = themes/yakuake
+	url = https://github.com/dracula/yakuake.git
