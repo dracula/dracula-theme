@@ -961,3 +961,6 @@
 [submodule "themes/jabref"]
 	path = themes/jabref
 	url = https://github.com/dracula/jabref.git
+[submodule "themes/makehuman"]
+	path = themes/makehuman
+	url = https://github.com/dracula/makehuman.git
