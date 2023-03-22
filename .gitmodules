@@ -985,3 +985,6 @@
 [submodule "themes/kristall"]
 	path = themes/kristall
 	url = https://github.com/dracula/kristall.git
+[submodule "themes/freetube"]
+	path = themes/freetube
+	url = https://github.com/dracula/freetube.git
