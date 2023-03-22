@@ -973,3 +973,6 @@
 [submodule "themes/hyprland"]
 	path = themes/hyprland
 	url = https://github.com/dracula/hyprland.git
+[submodule "themes/st"]
+	path = themes/st
+	url = https://github.com/dracula/st.git
