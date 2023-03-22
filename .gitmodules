@@ -976,3 +976,6 @@
 [submodule "themes/st"]
 	path = themes/st
 	url = https://github.com/dracula/st.git
+[submodule "themes/swaylock"]
+	path = themes/swaylock
+	url = https://github.com/dracula/swaylock.git
