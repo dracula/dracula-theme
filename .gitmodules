@@ -979,3 +979,6 @@
 [submodule "themes/swaylock"]
 	path = themes/swaylock
 	url = https://github.com/dracula/swaylock.git
+[submodule "themes/waybar"]
+	path = themes/waybar
+	url = https://github.com/dracula/waybar.git
