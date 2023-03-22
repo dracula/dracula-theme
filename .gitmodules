@@ -991,3 +991,6 @@
 [submodule "themes/bandcamp"]
 	path = themes/bandcamp
 	url = https://github.com/dracula/bandcamp.git
+[submodule "themes/mkdocs"]
+	path = themes/mkdocs
+	url = https://github.com/dracula/mkdocs.git
