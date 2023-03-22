@@ -964,3 +964,6 @@
 [submodule "themes/makehuman"]
 	path = themes/makehuman
 	url = https://github.com/dracula/makehuman.git
+[submodule "themes/plymouth"]
+	path = themes/plymouth
+	url = https://github.com/dracula/plymouth.git
