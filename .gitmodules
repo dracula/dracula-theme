@@ -970,3 +970,6 @@
 [submodule "themes/fuzzel"]
 	path = themes/fuzzel
 	url = https://github.com/dracula/fuzzel.git
+[submodule "themes/hyprland"]
+	path = themes/hyprland
+	url = https://github.com/dracula/hyprland.git
