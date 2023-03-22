@@ -988,3 +988,6 @@
 [submodule "themes/freetube"]
 	path = themes/freetube
 	url = https://github.com/dracula/freetube.git
+[submodule "themes/bandcamp"]
+	path = themes/bandcamp
+	url = https://github.com/dracula/bandcamp.git
