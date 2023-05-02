@@ -1027,3 +1027,6 @@
 [submodule "themes/blockbench"]
 	path = themes/blockbench
 	url = https://github.com/dracula/blockbench.git
+[submodule "themes/kurozora"]
+	path = themes/kurozora
+	url = https://github.com/dracula/kurozora.git
