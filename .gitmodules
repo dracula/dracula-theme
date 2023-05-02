@@ -1006,3 +1006,6 @@
 [submodule "themes/lsd"]
 	path = themes/lsd
 	url = https://github.com/dracula/lsd.git
+[submodule "themes/exa"]
+	path = themes/exa
+	url = https://github.com/dracula/exa.git
