@@ -1018,3 +1018,6 @@
 [submodule "themes/newterm2"]
 	path = themes/newterm2
 	url = https://github.com/dracula/newterm2.git
+[submodule "themes/ish"]
+	path = themes/ish
+	url = https://github.com/dracula/ish.git
