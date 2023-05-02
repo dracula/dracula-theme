@@ -1009,3 +1009,6 @@
 [submodule "themes/exa"]
 	path = themes/exa
 	url = https://github.com/dracula/exa.git
+[submodule "themes/man-pages"]
+	path = themes/man-pages
+	url = https://github.com/dracula/man-pages.git
