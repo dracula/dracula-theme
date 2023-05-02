@@ -1015,3 +1015,6 @@
 [submodule "themes/qterminal"]
 	path = themes/qterminal
 	url = https://github.com/dracula/qterminal.git
+[submodule "themes/newterm2"]
+	path = themes/newterm2
+	url = https://github.com/dracula/newterm2.git
