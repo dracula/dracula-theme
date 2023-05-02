@@ -1024,3 +1024,6 @@
 [submodule "themes/speedcrunch"]
 	path = themes/speedcrunch
 	url = https://github.com/dracula/speedcrunch.git
+[submodule "themes/blockbench"]
+	path = themes/blockbench
+	url = https://github.com/dracula/blockbench.git
