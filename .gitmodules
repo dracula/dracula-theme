@@ -994,3 +994,6 @@
 [submodule "themes/mkdocs"]
 	path = themes/mkdocs
 	url = https://github.com/dracula/mkdocs.git
+[submodule "themes/vis"]
+	path = themes/vis
+	url = https://github.com/dracula/vis.git
