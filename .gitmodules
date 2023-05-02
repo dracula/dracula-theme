@@ -997,3 +997,6 @@
 [submodule "themes/vis"]
 	path = themes/vis
 	url = https://github.com/dracula/vis.git
+[submodule "themes/jupyter-notebook"]
+	path = themes/jupyter-notebook
+	url = https://github.com/dracula/jupyter-notebook.git
