@@ -1021,3 +1021,6 @@
 [submodule "themes/ish"]
 	path = themes/ish
 	url = https://github.com/dracula/ish.git
+[submodule "themes/speedcrunch"]
+	path = themes/speedcrunch
+	url = https://github.com/dracula/speedcrunch.git
