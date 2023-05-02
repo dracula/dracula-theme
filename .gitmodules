@@ -1000,3 +1000,6 @@
 [submodule "themes/jupyter-notebook"]
 	path = themes/jupyter-notebook
 	url = https://github.com/dracula/jupyter-notebook.git
+[submodule "themes/audacity"]
+	path = themes/audacity
+	url = https://github.com/dracula/audacity.git
