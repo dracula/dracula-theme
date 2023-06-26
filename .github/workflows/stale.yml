@@ -1,5 +1,5 @@
 ---
-name: 'Close stale issues and PRs'
+name: 'Close stale Issues and PRs'
 on:
   schedule:
     - cron: '30 1 * * *'
