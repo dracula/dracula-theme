@@ -1039,3 +1039,6 @@
 [submodule "themes/serum"]
 	path = themes/serum
 	url = https://github.com/dracula/serum.git
+[submodule "themes/rime"]
+	path = themes/rime
+	url = https://github.com/dracula/rime.git
