@@ -1033,3 +1033,6 @@
 [submodule "themes/onecommander"]
 	path = themes/onecommander
 	url = https://github.com/dracula/onecommander.git
+[submodule "themes/protonmail"]
+	path = themes/protonmail
+	url = https://github.com/dracula/protonmail.git
