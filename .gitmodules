@@ -1060,3 +1060,6 @@
 [submodule "themes/anne-pro-2"]
 	path = themes/anne-pro-2
 	url = https://github.com/dracula/anne-pro-2.git
+[submodule "themes/notesnook"]
+	path = themes/notesnook
+	url = https://github.com/dracula/notesnook.git
