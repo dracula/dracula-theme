@@ -1048,3 +1048,6 @@
 [submodule "themes/winamp"]
 	path = themes/winamp
 	url = https://github.com/dracula/winamp.git
+[submodule "themes/mantine"]
+	path = themes/mantine
+	url = https://github.com/dracula/mantine.git
