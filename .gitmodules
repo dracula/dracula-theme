@@ -1051,3 +1051,6 @@
 [submodule "themes/mantine"]
 	path = themes/mantine
 	url = https://github.com/dracula/mantine.git
+[submodule "themes/gh-dash"]
+	path = themes/gh-dash
+	url = https://github.com/dracula/gh-dash.git
