@@ -1057,3 +1057,6 @@
 [submodule "themes/sniffnet"]
 	path = themes/sniffnet
 	url = https://github.com/dracula/sniffnet.git
+[submodule "themes/anne-pro-2"]
+	path = themes/anne-pro-2
+	url = https://github.com/dracula/anne-pro-2.git
