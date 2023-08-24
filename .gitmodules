@@ -1045,3 +1045,6 @@
 [submodule "themes/wob"]
 	path = themes/wob
 	url = https://github.com/dracula/wob.git
+[submodule "themes/winamp"]
+	path = themes/winamp
+	url = https://github.com/dracula/winamp.git
