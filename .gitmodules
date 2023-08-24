@@ -1042,3 +1042,6 @@
 [submodule "themes/rime"]
 	path = themes/rime
 	url = https://github.com/dracula/rime.git
+[submodule "themes/wob"]
+	path = themes/wob
+	url = https://github.com/dracula/wob.git
