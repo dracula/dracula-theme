@@ -1063,3 +1063,6 @@
 [submodule "themes/notesnook"]
 	path = themes/notesnook
 	url = https://github.com/dracula/notesnook.git
+[submodule "themes/lcd-smartie"]
+	path = themes/lcd-smartie
+	url = https://github.com/dracula/lcd-smartie.git
