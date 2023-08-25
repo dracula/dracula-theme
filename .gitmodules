@@ -1066,3 +1066,6 @@
 [submodule "themes/lcd-smartie"]
 	path = themes/lcd-smartie
 	url = https://github.com/dracula/lcd-smartie.git
+[submodule "themes/tumblr"]
+	path = themes/tumblr
+	url = https://github.com/dracula/tumblr.git
