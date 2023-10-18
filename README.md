@@ -1,6 +1,8 @@
+![Dracula](https://draculatheme.com/static/img/dracula.gif)
+
 # Dracula Theme
 
-![Dracula](https://draculatheme.com/static/img/dracula.gif)
+[![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-B695F3?logo=w3c&logoColor=fff&style=flat-square)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
 > A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [Hyper](https://hyper.is/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/), and many more.
 
@@ -42,6 +44,10 @@ We hope so, but we need your help to accomplish that. Since you're already using
 1. Create a new repository based on this [template](https://github.com/dracula/template).
 2. Build the new theme using the [Color Palette](#color-palette) above.
 3. Finally, [submit an issue](https://github.com/dracula/dracula-theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Dracula organization and give you rights to maintain it :)
+
+## Accessibility
+
+The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).  
 
 ## Team
 
