@@ -1087,3 +1087,6 @@
 [submodule "themes/smartgit"]
 	path = themes/smartgit
 	url = https://github.com/dracula/smartgit.git
+[submodule "themes/fontforge"]
+	path = themes/fontforge
+	url = https://github.com/dracula/fontforge.git
