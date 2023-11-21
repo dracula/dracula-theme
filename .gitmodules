@@ -1078,3 +1078,6 @@
 [submodule "themes/polybar"]
 	path = themes/polybar
 	url = https://github.com/dracula/polybar.git
+[submodule "themes/thumb-key"]
+	path = themes/thumb-key
+	url = https://github.com/dracula/thumb-key.git
