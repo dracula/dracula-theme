@@ -1090,3 +1090,6 @@
 [submodule "themes/fontforge"]
 	path = themes/fontforge
 	url = https://github.com/dracula/fontforge.git
+[submodule "themes/chatterino"]
+	path = themes/chatterino
+	url = https://github.com/dracula/chatterino.git
