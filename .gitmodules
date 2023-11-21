@@ -1072,3 +1072,6 @@
 [submodule "themes/labplot"]
 	path = themes/labplot
 	url = https://github.com/dracula/labplot.git
+[submodule "themes/rio-terminal"]
+	path = themes/rio-terminal
+	url = https://github.com/dracula/rio-terminal.git
