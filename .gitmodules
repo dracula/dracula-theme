@@ -1081,3 +1081,6 @@
 [submodule "themes/thumb-key"]
 	path = themes/thumb-key
 	url = https://github.com/dracula/thumb-key.git
+[submodule "themes/google-calendar"]
+	path = themes/google-calendar
+	url = https://github.com/dracula/google-calendar.git
