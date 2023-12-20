@@ -1096,3 +1096,6 @@
 [submodule "themes/gkrellm"]
 	path = themes/gkrellm
 	url = https://github.com/dracula/gkrellm.git
+[submodule "themes/adventofcode"]
+	path = themes/adventofcode
+	url = https://github.com/dracula/adventofcode.git
