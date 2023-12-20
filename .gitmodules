@@ -1102,3 +1102,6 @@
 [submodule "themes/papirus-folders"]
 	path = themes/papirus-folders
 	url = https://github.com/dracula/papirus-folders.git
+[submodule "themes/tut"]
+	path = themes/tut
+	url = https://github.com/dracula/tut.git
