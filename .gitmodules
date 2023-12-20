@@ -1099,3 +1099,6 @@
 [submodule "themes/adventofcode"]
 	path = themes/adventofcode
 	url = https://github.com/dracula/adventofcode.git
+[submodule "themes/papirus-folders"]
+	path = themes/papirus-folders
+	url = https://github.com/dracula/papirus-folders.git
