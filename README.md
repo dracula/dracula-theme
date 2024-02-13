@@ -47,7 +47,7 @@ The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level A
 
 Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many outstanding contributors and maintainers, and each theme has its maintainer listed in the Team section of its `README`.
 
-On April 13, 2022, [Lucas de França](https://github.com/luxonauta) officially joined the team, and you can read more here: [https://draculatheme.com/blog/interview-with-lucas](https://draculatheme.com/blog/interview-with-lucas).
+On April 13, 2022, [Lucas de França](https://github.com/luxonauta) officially joined the team, and you can read more [here](https://draculatheme.com/blog/interview-with-lucas).
 
 | [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
