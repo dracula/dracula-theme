@@ -1123,3 +1123,6 @@
 [submodule "themes/prompt"]
 	path = themes/prompt
 	url = https://github.com/dracula/prompt.git
+[submodule "themes/zed"]
+	path = themes/zed
+	url = https://github.com/dracula/zed.git
