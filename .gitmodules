@@ -1108,3 +1108,6 @@
 [submodule "themes/homepage"]
 	path = themes/homepage
 	url = https://github.com/dracula/homepage.git
+[submodule "themes/lichess"]
+	path = themes/lichess
+	url = https://github.com/dracula/lichess.git
