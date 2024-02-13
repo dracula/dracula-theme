@@ -1111,3 +1111,6 @@
 [submodule "themes/lichess"]
 	path = themes/lichess
 	url = https://github.com/dracula/lichess.git
+[submodule "themes/stirling-pdf"]
+	path = themes/stirling-pdf
+	url = https://github.com/dracula/stirling-pdf.git
