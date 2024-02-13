@@ -1120,3 +1120,6 @@
 [submodule "themes/duolingo"]
 	path = themes/duolingo
 	url = https://github.com/dracula/duolingo.git
+[submodule "themes/prompt"]
+	path = themes/prompt
+	url = https://github.com/dracula/prompt.git
