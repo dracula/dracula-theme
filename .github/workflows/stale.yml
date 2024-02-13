@@ -1,8 +1,8 @@
 ---
-name: 'Close stale Issues and PRs'
+name: "Close stale Issues and PRs"
 on:
   schedule:
-    - cron: '30 1 * * *'
+    - cron: "30 1 * * *"
 
 permissions:
   issues: write
@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/stale@v7
         with:
-          start-date: '2023-07-01T00:00:00Z'
-          close-issue-message: 'This **Issue** has been automatically closed because it has had no new activity for a month.'
-          close-pr-message: 'This **Pull-Request** has been automatically closed because it has had no new activity for a month.'
-          stale-issue-message: 'This **Issue** has not been updated for a while and will be closed soon.'
-          stale-pr-message: 'This **Pull-Request** has not been updated for a while and will be closed soon.'
+          start-date: "2023-07-01T00:00:00Z"
+          close-issue-message: "This **Issue** has been automatically closed because it has had no new activity for a month."
+          close-pr-message: "This **Pull-Request** has been automatically closed because it has had no new activity for a month."
+          stale-issue-message: "This **Issue** has not been updated for a while and will be closed soon."
+          stale-pr-message: "This **Pull-Request** has not been updated for a while and will be closed soon."
           days-before-stale: 60
           days-before-close: 10
           exempt-all-milestones: true

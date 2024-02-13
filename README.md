@@ -2,11 +2,11 @@
 
 ![Dracula](https://draculatheme.com/images/dracula.gif)
 
-> A dark theme for [Atom](http://atom.io/), [Alfred](http://www.alfredapp.com/), [Emacs](https://www.gnu.org/software/emacs/), [Highlight.js](https://highlightjs.org/), [Hyper](https://hyper.is/), [iTerm](http://www.iterm2.com/), [JetBrains](https://www.jetbrains.com/), [Pygments](http://pygments.org/), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com/), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org/), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org/), and many more.
+> A dark theme for [VsCode](https://code.visualstudio.com), [Alfred](http://www.alfredapp.com), [Emacs](https://www.gnu.org/software/emacs), [Highlight.js](https://highlightjs.org), [Hyper](https://hyper.is), [iTerm](http://www.iterm2.com), [JetBrains](https://www.jetbrains.com), [Pygments](http://pygments.org), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org), and many more.
 
 ## Install
 
-All instructions can be found at [draculatheme.com](https://draculatheme.com/).
+All instructions can be found at [draculatheme.com](https://draculatheme.com).
 
 ## Color Palette
 
@@ -29,10 +29,6 @@ For more details about how to apply these different colors to represent differen
 
 ## FAQ
 
-###### "Are you going to create a light color scheme?"
-
-Nope. Dracula can't stand the light.
-
 ###### "Are you going to support editor X?"
 
 We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced in it than us. So give it a try first!
@@ -47,15 +43,21 @@ We hope so, but we need your help to accomplish that. Since you're already using
 
 The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 
-## Team
+## The Dracula Theme Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many awesome contributors and maintainers. Each theme has its own maintainer listed in the Team section of its README.
+Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many outstanding contributors and maintainers, and each theme has its maintainer listed in the Team section of its `README`.
+
+On April 13, 2022, [Lucas de França](https://github.com/luxonauta) officially joined the team, and you can read more here: [https://draculatheme.com/blog/interview-with-lucas](https://draculatheme.com/blog/interview-with-lucas).
+
+| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Zeno Rocha](https://github.com/zenorocha)                                               | [Lucas de França](https://github.com/luxonauta)                                               |
 
 ## Organization
 
-Over the years Dracula has grown to support many more editors. With that came the challenge of supporting a myriad of editors, terminals, shells, and more in the same repository. Some package managers require specific files and layouts which cause conflicts and make it harder to maintain.
+Over the years, Dracula has grown to support many more editors. With that came the challenge of supporting many editors, terminals, shells, and more in the same repository. Some package managers require specific files and layouts, which cause conflicts and make them harder to maintain.
 
-So it was decided to change Dracula from a one repository theme to an organization. All themes have now been migrated to their own repository. With this change we can better support package managers, list maintainers, make installation instructions easier to find, and support independent releases.
+So, it was decided to change Dracula from a one-repository theme to an organization. All themes have now been migrated to their repository. With this change, we can better support package managers and list maintainers, make installation instructions easier to find, and support independent releases.
 
 See [Dracula organization](https://github.com/dracula) for all of our repositories.
 
@@ -64,6 +66,14 @@ See [Dracula organization](https://github.com/dracula) for all of our repositori
 - [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
 - [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
 - [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+
+## Dracula PRO
+
+Dracula PRO is a color scheme and UI theme **tailored for programming**. Made for terminal emulators, **code editors**, and syntax highlighters.
+
+Designed to be aesthetically pleasing while **keeping you focused**.
+
+[![Dracula PRO](./.github/dracula-pro.png)](https://draculatheme.com/pro)
 
 ## Credits
 
