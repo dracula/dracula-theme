@@ -1105,3 +1105,6 @@
 [submodule "themes/tut"]
 	path = themes/tut
 	url = https://github.com/dracula/tut.git
+[submodule "themes/homepage"]
+	path = themes/homepage
+	url = https://github.com/dracula/homepage.git
