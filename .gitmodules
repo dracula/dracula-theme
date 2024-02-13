@@ -1126,3 +1126,6 @@
 [submodule "themes/zed"]
 	path = themes/zed
 	url = https://github.com/dracula/zed.git
+[submodule "themes/bookwyrm"]
+	path = themes/bookwyrm
+	url = https://github.com/dracula/bookwyrm.git
