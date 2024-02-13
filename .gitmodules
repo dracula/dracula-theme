@@ -1117,3 +1117,6 @@
 [submodule "themes/heroic-games-launcher"]
 	path = themes/heroic-games-launcher
 	url = https://github.com/dracula/heroic-games-launcher.git
+[submodule "themes/duolingo"]
+	path = themes/duolingo
+	url = https://github.com/dracula/duolingo.git
