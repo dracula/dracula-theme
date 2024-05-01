@@ -1129,3 +1129,6 @@
 [submodule "themes/bookwyrm"]
 	path = themes/bookwyrm
 	url = https://github.com/dracula/bookwyrm.git
+[submodule "themes/powershell-ise"]
+	path = themes/powershell-ise
+	url = https://github.com/dracula/powershell-ise.git
