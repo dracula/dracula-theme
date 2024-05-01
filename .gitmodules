@@ -1135,3 +1135,6 @@
 [submodule "themes/subsonic"]
 	path = themes/subsonic
 	url = https://github.com/dracula/subsonic.git
+[submodule "themes/backstage"]
+	path = themes/backstage
+	url = https://github.com/dracula/backstage.git
