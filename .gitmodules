@@ -1132,3 +1132,6 @@
 [submodule "themes/powershell-ise"]
 	path = themes/powershell-ise
 	url = https://github.com/dracula/powershell-ise.git
+[submodule "themes/subsonic"]
+	path = themes/subsonic
+	url = https://github.com/dracula/subsonic.git
