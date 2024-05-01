@@ -1141,3 +1141,6 @@
 [submodule "themes/nnn"]
 	path = themes/nnn
 	url = https://github.com/dracula/nnn.git
+[submodule "themes/acs"]
+	path = themes/acs
+	url = https://github.com/dracula/acs.git
