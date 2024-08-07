@@ -1147,3 +1147,6 @@
 [submodule "themes/gtksourceview"]
 	path = themes/gtksourceview
 	url = https://github.com/dracula/gtksourceview.git
+[submodule "themes/cadzinho"]
+	path = themes/cadzinho
+	url = https://github.com/dracula/cadzinho.git
