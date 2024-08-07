@@ -1159,3 +1159,6 @@
 [submodule "themes/adiirc"]
 	path = themes/adiirc
 	url = https://github.com/dracula/adiirc.git
+[submodule "themes/calibre"]
+	path = themes/calibre
+	url = https://github.com/dracula/calibre.git
