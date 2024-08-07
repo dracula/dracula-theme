@@ -1153,3 +1153,6 @@
 [submodule "themes/p10k-oh-my-posh"]
 	path = themes/p10k-oh-my-posh
 	url = https://github.com/dracula/p10k-oh-my-posh.git
+[submodule "themes/openscad"]
+	path = themes/openscad
+	url = https://github.com/dracula/openscad.git
