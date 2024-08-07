@@ -1144,3 +1144,6 @@
 [submodule "themes/acs"]
 	path = themes/acs
 	url = https://github.com/dracula/acs.git
+[submodule "themes/gtksourceview"]
+	path = themes/gtksourceview
+	url = https://github.com/dracula/gtksourceview.git
