@@ -1150,3 +1150,6 @@
 [submodule "themes/cadzinho"]
 	path = themes/cadzinho
 	url = https://github.com/dracula/cadzinho.git
+[submodule "themes/p10k-oh-my-posh"]
+	path = themes/p10k-oh-my-posh
+	url = https://github.com/dracula/p10k-oh-my-posh.git
