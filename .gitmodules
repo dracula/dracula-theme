@@ -1171,3 +1171,6 @@
 [submodule "themes/eza"]
 	path = themes/eza
 	url = https://github.com/dracula/eza.git
+[submodule "themes/fluxbox"]
+	path = themes/fluxbox
+	url = https://github.com/dracula/fluxbox.git
