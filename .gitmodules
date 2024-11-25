@@ -1180,3 +1180,6 @@
 [submodule "themes/go-access"]
 	path = themes/go-access
 	url = https://github.com/dracula/go-access.git
+[submodule "themes/django-admin"]
+	path = themes/django-admin
+	url = https://github.com/dracula/django-admin.git
