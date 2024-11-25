@@ -1174,3 +1174,6 @@
 [submodule "themes/fluxbox"]
 	path = themes/fluxbox
 	url = https://github.com/dracula/fluxbox.git
+[submodule "themes/tlrc"]
+	path = themes/tlrc
+	url = https://github.com/dracula/tlrc.git
