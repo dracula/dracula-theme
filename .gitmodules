@@ -1195,3 +1195,6 @@
 [submodule "themes/inav"]
 	path = themes/inav
 	url = https://github.com/dracula/inav.git
+[submodule "themes/binary-ninja"]
+	path = themes/binary-ninja
+	url = https://github.com/dracula/binary-ninja.git
