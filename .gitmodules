@@ -1189,3 +1189,6 @@
 [submodule "themes/x64dbg"]
 	path = themes/x64dbg
 	url = https://github.com/dracula/x64dbg.git
+[submodule "themes/cutter"]
+	path = themes/cutter
+	url = https://github.com/dracula/cutter.git
