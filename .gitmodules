@@ -1177,3 +1177,6 @@
 [submodule "themes/tlrc"]
 	path = themes/tlrc
 	url = https://github.com/dracula/tlrc.git
+[submodule "themes/go-access"]
+	path = themes/go-access
+	url = https://github.com/dracula/go-access.git
