@@ -1162,3 +1162,6 @@
 [submodule "themes/calibre"]
 	path = themes/calibre
 	url = https://github.com/dracula/calibre.git
+[submodule "themes/tofi"]
+	path = themes/tofi
+	url = https://github.com/dracula/tofi.git
