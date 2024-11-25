@@ -1165,3 +1165,6 @@
 [submodule "themes/tofi"]
 	path = themes/tofi
 	url = https://github.com/dracula/tofi.git
+[submodule "themes/cosmic-terminal"]
+	path = themes/cosmic-terminal
+	url = https://github.com/dracula/cosmic-terminal.git
