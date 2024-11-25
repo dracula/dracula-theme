@@ -1168,3 +1168,6 @@
 [submodule "themes/cosmic-terminal"]
 	path = themes/cosmic-terminal
 	url = https://github.com/dracula/cosmic-terminal.git
+[submodule "themes/eza"]
+	path = themes/eza
+	url = https://github.com/dracula/eza.git
