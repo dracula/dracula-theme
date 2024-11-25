@@ -1186,3 +1186,6 @@
 [submodule "themes/yazi"]
 	path = themes/yazi
 	url = https://github.com/dracula/yazi.git
+[submodule "themes/x64dbg"]
+	path = themes/x64dbg
+	url = https://github.com/dracula/x64dbg.git
