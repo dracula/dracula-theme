@@ -1192,3 +1192,6 @@
 [submodule "themes/cutter"]
 	path = themes/cutter
 	url = https://github.com/dracula/cutter.git
+[submodule "themes/inav"]
+	path = themes/inav
+	url = https://github.com/dracula/inav.git
