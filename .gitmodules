@@ -1183,3 +1183,6 @@
 [submodule "themes/django-admin"]
 	path = themes/django-admin
 	url = https://github.com/dracula/django-admin.git
+[submodule "themes/yazi"]
+	path = themes/yazi
+	url = https://github.com/dracula/yazi.git
