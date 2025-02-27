@@ -1210,3 +1210,6 @@
 [submodule "themes/evidence"]
 	path = themes/evidence
 	url = https://github.com/dracula/evidence.git
+[submodule "themes/ghostty"]
+	path = themes/ghostty
+	url = https://github.com/dracula/ghostty.git
