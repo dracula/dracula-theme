@@ -1213,3 +1213,6 @@
 [submodule "themes/ghostty"]
 	path = themes/ghostty
 	url = https://github.com/dracula/ghostty.git
+[submodule "themes/keybr"]
+	path = themes/keybr
+	url = https://github.com/dracula/keybr.git
