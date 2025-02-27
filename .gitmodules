@@ -1201,3 +1201,6 @@
 [submodule "themes/lazygit"]
 	path = themes/lazygit
 	url = https://github.com/dracula/lazygit.git
+[submodule "themes/codeforces"]
+	path = themes/codeforces
+	url = https://github.com/dracula/codeforces.git
