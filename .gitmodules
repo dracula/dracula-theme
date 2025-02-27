@@ -1207,3 +1207,6 @@
 [submodule "themes/google-search"]
 	path = themes/google-search
 	url = https://github.com/dracula/google-search.git
+[submodule "themes/evidence"]
+	path = themes/evidence
+	url = https://github.com/dracula/evidence.git
