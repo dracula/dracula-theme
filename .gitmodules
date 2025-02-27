@@ -1204,3 +1204,6 @@
 [submodule "themes/codeforces"]
 	path = themes/codeforces
 	url = https://github.com/dracula/codeforces.git
+[submodule "themes/google-search"]
+	path = themes/google-search
+	url = https://github.com/dracula/google-search.git
