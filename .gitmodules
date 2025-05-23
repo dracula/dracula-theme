@@ -1216,3 +1216,6 @@
 [submodule "themes/keybr"]
 	path = themes/keybr
 	url = https://github.com/dracula/keybr.git
+[submodule "themes/anytype"]
+	path = themes/anytype
+	url = https://github.com/dracula/anytype.git
