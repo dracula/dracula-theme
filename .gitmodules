@@ -1225,3 +1225,6 @@
 [submodule "themes/snappy-driver-installer"]
 	path = themes/snappy-driver-installer
 	url = https://github.com/dracula/snappy-driver-installer.git
+[submodule "themes/nilesoft-shell"]
+	path = themes/nilesoft-shell
+	url = https://github.com/dracula/nilesoft-shell.git
