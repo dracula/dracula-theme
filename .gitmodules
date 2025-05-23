@@ -1219,3 +1219,6 @@
 [submodule "themes/anytype"]
 	path = themes/anytype
 	url = https://github.com/dracula/anytype.git
+[submodule "themes/tableplus"]
+	path = themes/tableplus
+	url = https://github.com/dracula/tableplus.git
