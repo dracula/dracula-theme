@@ -1222,3 +1222,6 @@
 [submodule "themes/tableplus"]
 	path = themes/tableplus
 	url = https://github.com/dracula/tableplus.git
+[submodule "themes/snappy-driver-installer"]
+	path = themes/snappy-driver-installer
+	url = https://github.com/dracula/snappy-driver-installer.git
