@@ -1231,3 +1231,6 @@
 [submodule "themes/cursor"]
 	path = themes/cursor
 	url = https://github.com/dracula/cursor.git
+[submodule "themes/raycast"]
+	path = themes/raycast
+	url = https://github.com/dracula/raycast.git
