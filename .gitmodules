@@ -1243,3 +1243,6 @@
 [submodule "themes/grep"]
 	path = themes/grep
 	url = https://github.com/dracula/grep.git
+[submodule "themes/docker"]
+	path = themes/docker
+	url = https://github.com/dracula/docker.git
