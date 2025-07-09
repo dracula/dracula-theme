@@ -1246,3 +1246,6 @@
 [submodule "themes/docker"]
 	path = themes/docker
 	url = https://github.com/dracula/docker.git
+[submodule "themes/texworks"]
+	path = themes/texworks
+	url = https://github.com/dracula/texworks.git
