@@ -1240,3 +1240,6 @@
 [submodule "themes/ripgrep"]
 	path = themes/ripgrep
 	url = https://github.com/dracula/ripgrep.git
+[submodule "themes/grep"]
+	path = themes/grep
+	url = https://github.com/dracula/grep.git
