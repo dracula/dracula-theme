@@ -1237,3 +1237,6 @@
 [submodule "themes/chatgpt"]
 	path = themes/chatgpt
 	url = https://github.com/dracula/chatgpt.git
+[submodule "themes/ripgrep"]
+	path = themes/ripgrep
+	url = https://github.com/dracula/ripgrep.git
