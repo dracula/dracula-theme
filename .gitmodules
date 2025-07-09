@@ -1234,3 +1234,6 @@
 [submodule "themes/raycast"]
 	path = themes/raycast
 	url = https://github.com/dracula/raycast.git
+[submodule "themes/chatgpt"]
+	path = themes/chatgpt
+	url = https://github.com/dracula/chatgpt.git
