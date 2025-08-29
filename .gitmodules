@@ -1249,3 +1249,6 @@
 [submodule "themes/texworks"]
 	path = themes/texworks
 	url = https://github.com/dracula/texworks.git
+[submodule "themes/apt"]
+	path = themes/apt
+	url = https://github.com/dracula/apt.git
