@@ -1264,3 +1264,6 @@
 [submodule "themes/omarchy"]
 	path = themes/omarchy
 	url = https://github.com/dracula/omarchy.git
+[submodule "themes/leetcode"]
+	path = themes/leetcode
+	url = https://github.com/dracula/leetcode.git
