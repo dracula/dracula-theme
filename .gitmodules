@@ -1258,3 +1258,6 @@
 [submodule "themes/jellyfin"]
 	path = themes/jellyfin
 	url = https://github.com/dracula/jellyfin.git
+[submodule "themes/gitroll"]
+	path = themes/gitroll
+	url = https://github.com/dracula/gitroll.git
