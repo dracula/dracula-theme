@@ -1252,3 +1252,6 @@
 [submodule "themes/apt"]
 	path = themes/apt
 	url = https://github.com/dracula/apt.git
+[submodule "themes/bettercanvas"]
+	path = themes/bettercanvas
+	url = https://github.com/dracula/bettercanvas.git
