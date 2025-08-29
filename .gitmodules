@@ -1270,3 +1270,6 @@
 [submodule "themes/directory-opus"]
 	path = themes/directory-opus
 	url = https://github.com/dracula/directory-opus.git
+[submodule "themes/m8"]
+	path = themes/m8
+	url = https://github.com/dracula/m8.git
