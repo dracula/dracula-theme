@@ -1267,3 +1267,6 @@
 [submodule "themes/leetcode"]
 	path = themes/leetcode
 	url = https://github.com/dracula/leetcode.git
+[submodule "themes/directory-opus"]
+	path = themes/directory-opus
+	url = https://github.com/dracula/directory-opus.git
