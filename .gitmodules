@@ -1261,3 +1261,6 @@
 [submodule "themes/gitroll"]
 	path = themes/gitroll
 	url = https://github.com/dracula/gitroll.git
+[submodule "themes/omarchy"]
+	path = themes/omarchy
+	url = https://github.com/dracula/omarchy.git
