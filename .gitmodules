@@ -1273,3 +1273,6 @@
 [submodule "themes/m8"]
 	path = themes/m8
 	url = https://github.com/dracula/m8.git
+[submodule "themes/facebook"]
+	path = themes/facebook
+	url = https://github.com/dracula/facebook.git
