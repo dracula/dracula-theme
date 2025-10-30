@@ -1276,3 +1276,6 @@
 [submodule "themes/facebook"]
 	path = themes/facebook
 	url = https://github.com/dracula/facebook.git
+[submodule "themes/facebook-messenger"]
+	path = themes/facebook-messenger
+	url = https://github.com/dracula/facebook-messenger.git
