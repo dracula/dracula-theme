@@ -1294,3 +1294,6 @@
 [submodule "themes/readwise-reader"]
 	path = themes/readwise-reader
 	url = https://github.com/dracula/readwise-reader.git
+[submodule "themes/opencode"]
+	path = themes/opencode
+	url = https://github.com/dracula/opencode.git
