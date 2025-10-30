@@ -1285,3 +1285,6 @@
 [submodule "themes/castero"]
 	path = themes/castero
 	url = https://github.com/dracula/castero.git
+[submodule "themes/gemini"]
+	path = themes/gemini
+	url = https://github.com/dracula/gemini.git
