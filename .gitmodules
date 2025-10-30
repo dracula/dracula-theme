@@ -1282,3 +1282,6 @@
 [submodule "themes/vesktop-discord"]
 	path = themes/vesktop-discord
 	url = https://github.com/dracula/vesktop-discord.git
+[submodule "themes/castero"]
+	path = themes/castero
+	url = https://github.com/dracula/castero.git
