@@ -1291,3 +1291,6 @@
 [submodule "themes/xdbg"]
 	path = themes/xdbg
 	url = https://github.com/dracula/xdbg.git
+[submodule "themes/readwise-reader"]
+	path = themes/readwise-reader
+	url = https://github.com/dracula/readwise-reader.git
