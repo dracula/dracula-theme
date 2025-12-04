@@ -15,11 +15,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update submodules
-        run: git submodule update --recursive --remote
+      - name: Initialize and update submodules
+        run: |
+          # Sync submodule URLs from .gitmodules
+          git submodule sync --recursive || true
+          # Try to initialize and update submodules normally
+          # If a submodule commit doesn't exist, we'll handle it below
+          git submodule update --init --recursive 2>&1 | tee /tmp/submodule-update.log || true
+          # For any submodules that failed due to missing commits, checkout default branch
+          if grep -q "not our ref\|did not contain" /tmp/submodule-update.log; then
+            echo "Some submodules failed, attempting to fix..."
+            git submodule foreach --recursive '
+              if ! git rev-parse --verify HEAD >/dev/null 2>&1; then
+                echo "Fixing $name..."
+                git fetch origin || true
+                git checkout origin/HEAD 2>/dev/null || git checkout origin/main 2>/dev/null || git checkout origin/master 2>/dev/null || true
+              fi
+            ' || true
+          fi
+          # Update all submodules to latest remote versions
+          git submodule update --recursive --remote || true
 
       - name: Check for changes
         id: check-changes
