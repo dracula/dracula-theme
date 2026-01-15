@@ -8,9 +8,9 @@
 
 Find installation instructions for your application at [draculatheme.com](https://draculatheme.com). Search for your app or browse the [full list of themes](https://draculatheme.com).
 
-## Color Palette
+## Color Palette (OSS)
 
-### Dracula Classic
+### Dracula
 
 | Palette      | Hex       | RGB           | HSL             | ![Color Picker Boxes](https://draculatheme.com/images/color-boxes/eyedropper.png)           |
 | ------------ | --------- | ------------- | --------------- | ------------------------------------------------------------------------------------------- |
@@ -27,7 +27,7 @@ Find installation instructions for your application at [draculatheme.com](https:
 | Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://draculatheme.com/images/color-boxes/dracula-red.png)                   |
 | Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://draculatheme.com/images/color-boxes/dracula-yellow.png)             |
 
-### Alucard Classic
+### Alucard
 
 | Palette      | Hex       | RGB           | HSL            | ![Color Picker Boxes](https://draculatheme.com/images/color-boxes/eyedropper.png)           |
 | ------------ | --------- | ------------- | -------------- | ------------------------------------------------------------------------------------------- |
@@ -44,7 +44,7 @@ Find installation instructions for your application at [draculatheme.com](https:
 | Red          | `#cb3a2a` | `203 58 42`   | `6° 66% 48%`   | ![Red Color](https://draculatheme.com/images/color-boxes/alucard-red.png)                   |
 | Yellow       | `#846e15` | `132 110 21`  | `48° 73% 30%`  | ![Yellow Color](https://draculatheme.com/images/color-boxes/alucard-yellow.png)             |
 
-For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://spec.draculatheme.com).
+For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://draculatheme.com/spec).
 
 ## Contribute
 
@@ -55,9 +55,11 @@ We want to support all available applications, but we don't have the capacity to
 ### How to submit a new theme
 
 1. **Create a repository** using this [template](https://github.com/dracula/template).
+
    - Clone it or click "Use this template" on GitHub.
 
 2. **Build your theme** using the [Color Palette](#color-palette) above.
+
    - Follow the template structure and add your theme files.
 
 3. **Submit an issue** with a link to your repository.
