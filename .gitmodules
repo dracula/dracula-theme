@@ -1309,3 +1309,6 @@
 [submodule "themes/beeper"]
 	path = themes/beeper
 	url = https://github.com/dracula/beeper.git
+[submodule "themes/trudido"]
+	path = themes/trudido
+	url = https://github.com/dracula/trudido.git
