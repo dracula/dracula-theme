@@ -1306,3 +1306,6 @@
 [submodule "themes/home-assistant"]
 	path = themes/home-assistant
 	url = https://github.com/dracula/home-assistant.git
+[submodule "themes/beeper"]
+	path = themes/beeper
+	url = https://github.com/dracula/beeper.git
