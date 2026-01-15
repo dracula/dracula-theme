@@ -1315,3 +1315,6 @@
 [submodule "themes/freshrss"]
 	path = themes/freshrss
 	url = https://github.com/dracula/freshrss.git
+[submodule "themes/rackula"]
+	path = themes/rackula
+	url = https://github.com/dracula/rackula.git
