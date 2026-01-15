@@ -1303,3 +1303,6 @@
 [submodule "themes/marta"]
 	path = themes/marta
 	url = https://github.com/dracula/marta.git
+[submodule "themes/home-assistant"]
+	path = themes/home-assistant
+	url = https://github.com/dracula/home-assistant.git
