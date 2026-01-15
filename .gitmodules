@@ -1300,3 +1300,6 @@
 [submodule "themes/starship-powerline-preset"]
 	path = themes/starship-powerline-preset
 	url = https://github.com/dracula/starship-powerline-preset.git
+[submodule "themes/marta"]
+	path = themes/marta
+	url = https://github.com/dracula/marta.git
