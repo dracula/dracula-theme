@@ -2,13 +2,15 @@
 
 ![Dracula](https://draculatheme.com/images/dracula.gif)
 
-> A dark theme for [VsCode](https://code.visualstudio.com), [Alfred](http://www.alfredapp.com), [Emacs](https://www.gnu.org/software/emacs), [Highlight.js](https://highlightjs.org), [Hyper](https://hyper.is), [iTerm](http://www.iterm2.com), [JetBrains](https://www.jetbrains.com), [Pygments](http://pygments.org), [Slack](http://slack.com), [Sublime Text](http://www.sublimetext.com/3), [TextMate](http://macromates.com), [Terminal.app](http://www.apple.com/osx/apps), [Vim](http://www.vim.org), [Xcode](https://itunes.apple.com/us/app/xcode/id497799835), [Zsh](http://www.zsh.org), and many more.
+> The most famous theme ever created, available for [Visual Studio Code](https://draculatheme.com/visual-studio-code), [iTerm](https://draculatheme.com/iterm), [Vim](https://draculatheme.com/vim), [Sublime Text](https://draculatheme.com/sublime), [JetBrains](https://draculatheme.com/jetbrains), [Terminal.app](https://draculatheme.com/terminal-app), [Windows Terminal](https://draculatheme.com/windows-terminal), [Hyper](https://draculatheme.com/hyper), [Alfred](https://draculatheme.com/alfred), [Slack](https://draculatheme.com/slack), [Xcode](https://draculatheme.com/xcode), [Emacs](https://draculatheme.com/emacs), [Zsh](https://draculatheme.com/zsh), and [400+ more applications](https://draculatheme.com).
 
 ## Install
 
-All instructions can be found at [draculatheme.com](https://draculatheme.com).
+Find installation instructions for your application at [draculatheme.com](https://draculatheme.com). Search for your app or browse the [full list of themes](https://draculatheme.com).
 
 ## Color Palette
+
+### Dracula Classic
 
 | Palette      | Hex       | RGB           | HSL             | ![Color Picker Boxes](https://draculatheme.com/images/color-boxes/eyedropper.png)   |
 | ------------ | --------- | ------------- | --------------- | ----------------------------------------------------------------------------------- |
@@ -25,29 +27,57 @@ All instructions can be found at [draculatheme.com](https://draculatheme.com).
 | Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://draculatheme.com/images/color-boxes/red.png)                   |
 | Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://draculatheme.com/images/color-boxes/yellow.png)             |
 
+### Alucard Classic
+
+| Palette      | Hex       | RGB           | HSL            | ![Color Picker Boxes](https://draculatheme.com/images/color-boxes/eyedropper.png)           |
+| ------------ | --------- | ------------- | -------------- | ------------------------------------------------------------------------------------------- |
+| Background   | `#fffbeb` | `255 251 235` | `48° 100% 96%` | ![Background Color](https://draculatheme.com/images/color-boxes/alucard-background.png)     |
+| Current Line | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![Current Line Color](https://draculatheme.com/images/color-boxes/alucard-current_line.png) |
+| Selection    | `#cfcfde` | `207 207 222` | `240° 18% 84%` | ![Selection Color](https://draculatheme.com/images/color-boxes/alucard-selection.png)       |
+| Foreground   | `#1f1f1f` | `31 31 31`    | `0° 0% 12%`    | ![Foreground Color](https://draculatheme.com/images/color-boxes/alucard-foreground.png)     |
+| Comment      | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![Comment Color](https://draculatheme.com/images/color-boxes/alucard-comment.png)           |
+| Cyan         | `#036a96` | `3 106 150`   | `198° 96% 30%` | ![Cyan Color](https://draculatheme.com/images/color-boxes/alucard-cyan.png)                 |
+| Green        | `#14710a` | `20 113 10`   | `114° 84% 24%` | ![Green Color](https://draculatheme.com/images/color-boxes/alucard-green.png)               |
+| Orange       | `#a34d14` | `163 77 20`   | `24° 78% 36%`  | ![Orange Color](https://draculatheme.com/images/color-boxes/alucard-orange.png)             |
+| Pink         | `#a3144d` | `163 20 77`   | `336° 78% 36%` | ![Pink Color](https://draculatheme.com/images/color-boxes/alucard-pink.png)                 |
+| Purple       | `#644ac9` | `100 74 201`  | `252° 54% 54%` | ![Purple Color](https://draculatheme.com/images/color-boxes/alucard-purple.png)             |
+| Red          | `#cb3a2a` | `203 58 42`   | `6° 66% 48%`   | ![Red Color](https://draculatheme.com/images/color-boxes/alucard-red.png)                   |
+| Yellow       | `#846e15` | `132 110 21`  | `48° 73% 30%`  | ![Yellow Color](https://draculatheme.com/images/color-boxes/alucard-yellow.png)             |
+
 For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://spec.draculatheme.com).
+
+## Contribute
+
+Dracula Theme is an open-source project driven by and for the community. Most of the 400+ supported applications are community contributions.
+
+We want to support all available applications, but we don't have the capacity to do it all ourselves. That's why your contributions are essential.
+
+### How to submit a new theme
+
+1. **Create a repository** using this [template](https://github.com/dracula/template).
+   - Clone it or click "Use this template" on GitHub.
+
+2. **Build your theme** using the [Color Palette](#color-palette) above.
+   - Follow the template structure and add your theme files.
+
+3. **Submit an issue** with a link to your repository.
+   - Once accepted, we'll move it to the Dracula organization and give you maintainer access.
+
+For detailed guidelines and specifications, visit our [Contribute page](https://draculatheme.com/contribute).
 
 ## FAQ
 
-###### "Are you going to support editor X?"
+**"Are you going to support editor X?"**
 
-We hope so, but we need your help to accomplish that. Since you're already using app X you're probably much more experienced in it than us. So give it a try first!
-
-###### "How do I submit a new theme?"
-
-1. Create a new repository based on this [template](https://github.com/dracula/template).
-2. Build the new theme using the [Color Palette](#color-palette) above.
-3. Finally, [submit an issue](https://github.com/dracula/dracula-theme/issues/new) with a link to your repository. Once the theme is accepted, we will move the repository under the Dracula organization and give you rights to maintain it 😀
+We'd love to! Since you're already using that editor, you're probably more familiar with it than we are. Give it a try and [submit your theme](https://draculatheme.com/contribute)!
 
 ## Accessibility [![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-B695F3?logo=w3c&logoColor=fff&style=flat-square)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
 The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 
-## The Dracula Theme Team
+## Team
 
-Dracula is a project created by [Zeno Rocha](https://github.com/zenorocha/) with the help of many outstanding contributors and maintainers, and each theme has its maintainer listed in the Team section of its `README`.
-
-On April 13, 2022, [Lucas de França](https://github.com/luxonauta) officially joined the team, and you can read more [here](https://draculatheme.com/blog/interview-with-lucas).
+Dracula was created by [Zeno Rocha](https://github.com/zenorocha/) and is maintained with the help of many contributors. [Lucas de França](https://github.com/luxonauta) joined as co-maintainer in April 2022. Each theme has its maintainer listed in its repository's README.
 
 | [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -55,31 +85,35 @@ On April 13, 2022, [Lucas de França](https://github.com/luxonauta) officially j
 
 ## Organization
 
-Over the years, Dracula has grown to support many more editors. With that came the challenge of supporting many editors, terminals, shells, and more in the same repository. Some package managers require specific files and layouts, which cause conflicts and make them harder to maintain.
+As Dracula grew to support 400+ applications, we moved from a single repository to a GitHub organization. Each theme now has its own repository, which makes it easier to:
 
-So, it was decided to change Dracula from a one-repository theme to an organization. All themes have now been migrated to their repository. With this change, we can better support package managers and list maintainers, make installation instructions easier to find, and support independent releases.
+- Support different package managers
+- List maintainers for each theme
+- Find installation instructions
+- Release updates independently
 
-See [Dracula organization](https://github.com/dracula) for all of our repositories.
+Browse all themes in the [Dracula organization](https://github.com/dracula).
 
 ## Community
 
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+- [Contribute](https://draculatheme.com/contribute) - Learn how to create and submit themes
+- [Twitter](https://twitter.com/draculatheme) - Get updates and announcements
+- [GitHub Discussions](https://github.com/dracula/dracula-theme/discussions) - Ask questions and discuss
+- [Discord](https://draculatheme.com/discord-invite) - Chat with the community
 
 ## Dracula PRO
 
-Dracula PRO is a color scheme and UI theme **tailored for programming**. Made for terminal emulators, **code editors**, and syntax highlighters.
-
-Designed to be aesthetically pleasing while **keeping you focused**.
+Dracula PRO is a premium color scheme and UI theme designed for programming. It includes additional variants and features for terminal emulators, code editors, and syntax highlighters.
 
 [![Dracula PRO](./.github/dracula-pro.png)](https://draculatheme.com/pro)
 
 ## Credits
 
-- Color palette inspired by [@chenluois's Mou Night theme](http://mouapp.com/)
-- Sublime Text theme built on top of [Monokai](http://tmtheme-editor.herokuapp.com/#/Monokai-sublime) using [@aziz's tmtheme editor](http://tmtheme-editor.herokuapp.com/)
-- ZSH theme built on top of [@robbyrussell's theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
+Special thanks to the creators who inspired the beginning of Dracula:
+
+- [@chenluois](http://mouapp.com/) for the color palette inspiration
+- [@aziz](http://tmtheme-editor.herokuapp.com/) for the theme editor tools
+- [@robbyrussell](https://github.com/robbyrussell) for the shell theme foundation
 
 ## Changelog
 
