@@ -56,4 +56,3 @@ jobs:
           git add -A
           git commit -m "chore: update submodules to latest versions"
           git push
-
