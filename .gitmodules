@@ -1330,3 +1330,6 @@
 [submodule "themes/librenms"]
 	path = themes/librenms
 	url = https://github.com/dracula/librenms.git
+[submodule "themes/markdown-css"]
+	path = themes/markdown-css
+	url = https://github.com/dracula/markdown-css.git
