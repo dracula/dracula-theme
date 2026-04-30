@@ -1336,3 +1336,6 @@
 [submodule "themes/dracula-css"]
 	path = themes/dracula-css
 	url = https://github.com/dracula/dracula-css.git
+[submodule "themes/signal-desktop"]
+	path = themes/signal-desktop
+	url = https://github.com/dracula/signal-desktop.git
