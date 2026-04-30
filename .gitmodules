@@ -1333,3 +1333,6 @@
 [submodule "themes/markdown-css"]
 	path = themes/markdown-css
 	url = https://github.com/dracula/markdown-css.git
+[submodule "themes/dracula-css"]
+	path = themes/dracula-css
+	url = https://github.com/dracula/dracula-css.git
