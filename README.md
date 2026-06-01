@@ -14,35 +14,35 @@ Find installation instructions for your application at [draculatheme.com](https:
 
 | Palette      | Hex       | RGB           | HSL             | Swatch                                               |
 | ------------ | --------- | ------------- | --------------- | ---------------------------------------------------- |
-| Background   | `#282a36` | `40 42 54`    | `231° 15% 18%`  | ![#282a36](https://placehold.co/18x18/282a36/282a36) |
-| Current Line | `#44475a` | `68 71 90`    | `232° 14% 31%`  | ![#44475a](https://placehold.co/18x18/44475a/44475a) |
-| Selection    | `#44475a` | `68 71 90`    | `232° 14% 31%`  | ![#44475a](https://placehold.co/18x18/44475a/44475a) |
-| Foreground   | `#f8f8f2` | `248 248 242` | `60° 30% 96%`   | ![#f8f8f2](https://placehold.co/18x18/f8f8f2/f8f8f2) |
-| Comment      | `#6272a4` | `98 114 164`  | `225° 27% 51%`  | ![#6272a4](https://placehold.co/18x18/6272a4/6272a4) |
-| Cyan         | `#8be9fd` | `139 233 253` | `191° 97% 77%`  | ![#8be9fd](https://placehold.co/18x18/8be9fd/8be9fd) |
-| Green        | `#50fa7b` | `80 250 123`  | `135° 94% 65%`  | ![#50fa7b](https://placehold.co/18x18/50fa7b/50fa7b) |
-| Orange       | `#ffb86c` | `255 184 108` | `31° 100% 71%`  | ![#ffb86c](https://placehold.co/18x18/ffb86c/ffb86c) |
-| Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%` | ![#ff79c6](https://placehold.co/18x18/ff79c6/ff79c6) |
-| Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![#bd93f9](https://placehold.co/18x18/bd93f9/bd93f9) |
-| Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![#ff5555](https://placehold.co/18x18/ff5555/ff5555) |
-| Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![#f1fa8c](https://placehold.co/18x18/f1fa8c/f1fa8c) |
+| Background   | `#282a36` | `40 42 54`    | `231° 15% 18%`  | ![#282a36](https://placehold.co/54x24/282a36/282a36) |
+| Current Line | `#44475a` | `68 71 90`    | `232° 14% 31%`  | ![#44475a](https://placehold.co/54x24/44475a/44475a) |
+| Selection    | `#44475a` | `68 71 90`    | `232° 14% 31%`  | ![#44475a](https://placehold.co/54x24/44475a/44475a) |
+| Foreground   | `#f8f8f2` | `248 248 242` | `60° 30% 96%`   | ![#f8f8f2](https://placehold.co/54x24/f8f8f2/f8f8f2) |
+| Comment      | `#6272a4` | `98 114 164`  | `225° 27% 51%`  | ![#6272a4](https://placehold.co/54x24/6272a4/6272a4) |
+| Cyan         | `#8be9fd` | `139 233 253` | `191° 97% 77%`  | ![#8be9fd](https://placehold.co/54x24/8be9fd/8be9fd) |
+| Green        | `#50fa7b` | `80 250 123`  | `135° 94% 65%`  | ![#50fa7b](https://placehold.co/54x24/50fa7b/50fa7b) |
+| Orange       | `#ffb86c` | `255 184 108` | `31° 100% 71%`  | ![#ffb86c](https://placehold.co/54x24/ffb86c/ffb86c) |
+| Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%` | ![#ff79c6](https://placehold.co/54x24/ff79c6/ff79c6) |
+| Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![#bd93f9](https://placehold.co/54x24/bd93f9/bd93f9) |
+| Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![#ff5555](https://placehold.co/54x24/ff5555/ff5555) |
+| Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![#f1fa8c](https://placehold.co/54x24/f1fa8c/f1fa8c) |
 
 ### Alucard
 
 | Palette      | Hex       | RGB           | HSL            | Swatch                                               |
 | ------------ | --------- | ------------- | -------------- | ---------------------------------------------------- |
-| Background   | `#fffbeb` | `255 251 235` | `48° 100% 96%` | ![#fffbeb](https://placehold.co/18x18/fffbeb/fffbeb) |
-| Current Line | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![#6c664b](https://placehold.co/18x18/6c664b/6c664b) |
-| Selection    | `#cfcfde` | `207 207 222` | `240° 18% 84%` | ![#cfcfde](https://placehold.co/18x18/cfcfde/cfcfde) |
-| Foreground   | `#1f1f1f` | `31 31 31`    | `0° 0% 12%`    | ![#1f1f1f](https://placehold.co/18x18/1f1f1f/1f1f1f) |
-| Comment      | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![#6c664b](https://placehold.co/18x18/6c664b/6c664b) |
-| Cyan         | `#036a96` | `3 106 150`   | `198° 96% 30%` | ![#036a96](https://placehold.co/18x18/036a96/036a96) |
-| Green        | `#14710a` | `20 113 10`   | `114° 84% 24%` | ![#14710a](https://placehold.co/18x18/14710a/14710a) |
-| Orange       | `#a34d14` | `163 77 20`   | `24° 78% 36%`  | ![#a34d14](https://placehold.co/18x18/a34d14/a34d14) |
-| Pink         | `#a3144d` | `163 20 77`   | `336° 78% 36%` | ![#a3144d](https://placehold.co/18x18/a3144d/a3144d) |
-| Purple       | `#644ac9` | `100 74 201`  | `252° 54% 54%` | ![#644ac9](https://placehold.co/18x18/644ac9/644ac9) |
-| Red          | `#cb3a2a` | `203 58 42`   | `6° 66% 48%`   | ![#cb3a2a](https://placehold.co/18x18/cb3a2a/cb3a2a) |
-| Yellow       | `#846e15` | `132 110 21`  | `48° 73% 30%`  | ![#846e15](https://placehold.co/18x18/846e15/846e15) |
+| Background   | `#fffbeb` | `255 251 235` | `48° 100% 96%` | ![#fffbeb](https://placehold.co/54x24/fffbeb/fffbeb) |
+| Current Line | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![#6c664b](https://placehold.co/54x24/6c664b/6c664b) |
+| Selection    | `#cfcfde` | `207 207 222` | `240° 18% 84%` | ![#cfcfde](https://placehold.co/54x24/cfcfde/cfcfde) |
+| Foreground   | `#1f1f1f` | `31 31 31`    | `0° 0% 12%`    | ![#1f1f1f](https://placehold.co/54x24/1f1f1f/1f1f1f) |
+| Comment      | `#6c664b` | `108 102 75`  | `49° 18% 36%`  | ![#6c664b](https://placehold.co/54x24/6c664b/6c664b) |
+| Cyan         | `#036a96` | `3 106 150`   | `198° 96% 30%` | ![#036a96](https://placehold.co/54x24/036a96/036a96) |
+| Green        | `#14710a` | `20 113 10`   | `114° 84% 24%` | ![#14710a](https://placehold.co/54x24/14710a/14710a) |
+| Orange       | `#a34d14` | `163 77 20`   | `24° 78% 36%`  | ![#a34d14](https://placehold.co/54x24/a34d14/a34d14) |
+| Pink         | `#a3144d` | `163 20 77`   | `336° 78% 36%` | ![#a3144d](https://placehold.co/54x24/a3144d/a3144d) |
+| Purple       | `#644ac9` | `100 74 201`  | `252° 54% 54%` | ![#644ac9](https://placehold.co/54x24/644ac9/644ac9) |
+| Red          | `#cb3a2a` | `203 58 42`   | `6° 66% 48%`   | ![#cb3a2a](https://placehold.co/54x24/cb3a2a/cb3a2a) |
+| Yellow       | `#846e15` | `132 110 21`  | `48° 73% 30%`  | ![#846e15](https://placehold.co/54x24/846e15/846e15) |
 
 For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://draculatheme.com/spec).
 
