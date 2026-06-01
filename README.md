@@ -71,7 +71,7 @@ For detailed guidelines and specifications, visit our [Contribute page](https://
 
 We'd love to! Since you're already using that editor, you're probably more familiar with it than we are. Give it a try and [submit your theme](https://draculatheme.com/contribute)!
 
-## Accessibility <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum"><img src="https://img.shields.io/badge/WCAG_2.1_|_AA-fffbeb?logo=w3c&logoColor=1f1f1f&style=flat-square" alt="W3C" style="vertical-align: middle;" /></a>
+## Accessibility [![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-282a36?logo=w3c&logoColor=f8f8f2&style=flat-square)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
 The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 
