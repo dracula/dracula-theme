@@ -1363,3 +1363,6 @@
 [submodule "themes/dash"]
 	path = themes/dash
 	url = https://github.com/dracula/dash.git
+[submodule "themes/delta"]
+	path = themes/delta
+	url = https://github.com/dracula/delta.git
