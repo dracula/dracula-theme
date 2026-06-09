@@ -1357,3 +1357,6 @@
 [submodule "themes/superset"]
 	path = themes/superset
 	url = https://github.com/dracula/superset.git
+[submodule "themes/miniflux"]
+	path = themes/miniflux
+	url = https://github.com/dracula/miniflux.git
