@@ -1360,3 +1360,6 @@
 [submodule "themes/miniflux"]
 	path = themes/miniflux
 	url = https://github.com/dracula/miniflux.git
+[submodule "themes/dash"]
+	path = themes/dash
+	url = https://github.com/dracula/dash.git
