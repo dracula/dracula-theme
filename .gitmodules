@@ -1348,3 +1348,6 @@
 [submodule "themes/dankmaterialshell"]
 	path = themes/dankmaterialshell
 	url = https://github.com/dracula/dankmaterialshell.git
+[submodule "themes/wiremix"]
+	path = themes/wiremix
+	url = https://github.com/dracula/wiremix.git
