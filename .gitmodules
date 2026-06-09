@@ -1345,3 +1345,6 @@
 [submodule "themes/unraid"]
 	path = themes/unraid
 	url = https://github.com/dracula/unraid.git
+[submodule "themes/dankmaterialshell"]
+	path = themes/dankmaterialshell
+	url = https://github.com/dracula/dankmaterialshell.git
