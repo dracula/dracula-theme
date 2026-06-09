@@ -1342,3 +1342,6 @@
 [submodule "themes/macdown-css"]
 	path = themes/macdown-css
 	url = https://github.com/dracula/macdown-css.git
+[submodule "themes/unraid"]
+	path = themes/unraid
+	url = https://github.com/dracula/unraid.git
