@@ -1354,3 +1354,6 @@
 [submodule "themes/snappy-driver-installer-origin"]
 	path = themes/snappy-driver-installer-origin
 	url = https://github.com/dracula/snappy-driver-installer-origin.git
+[submodule "themes/superset"]
+	path = themes/superset
+	url = https://github.com/dracula/superset.git
