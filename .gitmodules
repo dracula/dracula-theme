@@ -1384,3 +1384,6 @@
 [submodule "themes/hermes-agent"]
 	path = themes/hermes-agent
 	url = https://github.com/dracula/hermes-agent.git
+[submodule "themes/whatsapp-web"]
+	path = themes/whatsapp-web
+	url = https://github.com/dracula/whatsapp-web.git
