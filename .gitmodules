@@ -1369,3 +1369,6 @@
 [submodule "themes/taskwarrior"]
 	path = themes/taskwarrior
 	url = https://github.com/dracula/taskwarrior.git
+[submodule "themes/forgejo"]
+	path = themes/forgejo
+	url = https://github.com/dracula/forgejo.git
