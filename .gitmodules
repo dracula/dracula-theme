@@ -1378,3 +1378,6 @@
 [submodule "themes/swaync"]
 	path = themes/swaync
 	url = https://github.com/dracula/swaync.git
+[submodule "themes/kagi"]
+	path = themes/kagi
+	url = https://github.com/dracula/kagi.git
