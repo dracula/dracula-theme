@@ -1387,3 +1387,6 @@
 [submodule "themes/whatsapp-web"]
 	path = themes/whatsapp-web
 	url = https://github.com/dracula/whatsapp-web.git
+[submodule "themes/focuswriter"]
+	path = themes/focuswriter
+	url = https://github.com/dracula/focuswriter.git
