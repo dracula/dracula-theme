@@ -1372,3 +1372,6 @@
 [submodule "themes/forgejo"]
 	path = themes/forgejo
 	url = https://github.com/dracula/forgejo.git
+[submodule "themes/deepseek"]
+	path = themes/deepseek
+	url = https://github.com/dracula/deepseek.git
