@@ -1375,3 +1375,6 @@
 [submodule "themes/deepseek"]
 	path = themes/deepseek
 	url = https://github.com/dracula/deepseek.git
+[submodule "themes/swaync"]
+	path = themes/swaync
+	url = https://github.com/dracula/swaync.git
