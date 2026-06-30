@@ -1381,3 +1381,6 @@
 [submodule "themes/kagi"]
 	path = themes/kagi
 	url = https://github.com/dracula/kagi.git
+[submodule "themes/hermes-agent"]
+	path = themes/hermes-agent
+	url = https://github.com/dracula/hermes-agent.git
