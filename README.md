@@ -1,6 +1,6 @@
 # Dracula Theme
 
-![Dracula](https://draculatheme.com/images/dracula.gif)
+![Dracula](https://draculatheme.com/images/dracula.webp)
 
 > The most famous theme ever created, available for [Visual Studio Code](https://draculatheme.com/visual-studio-code), [iTerm](https://draculatheme.com/iterm), [Vim](https://draculatheme.com/vim), [Sublime Text](https://draculatheme.com/sublime), [JetBrains](https://draculatheme.com/jetbrains), [Terminal.app](https://draculatheme.com/terminal-app), [Windows Terminal](https://draculatheme.com/windows-terminal), [Hyper](https://draculatheme.com/hyper), [Alfred](https://draculatheme.com/alfred), [Slack](https://draculatheme.com/slack), [Xcode](https://draculatheme.com/xcode), [Emacs](https://draculatheme.com/emacs), [Zsh](https://draculatheme.com/zsh), and [400+ more applications](https://draculatheme.com).
 
