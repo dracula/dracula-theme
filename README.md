@@ -6,7 +6,7 @@
 
 ## Install
 
-Find installation instructions for your application at [draculatheme.com](https://draculatheme.com). Search for your app or browse the [full list of themes](https://draculatheme.com).
+Find installation instructions for your application at [draculatheme.com](https://draculatheme.com), where you can search for your app or browse the full list of themes.
 
 ## Color Palette (OSS)
 
@@ -44,11 +44,11 @@ Find installation instructions for your application at [draculatheme.com](https:
 | Red          | `#cb3a2a` | `203 58 42`   | `6° 66% 48%`   | ![#cb3a2a](https://placehold.co/54x24/cb3a2a/cb3a2a) |
 | Yellow       | `#846e15` | `132 110 21`  | `48° 73% 30%`  | ![#846e15](https://placehold.co/54x24/846e15/846e15) |
 
-For more details about how to apply these different colors to represent different code symbols, please see the [Dracula Specification](https://draculatheme.com/spec).
+For more details on how these colors map to code symbols, see the [Dracula Specification](https://draculatheme.com/spec).
 
 ## Contribute
 
-Dracula Theme is an open-source project driven by and for the community. Most of the 400+ supported applications are community contributions.
+Dracula Theme is an open-source project driven by and for the community. Most of the themes for the 400+ supported applications are community contributions.
 
 We want to support all available applications, but we don't have the capacity to do it all ourselves. That's why your contributions are essential.
 
@@ -57,7 +57,7 @@ We want to support all available applications, but we don't have the capacity to
 1. **Create a repository** using this [template](https://github.com/dracula/template).
    - Clone it or click "Use this template" on GitHub.
 
-2. **Build your theme** using the [Color Palette](#color-palette) above.
+2. **Build your theme** using the [Color Palette](#color-palette-oss) above.
    - Follow the template structure and add your theme files.
 
 3. **Submit an issue** with a link to your repository.
@@ -73,7 +73,7 @@ We'd love to! Since you're already using that editor, you're probably more famil
 
 ## Accessibility [![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-282a36?logo=w3c&logoColor=f8f8f2&style=flat-square)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
-The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
+Foreground and background colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
 
 ## Team
 
@@ -109,7 +109,7 @@ Dracula PRO is a premium color scheme and UI theme designed for programming. It 
 
 ## Credits
 
-Special thanks to the creators who inspired the beginning of Dracula:
+Special thanks to the creators who inspired the creation of Dracula:
 
 - [@chenluois](http://mouapp.com/) for the color palette inspiration
 - [@aziz](http://tmtheme-editor.herokuapp.com/) for the theme editor tools
@@ -117,7 +117,7 @@ Special thanks to the creators who inspired the beginning of Dracula:
 
 ## Changelog
 
-The changelog is available on the release page in each theme's repository.
+The changelog is available on the Releases page in each theme's repository.
 
 ## License
 
