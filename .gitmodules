@@ -1408,3 +1408,6 @@
 [submodule "themes/telegram-x"]
 	path = themes/telegram-x
 	url = https://github.com/dracula/telegram-x.git
+[submodule "themes/swayosd"]
+	path = themes/swayosd
+	url = https://github.com/dracula/swayosd.git
