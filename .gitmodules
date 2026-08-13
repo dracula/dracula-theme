@@ -1420,3 +1420,6 @@
 [submodule "themes/astro-starlight"]
 	path = themes/astro-starlight
 	url = https://github.com/dracula/astro-starlight.git
+[submodule "themes/alphai-tui"]
+	path = themes/alphai-tui
+	url = https://github.com/dracula/alphai-tui.git
