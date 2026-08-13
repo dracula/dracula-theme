@@ -1429,3 +1429,6 @@
 [submodule "themes/kali-browser"]
 	path = themes/kali-browser
 	url = https://github.com/dracula/kali-browser.git
+[submodule "themes/t3code"]
+	path = themes/t3code
+	url = https://github.com/dracula/t3code.git
