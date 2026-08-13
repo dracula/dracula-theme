@@ -1423,3 +1423,6 @@
 [submodule "themes/alphai-tui"]
 	path = themes/alphai-tui
 	url = https://github.com/dracula/alphai-tui.git
+[submodule "themes/stationview"]
+	path = themes/stationview
+	url = https://github.com/dracula/stationview.git
