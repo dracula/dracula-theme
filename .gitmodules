@@ -1414,3 +1414,6 @@
 [submodule "themes/neiki-page-editor"]
 	path = themes/neiki-page-editor
 	url = https://github.com/dracula/neiki-page-editor.git
+[submodule "themes/securecrt"]
+	path = themes/securecrt
+	url = https://github.com/dracula/securecrt.git
