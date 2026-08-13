@@ -1411,3 +1411,6 @@
 [submodule "themes/swayosd"]
 	path = themes/swayosd
 	url = https://github.com/dracula/swayosd.git
+[submodule "themes/neiki-page-editor"]
+	path = themes/neiki-page-editor
+	url = https://github.com/dracula/neiki-page-editor.git
