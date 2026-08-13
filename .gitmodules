@@ -1426,3 +1426,6 @@
 [submodule "themes/stationview"]
 	path = themes/stationview
 	url = https://github.com/dracula/stationview.git
+[submodule "themes/kali-browser"]
+	path = themes/kali-browser
+	url = https://github.com/dracula/kali-browser.git
