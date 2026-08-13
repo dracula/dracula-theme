@@ -1417,3 +1417,6 @@
 [submodule "themes/securecrt"]
 	path = themes/securecrt
 	url = https://github.com/dracula/securecrt.git
+[submodule "themes/astro-starlight"]
+	path = themes/astro-starlight
+	url = https://github.com/dracula/astro-starlight.git
