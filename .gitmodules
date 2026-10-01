@@ -1456,3 +1456,6 @@
 [submodule "themes/astryx"]
 	path = themes/astryx
 	url = https://github.com/dracula/astryx.git
+[submodule "themes/antinote"]
+	path = themes/antinote
+	url = https://github.com/dracula/antinote.git
