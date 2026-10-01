@@ -1438,3 +1438,6 @@
 [submodule "themes/paseo"]
 	path = themes/paseo
 	url = https://github.com/dracula/paseo.git
+[submodule "themes/claude-code-cli"]
+	path = themes/claude-code-cli
+	url = https://github.com/dracula/claude-code-cli.git
