@@ -1459,3 +1459,6 @@
 [submodule "themes/antinote"]
 	path = themes/antinote
 	url = https://github.com/dracula/antinote.git
+[submodule "themes/wireshark"]
+	path = themes/wireshark
+	url = https://github.com/dracula/wireshark.git
