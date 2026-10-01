@@ -1450,3 +1450,6 @@
 [submodule "themes/lazydocker"]
 	path = themes/lazydocker
 	url = https://github.com/dracula/lazydocker.git
+[submodule "themes/rutorrent"]
+	path = themes/rutorrent
+	url = https://github.com/dracula/rutorrent.git
