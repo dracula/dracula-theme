@@ -1435,3 +1435,6 @@
 [submodule "themes/tuicr"]
 	path = themes/tuicr
 	url = https://github.com/dracula/tuicr.git
+[submodule "themes/paseo"]
+	path = themes/paseo
+	url = https://github.com/dracula/paseo.git
