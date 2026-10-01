@@ -1447,3 +1447,6 @@
 [submodule "themes/speedgrid"]
 	path = themes/speedgrid
 	url = https://github.com/dracula/speedgrid.git
+[submodule "themes/lazydocker"]
+	path = themes/lazydocker
+	url = https://github.com/dracula/lazydocker.git
