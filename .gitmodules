@@ -1453,3 +1453,6 @@
 [submodule "themes/rutorrent"]
 	path = themes/rutorrent
 	url = https://github.com/dracula/rutorrent.git
+[submodule "themes/astryx"]
+	path = themes/astryx
+	url = https://github.com/dracula/astryx.git
