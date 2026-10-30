@@ -1471,3 +1471,6 @@
 [submodule "themes/veilamp"]
 	path = themes/veilamp
 	url = https://github.com/dracula/veilamp.git
+[submodule "themes/spotifast"]
+	path = themes/spotifast
+	url = https://github.com/dracula/spotifast.git
