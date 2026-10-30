@@ -1477,3 +1477,6 @@
 [submodule "themes/polytoken"]
 	path = themes/polytoken
 	url = https://github.com/dracula/polytoken.git
+[submodule "themes/opuswriter"]
+	path = themes/opuswriter
+	url = https://github.com/dracula/opuswriter.git
