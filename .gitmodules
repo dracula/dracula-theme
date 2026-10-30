@@ -1462,3 +1462,6 @@
 [submodule "themes/wireshark"]
 	path = themes/wireshark
 	url = https://github.com/dracula/wireshark.git
+[submodule "themes/jenkins"]
+	path = themes/jenkins
+	url = https://github.com/dracula/jenkins.git
