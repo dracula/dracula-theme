@@ -1480,3 +1480,6 @@
 [submodule "themes/opuswriter"]
 	path = themes/opuswriter
 	url = https://github.com/dracula/opuswriter.git
+[submodule "themes/deepseek-harness"]
+	path = themes/deepseek-harness
+	url = https://github.com/dracula/deepseek-harness.git
