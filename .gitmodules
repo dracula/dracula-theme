@@ -1465,3 +1465,6 @@
 [submodule "themes/jenkins"]
 	path = themes/jenkins
 	url = https://github.com/dracula/jenkins.git
+[submodule "themes/rune"]
+	path = themes/rune
+	url = https://github.com/dracula/rune.git
